@@ -1,0 +1,8481 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "0.1uf_50v_cap_15v_buck"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 8.89 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "0.1uf_50v_cap_15v_buck"
+			(at 8.89 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "CAPC3216X95N"
+			(at 8.89 -96.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/cc1206jrx7r9bb104/yageo?region=nac"
+			(at 8.89 -196.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Yageo, 1206 (3216M) 100nF MLCC 50V dc +/-5% , SMD CC1206JRX7R9BB104"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.95"
+			(at 8.89 -396.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 8.89 -496.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC1206JRX7R9BB104"
+			(at 8.89 -596.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "603-C1206JRX7R9BB104"
+			(at 8.89 -696.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/CC1206JRX7R9BB104?qs=AgBp2OyFlx%252BWw4ZBNKEUjA%3D%3D"
+			(at 8.89 -796.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "CC1206JRX7R9BB104"
+			(at 8.89 -896.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cc1206jrx7r9bb104/yageo?region=nac"
+			(at 8.89 -996.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "0.1uf_50v_cap_15v_buck_1_1"
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 5.588 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.588 2.54) (xy 5.588 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.112 2.54) (xy 7.112 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.112 0) (xy 7.62 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "0.33uf_400v_cap_15v_buck"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0 3.8109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.33uf_400v_cap_15v_buck"
+			(at 0 -5.0885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ECQE4334JF:CAPRR1500W80L1850T700H1490"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "330nF +/-5% 400 V dc, ECQE(F) Through Hole Polyester Film Capacitor | Panasonic Electronic Components ECQE4334JF"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.9 mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "RADIAL-2 Panasonic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ECQE4334JF/Panasonic/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "11-Oct-17"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECQE4334JF/Panasonic/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "ECQE4334JF"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5782804&manufacturer=Panasonic&part_name=ECQE4334JF&search_term=330nf polyester capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "0.33uf_400v_cap_15v_buck_0_0"
+			(rectangle
+				(start 0 -1.9069)
+				(end 0.635 1.905)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.9069 -1.9069)
+				(end 2.54 1.905)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "0.47uf_50v_BScap"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0 3.8109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.47uf_50v_BScap"
+			(at 0 -5.0885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CL21B474KBFNNNE:CAPC2012X135N"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.47 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CL21B474KBFNNNE/Samsung/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Samsung"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21B474KBFNNNE/Samsung/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_min" "1.15"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samsung"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_min" "1.9"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "2.0"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3598550&manufacturer=Samsung&part_name=CL21B474KBFNNNE&search_term=0.47uf 50v x7r"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_max" "1.35"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_max" "0.7"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "1.35"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_max" "2.1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_nom" "1.35"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_max" "0.7"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_min" "1.35"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CL21B474KBFNNNE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_nom" "1.25"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "0.47uf_50v_BScap_0_0"
+			(rectangle
+				(start 0 -1.9069)
+				(end 0.635 1.905)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.9069 -1.9069)
+				(end 2.54 1.905)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "10k-ohm"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 13.97 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "10k-ohm"
+			(at 13.97 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "RESAD1575W64L635D235"
+			(at 13.97 -96.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cs.seielect.com/catalog/SEI-RNF_RNMF.pdf"
+			(at 13.97 -196.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RES, MF, 1/4W, 10 Kohm, 1%, 100 ppm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 13.97 -396.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics, Inc."
+			(at 13.97 -496.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RNF14FTD10K0"
+			(at 13.97 -596.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 13.97 -696.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 13.97 -796.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "RNF14FTD10K0"
+			(at 13.97 -896.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rnf14ftd10k0/stackpole-electronics"
+			(at 13.97 -996.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "10k-ohm_1_1"
+			(rectangle
+				(start 5.08 1.27)
+				(end 12.7 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "10uf_100v_cap_15v_buck"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "10uf_100v_cap_15v_buck"
+			(at -5.588 5.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "10uf_100v_cap_15v_buck_0_0"
+			(rectangle
+				(start -4.983 1.008)
+				(end -4.094 1.135)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -4.602 0.627)
+				(end -4.475 1.516)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy -3.302 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 5.08) (xy -3.302 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 2.54) (xy -3.302 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy -2.286 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.524 0)
+				(mid -2.3249 2.54)
+				(end -1.524 5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 1.27 2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "P"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "10uh_inductor_15v_buck"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at -5.08 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10uh_inductor_15v_buck"
+			(at -5.08 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "MWSA0603S-100MT:INDM7066X300N"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µH Unshielded Drum Core, Wirewound Inductor 4.5 A 68mOhm Max Nonstandard"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Shenzhen Sunlord Electronics Co., Ltd."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.00mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "NEZY"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MWSA0603S-100MT/Shenzhen+Huacan+Tianlu+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "2022/10/12"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MWSA0603S-100MT/Shenzhen+Huacan+Tianlu+Electronics+Co.%252C+Ltd./view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MWSA0603S-100MT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Shenzhen Sunlord Electronics Co. Ltd."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "10uh_inductor_15v_buck_0_0"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -7.62 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.08 0)
+				(mid -3.81 1.2645)
+				(end -2.54 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 0)
+				(mid -1.27 1.2645)
+				(end 0 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 1.27 1.2645)
+				(end 2.54 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 3.81 1.2645)
+				(end 5.08 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 7.62 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "120uf_cap_5v_buck"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "120uf_cap_5v_buck"
+			(at -2.54 7.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "120uf_cap_5v_buck_0_0"
+			(rectangle
+				(start -2.443 2.278)
+				(end -1.554 2.405)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -2.062 1.897)
+				(end -1.935 2.786)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.81) (xy -0.762 3.81)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 6.35) (xy -0.762 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 3.81) (xy -0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 3.81) (xy 0.254 3.81)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 1.27)
+				(mid 0.2151 3.81)
+				(end 1.016 6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 3.81 3.81 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 3.81 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "P"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "330uf_25v_cap_5v_buck"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 8.89 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "330uf_25v_cap_5v_buck"
+			(at 8.89 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "CAPPRD350W65D800H1300"
+			(at 8.89 -96.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf"
+			(at 8.89 -196.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Panasonic 330uF 25 V dc Aluminium Electrolytic Capacitor, FR Radial Series 6000h 8 (Dia.) x 11.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "13"
+			(at 8.89 -396.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 8.89 -496.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EEU-FR1E331"
+			(at 8.89 -596.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "667-EEU-FR1E331"
+			(at 8.89 -696.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1E331?qs=Uw8ySfEHS7IWkhRa2g6NVA%3D%3D"
+			(at 8.89 -796.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 8.89 -896.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 8.89 -996.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "330uf_25v_cap_5v_buck_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.064 1.778) (xy 4.064 0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 1.27) (xy 3.556 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 2.54)
+				(end 5.842 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "4.7uf_50v_VDDcap"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0 3.8109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7uf_50v_VDDcap"
+			(at 0 -5.0885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "12065C475KAT2A:CAPC3216X178N"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD MLCC 1206 X7R 50V 4.7UF | AVX 12065C475KAT2A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AVX"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1206-2 KEMET"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/12065C475KAT2A/AVX/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "12065C475KAT2A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=285976&manufacturer=AVX&part_name=12065C475KAT2A&search_term=4.7uf 50v 1206"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/12065C475KAT2A/AVX/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "4.7uf_50v_VDDcap_0_0"
+			(rectangle
+				(start 0 -1.9069)
+				(end 0.635 1.905)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.9069 -1.9069)
+				(end 2.54 1.905)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ACS712-30A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "ACS712-30A"
+			(at 0.508 5.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ACS712-30A_0_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 7.62 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ACS712-30A_1_1"
+			(pin power_in line
+				(at -8.89 2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "AMS1117-3v3"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "3v3_ldo"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "AMS1117-3v3_0_1"
+			(rectangle
+				(start -6.35 2.54)
+				(end 7.62 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AMS1117-3v3_1_1"
+			(pin input line
+				(at -8.89 1.27 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DC_busFilter_cap"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at -2.54 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DC_busFilter_cap"
+			(at -2.54 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ECEA1HN331UB:CAPPRD750W80D1600H2500"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP ALUM 330UF 20% 50V RADIAL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "b_max" "0.85"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "RADIAL-2 Panasonic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "b_nom" "0.8"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ECEA1HN331UB/Panasonic/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECEA1HN331UB/Panasonic/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "28-FEB-20"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "25"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "ECEA1HN331UB"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "16"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "e_nom" "7.5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5791975&manufacturer=Panasonic&part_name=ECEA1HN331UB&search_term=330uf 50v capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "DC_busFilter_cap_0_0"
+			(rectangle
+				(start -1.173 -1.532)
+				(end -0.284 -1.405)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -0.792 -1.913)
+				(end -0.665 -1.024)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0.508 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.54) (xy 0.508 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0) (xy 0.508 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 1.524 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.286 -2.54)
+				(mid 1.4851 0)
+				(end 2.286 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "P"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "IRLR3705ZPBF"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at -3.556 5.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "IRLR3705ZPBF_0_1"
+			(polyline
+				(pts
+					(xy -1.016 1.905) (xy -1.016 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 2.286) (xy -0.508 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0.508) (xy -0.508 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -1.27) (xy -0.508 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0.381 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy 1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "IRLR3705ZPBF_1_1"
+			(pin input line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "IRS21867STRPBF"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 21.59 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "IRS21867STRPBF"
+			(at 21.59 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 21.59 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/gate-driver-ics/?"
+			(at 21.59 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Infineon IRS21867STRPBF, DC Motor Driver IC, 600 V 4A 8-Pin, SOIC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.75"
+			(at 21.59 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 21.59 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRS21867STRPBF"
+			(at 21.59 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "942-IRS21867STRPBF"
+			(at 21.59 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRS21867STRPBF?qs=9%252BKlkBgLFf0K3WK2speXPA%3D%3D"
+			(at 21.59 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "IRS21867STRPBF"
+			(at 21.59 -894.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/irs21867strpbf/infineon-technologies-ag?region=europe"
+			(at 21.59 -994.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "IRS21867STRPBF_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 20.32 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "HIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "LIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -7.62 180)
+				(length 5.08)
+				(name "LO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -5.08 180)
+				(length 5.08)
+				(name "VS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -2.54 180)
+				(length 5.08)
+				(name "HO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 0 180)
+				(length 5.08)
+				(name "VB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "L7815CV-DG"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "IC"
+			(at 21.59 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "L7815CV-DG"
+			(at 21.59 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "TO270P460X1020X2008-3P"
+			(at 21.59 -94.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78.pdf"
+			(at 21.59 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "L7815CV-DG, Linear Voltage Regulator, Current Limit, Shut-Down 1.5A 15 V, 3-Pin TO220"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.6"
+			(at 21.59 -394.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 21.59 -494.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L7815CV-DG"
+			(at 21.59 -594.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "511-L7815CV-DG"
+			(at 21.59 -694.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7815CV-DG?qs=T%2FOtf55vL7fQ8ZCL4uIjcA%3D%3D"
+			(at 21.59 -794.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "L7815CV-DG"
+			(at 21.59 -894.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/l7815cv-dg/stmicroelectronics?utm_currency=USD&region=europe"
+			(at 21.59 -994.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "L7815CV-DG_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 20.32 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 5.08)
+				(name "INPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "GROUND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "OUTPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LM2596S-5.0"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "VR"
+			(at -12.7 10.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LM2596S-5.0"
+			(at -12.7 -13.462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "LM2596S-5.0:TO170P1524X483-6N"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SIMPLE SWITCHER® 4.5V to 40V, 3A Low Component Count Step-Down Regulator"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.83 mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "TO-263-5 Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM2596S-5.0/NOPB/Texas+Instruments/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM2596S-5.0/NOPB/Texas+Instruments/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "102658"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "LM2596S-5.0/NOPB"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15588&manufacturer=Texas Instruments&part_name=LM2596S-5.0/NOPB&search_term= lm2596s-5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "LM2596S-5.0_0_0"
+			(rectangle
+				(start -12.7 -12.7)
+				(end 12.7 10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -17.78 7.62 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 7.62 180)
+				(length 5.08)
+				(name "OUTPUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -7.62 180)
+				(length 5.08)
+				(name "GROUND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "FEEDBACK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 2.54 0)
+				(length 5.08)
+				(name "~{ON}/OFF"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -10.16 180)
+				(length 5.08)
+				(name "GND_TAB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NUCLEO-F446RE"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -17.78 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "NUCLEO-F446RE"
+			(at -17.78 -44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "NUCLEO-F446RE:MODULE_NUCLEO-F446RE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STM32F446RE, mbed-Enabled Development Nucleo-64 STM32F4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "13"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "NUCLEO-F446RE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=284290&manufacturer=STMicroelectronics&part_name=NUCLEO-F446RE&search_term=stm32 nucleo-64 development board with stm32f446re mcu"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "NUCLEO-F446RE_1_0"
+			(rectangle
+				(start -17.78 -43.18)
+				(end 17.78 40.64)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -25.4 0)
+				(length 5.08)
+				(name "PC10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -22.86 0)
+				(length 5.08)
+				(name "PC11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -27.94 0)
+				(length 5.08)
+				(name "PC12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 17.78 180)
+				(length 5.08)
+				(name "PD2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 27.94 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 33.02 180)
+				(length 5.08)
+				(name "E5V"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 17.78 0)
+				(length 5.08)
+				(name "BOOT0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 -40.64 180)
+				(length 5.08)
+				(name "CN7_GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 20.32 180)
+				(length 5.08)
+				(name "CN7_IOREF"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 5.08 0)
+				(length 5.08)
+				(name "PA13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 20.32 0)
+				(length 5.08)
+				(name "CN7_RESET"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 2.54 0)
+				(length 5.08)
+				(name "PA14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 38.1 180)
+				(length 5.08)
+				(name "CN7_+3V3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 0 0)
+				(length 5.08)
+				(name "PA15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 35.56 180)
+				(length 5.08)
+				(name "CN7_+5V"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 -40.64 180)
+				(length 5.08)
+				(hide yes)
+				(name "CN7_GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 -40.64 180)
+				(length 5.08)
+				(hide yes)
+				(name "CN7_GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -7.62 0)
+				(length 5.08)
+				(name "PB7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 -40.64 180)
+				(length 5.08)
+				(hide yes)
+				(name "CN7_GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -30.48 0)
+				(length 5.08)
+				(name "PC13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 25.4 180)
+				(length 5.08)
+				(name "CN7_VIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -33.02 0)
+				(length 5.08)
+				(name "PC14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -35.56 0)
+				(length 5.08)
+				(name "PC15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 12.7 0)
+				(length 5.08)
+				(name "PA0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 12.7 180)
+				(length 5.08)
+				(name "PH0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 10.16 0)
+				(length 5.08)
+				(name "PA1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 10.16 180)
+				(length 5.08)
+				(name "PH1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 7.62 0)
+				(length 5.08)
+				(name "PA4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 30.48 180)
+				(length 5.08)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -5.08 0)
+				(length 5.08)
+				(name "PB0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -17.78 0)
+				(length 5.08)
+				(name "PC2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -15.24 0)
+				(length 5.08)
+				(name "PC1/PB9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -20.32 0)
+				(length 5.08)
+				(name "PC3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -12.7 0)
+				(length 5.08)
+				(name "PC0/PB8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_38"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NUCLEO-F446RE_2_0"
+			(rectangle
+				(start -12.7 -40.64)
+				(end 12.7 38.1)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 15.24 180)
+				(length 5.08)
+				(name "PC9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 17.78 180)
+				(length 5.08)
+				(name "PC8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -15.24 0)
+				(length 5.08)
+				(name "PB8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 22.86 180)
+				(length 5.08)
+				(name "PC6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -17.78 0)
+				(length 5.08)
+				(name "PB9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 25.4 180)
+				(length 5.08)
+				(name "PC5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 35.56 180)
+				(length 5.08)
+				(name "AVDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 33.02 180)
+				(length 5.08)
+				(name "U5V"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -38.1 180)
+				(length 5.08)
+				(name "CN10_GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 22.86 0)
+				(length 5.08)
+				(name "PA5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "PA12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 20.32 0)
+				(length 5.08)
+				(name "PA6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 7.62 0)
+				(length 5.08)
+				(name "PA11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 17.78 0)
+				(length 5.08)
+				(name "PA7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -22.86 0)
+				(length 5.08)
+				(name "PB12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -12.7 0)
+				(length 5.08)
+				(name "PB6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 20.32 180)
+				(length 5.08)
+				(name "PC7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -38.1 180)
+				(length 5.08)
+				(hide yes)
+				(name "CN10_GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 12.7 0)
+				(length 5.08)
+				(name "PA9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "PB2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 15.24 0)
+				(length 5.08)
+				(name "PA8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 0 0)
+				(length 5.08)
+				(name "PB1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -20.32 0)
+				(length 5.08)
+				(name "PB10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -30.48 0)
+				(length 5.08)
+				(name "PB15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -7.62 0)
+				(length 5.08)
+				(name "PB4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -27.94 0)
+				(length 5.08)
+				(name "PB14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -10.16 0)
+				(length 5.08)
+				(name "PB5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -25.4 0)
+				(length 5.08)
+				(name "PB13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -5.08 0)
+				(length 5.08)
+				(name "PB3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -35.56 180)
+				(length 5.08)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "PA10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 27.94 180)
+				(length 5.08)
+				(name "PC4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 27.94 0)
+				(length 5.08)
+				(name "PA2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 25.4 0)
+				(length 5.08)
+				(name "PA3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NUCLEO-F446RE_3_0"
+			(rectangle
+				(start -15.24 -12.7)
+				(end 15.24 10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -5.08 0)
+				(length 5.08)
+				(name "CN6_IOREF"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN6_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -20.32 -2.54 0)
+				(length 5.08)
+				(name "CN6_RESET"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN6_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 2.54 180)
+				(length 5.08)
+				(name "CN6_+3V3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN6_4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 5.08 180)
+				(length 5.08)
+				(name "CN6_+5V"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN6_5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -10.16 180)
+				(length 5.08)
+				(name "CN6_GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN6_6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "CN6_GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN6_7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 7.62 180)
+				(length 5.08)
+				(name "CN6_VIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN6_8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NUCLEO-F446RE_4_0"
+			(rectangle
+				(start -5.08 -12.7)
+				(end 5.08 12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -10.16 10.16 0)
+				(length 5.08)
+				(name "D0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN9_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10.16 7.62 0)
+				(length 5.08)
+				(name "D1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN9_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "D2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN9_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name "D3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN9_4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "D4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN9_5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -5.08 0)
+				(length 5.08)
+				(name "D5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN9_6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -7.62 0)
+				(length 5.08)
+				(name "D6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN9_7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -10.16 0)
+				(length 5.08)
+				(name "D7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN9_8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NUCLEO-F446RE_5_0"
+			(rectangle
+				(start -5.08 -10.16)
+				(end 5.08 7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -10.16 5.08 0)
+				(length 5.08)
+				(name "A0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN8_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN8_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name "A2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN8_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "A3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN8_4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -5.08 0)
+				(length 5.08)
+				(name "A4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN8_5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -7.62 0)
+				(length 5.08)
+				(name "A5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN8_6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NUCLEO-F446RE_6_0"
+			(rectangle
+				(start -10.16 -17.78)
+				(end 10.16 15.24)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 7.62 0)
+				(length 5.08)
+				(name "D8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN5_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 5.08 0)
+				(length 5.08)
+				(name "D9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN5_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 2.54 0)
+				(length 5.08)
+				(name "D10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN5_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 0 0)
+				(length 5.08)
+				(name "D11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN5_4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -2.54 0)
+				(length 5.08)
+				(name "D12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN5_5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional clock
+				(at -15.24 -5.08 0)
+				(length 5.08)
+				(name "D13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN5_6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -15.24 180)
+				(length 5.08)
+				(name "CN5_GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN5_7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 12.7 180)
+				(length 5.08)
+				(name "AREF"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN5_8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -7.62 0)
+				(length 5.08)
+				(name "D14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN5_9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional clock
+				(at -15.24 -10.16 0)
+				(length 5.08)
+				(name "D15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN5_10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "R_OFF_5.1ohm"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at -7.6244 2.5415 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R_OFF_5.1ohm"
+			(at -7.63 -5.0866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "AC1206FR-075R1L:RESC3116X65N"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5.1 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Yageo"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AC1206FR-075R1L/Yageo/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "AC1206FR-075R1L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1015109&manufacturer=Yageo&part_name=AC1206FR-075R1L&search_term=ac1206fr-075r1l"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AC1206FR-075R1L/Yageo/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "R_OFF_5.1ohm_0_0"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -4.445 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 1.905) (xy -3.175 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -1.905) (xy -1.905 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 1.905) (xy -0.635 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.905) (xy 0.635 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 1.905) (xy 1.905 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -1.905) (xy 3.175 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.905) (xy 4.445 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.905) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "R_ON_10ohm"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R_ON_10ohm"
+			(at -6.35 7.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_ON_10ohm_0_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.175 5.715)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 5.715) (xy -1.905 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 1.905) (xy -0.635 5.715)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 5.715) (xy 0.635 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 1.905) (xy 1.905 5.715)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 5.715) (xy 3.175 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.905) (xy 4.445 5.715)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 5.715) (xy 5.715 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.905) (xy 6.35 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -8.89 3.81 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 3.81 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Rboot_22ohm"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 13.97 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Rboot_22ohm"
+			(at 13.97 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "RESAD1650W63L650D250"
+			(at 13.97 -96.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28729/pr010203.pdf"
+			(at 13.97 -196.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "22 Ohms +/-5% 1W Through Hole Resistor Axial Automotive AEC-Q200, Flame Retardant Coating, Fusible, Safety Metal Film"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 13.97 -396.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 13.97 -496.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PR01000102209JA100"
+			(at 13.97 -596.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 13.97 -696.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 13.97 -796.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "PR01000102209JA100"
+			(at 13.97 -896.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pr01000102209ja100/vishay.html?utm_currency=USD&region=nac"
+			(at 13.97 -996.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "Rboot_22ohm_1_1"
+			(rectangle
+				(start 5.08 1.27)
+				(end 12.7 -1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SS34_BootDiode"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at -5.08 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SS34_BootDiode"
+			(at -5.08 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SS34:DIO_SS34"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3A, 40V, Planar Schottky"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "DO-214AB-2 Taiwan Semiconductor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SS34/taiwan/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "S2311"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS34/taiwan/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "SS34"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4810221&manufacturer=Taiwan Semiconductor&part_name=SS34&search_term=ss34"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "SS34_BootDiode_0_0"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -1.016) (xy 0.635 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 0.635 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 1.27) (xy 1.905 1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "dc_bus_filter_cap2"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0 3.8109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "dc_bus_filter_cap2"
+			(at 0 -5.0885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CL21B105KBFNNNF:CAPC2012X135N"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CL21B105KBFNNNF/Samsung/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Samsung"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21B105KBFNNNF/Samsung/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_min" "1.15"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samsung"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_min" "1.9"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "2.0"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3598293&manufacturer=Samsung&part_name=CL21B105KBFNNNF&search_term=cl21b105kbfnnnf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_max" "1.35"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_max" "0.7"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "1.35"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_max" "2.1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_nom" "1.35"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_max" "0.7"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_min" "1.35"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CL21B105KBFNNNF"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_nom" "1.25"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samsung"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "dc_bus_filter_cap2_0_0"
+			(rectangle
+				(start 0 -1.9069)
+				(end 0.635 1.905)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.9069 -1.9069)
+				(end 2.54 1.905)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "super_cap"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "super_cap"
+			(at -4.572 7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "super_cap_1_1"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -1.27 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 5.588) (xy -2.286 4.572)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 5.08) (xy -2.794 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 6.35)
+				(end -0.508 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.35) (xy 1.27 1.27) (xy 0.508 1.27) (xy 0.508 6.35) (xy 1.27 6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 3.81) (xy 3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -6.35 3.81 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 3.81 180)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "tvs_diode_15v_buck"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at -5.0835 2.4159 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "tvs_diode_15v_buck"
+			(at -5.0854 -4.9611 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SMAJ24A:DIOM4325X250N"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W, 24V, Unidirectional, TVS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.5 mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMA-2 Taiwan Semiconductor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SMAJ24A/taiwan/view-part/?ref=eda"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "S2102"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMAJ24A/taiwan/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "SMAJ24A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4810323&manufacturer=Taiwan Semiconductor&part_name=SMAJ24A&search_term=smaj24a"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "tvs_diode_15v_buck_0_0"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "tvs_diode_dc_bus"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 10.16 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "tvs_diode_dc_bus"
+			(at 10.16 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "DIOM5336X262N"
+			(at 10.16 -93.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SMBJ5.0AQ_SMBJ190CAQ(SMB).pdf"
+			(at 10.16 -193.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "TVS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.62"
+			(at 10.16 -393.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at 10.16 -493.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ36AQ-TP"
+			(at 10.16 -593.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 10.16 -693.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 10.16 -793.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 10.16 -893.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 10.16 -993.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(symbol "tvs_diode_dc_bus_1_1"
+			(polyline
+				(pts
+					(xy 4.064 2.54) (xy 5.08 2.032)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 10.16 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.032) (xy 5.08 2.032)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.032) (xy 6.096 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 10.16 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 5.08)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

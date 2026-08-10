@@ -2,9 +2,193 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 058fbdf2-a911-4044-912a-e4c9081c01f8)
+	(uuid "058fbdf2-a911-4044-912a-e4c9081c01f8")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 22.86 143.51)
+		(size 55.88 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "31ad71cf-e5d8-4161-a0e2-bbb3e789d0af")
+		(property "Sheetname" "Sensors"
+			(at 22.86 142.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 22.86 174.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 24.13)
+		(size 55.88 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "668fb35a-5873-4809-b3a2-906fc8484e37")
+		(property "Sheetname" "Battery & Super Capacitor Buffer"
+			(at 22.86 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS_supeCapBuffer.kicad_sch"
+			(at 22.86 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 64.77)
+		(size 55.88 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "737a02a9-8a80-4cf0-ac97-70634fe1df45")
+		(property "Sheetname" "MCU & Peripherals"
+			(at 22.86 64.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_peripherals.kicad_sch"
+			(at 22.86 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 105.41)
+		(size 55.88 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e950d2db-7b26-4c78-923e-5a8613940bfb")
+		(property "Sheetname" "Inverter Stage"
+			(at 22.86 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inverter_Stage.kicad_sch"
+			(at 22.86 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

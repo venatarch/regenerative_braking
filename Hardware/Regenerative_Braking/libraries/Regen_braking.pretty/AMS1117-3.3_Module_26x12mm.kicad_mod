@@ -1,0 +1,273 @@
+(footprint "AMS1117-3.3_Module_26x12mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "AMS1117-3.3 DC-DC Voltage Regulator Module, 26mm x 12mm, 4-pin through-hole, 2.54mm header pitch")
+	(tags "AMS1117 3.3V LDO DC-DC regulator module breakout")
+	(property "Reference" "REF**"
+		(at 0 -7.62 0)
+		(layer "F.SilkS")
+		(uuid "4b2be267-d836-46c2-bfba-bbb891dcb931")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AMS1117-3.3"
+		(at 0 7.62 0)
+		(layer "F.Fab")
+		(uuid "caca7ebc-7b05-4215-8c36-1cb8dbd4b9c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b951f53-5e5e-4c94-90a9-e139a42681b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f16d4533-9fe1-48bd-8c97-e9116d074ae7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -13.12 -6.12)
+		(end 13.12 -6.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-0007-4000-8000-000000000007")
+	)
+	(fp_line
+		(start -13.12 6.12)
+		(end -13.12 -6.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-000a-4000-8000-00000000000a")
+	)
+	(fp_line
+		(start 13.12 -6.12)
+		(end 13.12 6.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-0008-4000-8000-000000000008")
+	)
+	(fp_line
+		(start 13.12 6.12)
+		(end -13.12 6.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-0009-4000-8000-000000000009")
+	)
+	(fp_circle
+		(center -11.43 -3.81)
+		(end -11.18 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-000f-4000-8000-00000000000f")
+	)
+	(fp_line
+		(start -13.5 -6.5)
+		(end 13.5 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1b2c3d4-000b-4000-8000-00000000000b")
+	)
+	(fp_line
+		(start -13.5 6.5)
+		(end -13.5 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1b2c3d4-000e-4000-8000-00000000000e")
+	)
+	(fp_line
+		(start 13.5 -6.5)
+		(end 13.5 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1b2c3d4-000c-4000-8000-00000000000c")
+	)
+	(fp_line
+		(start 13.5 6.5)
+		(end -13.5 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1b2c3d4-000d-4000-8000-00000000000d")
+	)
+	(fp_line
+		(start -13 -6)
+		(end 13 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1b2c3d4-0003-4000-8000-000000000003")
+	)
+	(fp_line
+		(start -13 6)
+		(end -13 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1b2c3d4-0006-4000-8000-000000000006")
+	)
+	(fp_line
+		(start 13 -6)
+		(end 13 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1b2c3d4-0004-4000-8000-000000000004")
+	)
+	(fp_line
+		(start 13 6)
+		(end -13 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1b2c3d4-0005-4000-8000-000000000005")
+	)
+	(fp_text user "OUT+"
+		(at -7.5 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-0014-4000-8000-000000000014")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "OUT-"
+		(at -7.5 1.27 0)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-0015-4000-8000-000000000015")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "IN+"
+		(at 7.5 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-0016-4000-8000-000000000016")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "IN-"
+		(at 7.5 1.27 0)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-0017-4000-8000-000000000017")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a1b2c3d4-0018-4000-8000-000000000018")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -11.43 -1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1b2c3d4-0010-4000-8000-000000000010")
+	)
+	(pad "2" thru_hole rect
+		(at -11.43 1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1b2c3d4-0011-4000-8000-000000000011")
+	)
+	(pad "3" thru_hole rect
+		(at 11.43 -1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1b2c3d4-0012-4000-8000-000000000012")
+	)
+	(pad "4" thru_hole rect
+		(at 11.43 1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1b2c3d4-0013-4000-8000-000000000013")
+	)
+	(embedded_fonts no)
+)

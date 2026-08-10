@@ -1,0 +1,254 @@
+(footprint "ACS712_Module_27x12mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ACS712 Current Sensor Module, 27mm x 12mm, 3-pin through-hole header, 2.54mm pitch")
+	(tags "ACS712 current sensor module breakout")
+	(property "Reference" "REF**"
+		(at 0 -15.5 0)
+		(layer "F.SilkS")
+		(uuid "e2bd86cc-1562-47f4-9754-5d92be36ed39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ACS712"
+		(at 0 15.5 0)
+		(layer "F.Fab")
+		(uuid "e4016e09-f259-418f-9422-0a13426850ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5272e530-76ea-467d-a45b-90c77d81e526")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2a2c833-1475-44bb-b4eb-f17f95355433")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.12 -13.62)
+		(end 6.12 -13.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2c3d4e5-0007-4000-8000-000000000007")
+	)
+	(fp_line
+		(start -6.12 13.62)
+		(end -6.12 -13.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2c3d4e5-000a-4000-8000-00000000000a")
+	)
+	(fp_line
+		(start 6.12 -13.62)
+		(end 6.12 13.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2c3d4e5-0008-4000-8000-000000000008")
+	)
+	(fp_line
+		(start 6.12 13.62)
+		(end -6.12 13.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2c3d4e5-0009-4000-8000-000000000009")
+	)
+	(fp_circle
+		(center -2.54 10)
+		(end -2.29 10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b2c3d4e5-000f-4000-8000-00000000000f")
+	)
+	(fp_line
+		(start -6.5 -14)
+		(end 6.5 -14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2c3d4e5-000b-4000-8000-00000000000b")
+	)
+	(fp_line
+		(start -6.5 14)
+		(end -6.5 -14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2c3d4e5-000e-4000-8000-00000000000e")
+	)
+	(fp_line
+		(start 6.5 -14)
+		(end 6.5 14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2c3d4e5-000c-4000-8000-00000000000c")
+	)
+	(fp_line
+		(start 6.5 14)
+		(end -6.5 14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2c3d4e5-000d-4000-8000-00000000000d")
+	)
+	(fp_line
+		(start -6 -13.5)
+		(end 6 -13.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2c3d4e5-0003-4000-8000-000000000003")
+	)
+	(fp_line
+		(start -6 13.5)
+		(end -6 -13.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2c3d4e5-0006-4000-8000-000000000006")
+	)
+	(fp_line
+		(start 6 -13.5)
+		(end 6 13.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2c3d4e5-0004-4000-8000-000000000004")
+	)
+	(fp_line
+		(start 6 13.5)
+		(end -6 13.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2c3d4e5-0005-4000-8000-000000000005")
+	)
+	(fp_text user "GND"
+		(at -2.54 9 0)
+		(layer "F.SilkS")
+		(uuid "b2c3d4e5-0013-4000-8000-000000000013")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "OUT"
+		(at 0 9 0)
+		(layer "F.SilkS")
+		(uuid "b2c3d4e5-0014-4000-8000-000000000014")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "VCC"
+		(at 2.54 9 0)
+		(layer "F.SilkS")
+		(uuid "b2c3d4e5-0015-4000-8000-000000000015")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b2c3d4e5-0016-4000-8000-000000000016")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 12.23)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2c3d4e5-0010-4000-8000-000000000010")
+	)
+	(pad "2" thru_hole rect
+		(at 0 12.23)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2c3d4e5-0011-4000-8000-000000000011")
+	)
+	(pad "3" thru_hole rect
+		(at 2.54 12.23)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2c3d4e5-0012-4000-8000-000000000012")
+	)
+	(embedded_fonts no)
+)
