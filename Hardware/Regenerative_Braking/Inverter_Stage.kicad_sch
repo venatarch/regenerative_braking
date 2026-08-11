@@ -2515,26 +2515,26 @@
 		(uuid "98d67bf6-ea79-4cf2-bd40-038196756179")
 	)
 	(junction
-		(at 189.23 34.29)
+		(at 180.34 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40c25268-f1c7-4378-a8c2-84e50dcd6857")
 	)
 	(junction
-		(at 189.23 142.24)
+		(at 180.34 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4601a585-aedf-4fb1-b721-17766c9921fc")
 	)
 	(junction
-		(at 189.23 86.36)
+		(at 180.34 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99b29f12-623e-4a7a-aa5e-3cac35939325")
 	)
 	(wire
 		(pts
-			(xy 186.69 34.29) (xy 189.23 34.29)
+			(xy 177.8 33.02) (xy 180.34 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2664,7 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 30.48) (xy 189.23 34.29)
+			(xy 180.34 29.21) (xy 180.34 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2704,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 49.53) (xy 189.23 52.07)
+			(xy 180.34 48.26) (xy 180.34 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2734,7 +2734,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 142.24) (xy 189.23 142.24)
+			(xy 176.53 140.97) (xy 180.34 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2764,6 +2764,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 33.02) (xy 194.31 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37626081-3d3c-4596-b7e8-20eef2a7ae82")
+	)
+	(wire
+		(pts
 			(xy 125.73 158.75) (xy 129.54 158.75)
 		)
 		(stroke
@@ -2774,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 132.08) (xy 181.61 132.08)
+			(xy 167.64 130.81) (xy 172.72 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2794,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 137.16) (xy 189.23 142.24)
+			(xy 180.34 135.89) (xy 180.34 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2814,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 86.36) (xy 189.23 86.36)
+			(xy 176.53 85.09) (xy 180.34 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2844,7 +2854,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 44.45) (xy 181.61 44.45)
+			(xy 168.91 43.18) (xy 172.72 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2864,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 157.48) (xy 189.23 162.56)
+			(xy 180.34 156.21) (xy 180.34 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2914,7 +2924,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 142.24) (xy 189.23 147.32)
+			(xy 180.34 140.97) (xy 180.34 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2944,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 17.78) (xy 189.23 20.32)
+			(xy 180.34 16.51) (xy 180.34 19.05)
 		)
 		(stroke
 			(width 0)
@@ -2964,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 67.31) (xy 189.23 71.12)
+			(xy 180.34 66.04) (xy 180.34 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3044,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 76.2) (xy 181.61 76.2)
+			(xy 168.91 74.93) (xy 172.72 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3074,7 +3084,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 152.4) (xy 176.53 152.4)
+			(xy 172.72 151.13) (xy 167.64 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3164,7 +3174,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 97.79) (xy 181.61 97.79)
+			(xy 168.91 96.52) (xy 172.72 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3211,6 +3221,16 @@
 			(type default)
 		)
 		(uuid "acf32813-b97c-4584-aae3-9b0d84f093c8")
+	)
+	(wire
+		(pts
+			(xy 180.34 85.09) (xy 194.31 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2468f62-2bca-4e38-bf44-f9ab3fa38952")
 	)
 	(wire
 		(pts
@@ -3284,7 +3304,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 25.4) (xy 181.61 25.4)
+			(xy 168.91 24.13) (xy 172.72 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3304,7 +3324,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 121.92) (xy 189.23 127)
+			(xy 180.34 120.65) (xy 180.34 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3324,7 +3344,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 81.28) (xy 189.23 86.36)
+			(xy 180.34 80.01) (xy 180.34 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3414,7 +3434,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 86.36) (xy 189.23 92.71)
+			(xy 180.34 85.09) (xy 180.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3454,6 +3474,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 140.97) (xy 194.31 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55d7763-bf08-4a81-857b-ddfa02ac6aab")
+	)
+	(wire
+		(pts
 			(xy 87.63 148.59) (xy 95.25 148.59)
 		)
 		(stroke
@@ -3464,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 34.29) (xy 189.23 39.37)
+			(xy 180.34 33.02) (xy 180.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3504,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 102.87) (xy 189.23 107.95)
+			(xy 180.34 101.6) (xy 180.34 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3562,6 +3592,16 @@
 		)
 		(uuid "ff6ba41e-7d2f-40d2-b218-2e4c8a8cfd80")
 	)
+	(label "Phase_W"
+		(at 194.31 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04499a0b-53a8-4628-8619-cd86bad19b5c")
+	)
 	(label "U_HOUT"
 		(at 95.25 39.37 0)
 		(effects
@@ -3583,7 +3623,7 @@
 		(uuid "07250279-d478-4d0c-9466-1b267fb837b8")
 	)
 	(label "VS_1"
-		(at 186.69 34.29 180)
+		(at 177.8 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3601,6 +3641,16 @@
 			(justify left bottom)
 		)
 		(uuid "0bc40b76-9268-41a8-bf55-f886cb5e28d8")
+	)
+	(label "Iin1"
+		(at 180.34 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d2cf695-aebd-4738-85dc-3158a01b6b9f")
 	)
 	(label "GND"
 		(at 29.21 157.48 0)
@@ -3623,7 +3673,7 @@
 		(uuid "116387b0-9683-487b-ad6f-6f3b87babc57")
 	)
 	(label "VS_1"
-		(at 185.42 142.24 180)
+		(at 176.53 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3683,7 +3733,7 @@
 		(uuid "2673f99e-9eb2-4698-8853-25b56cb1843f")
 	)
 	(label "VBUS"
-		(at 189.23 121.92 0)
+		(at 180.34 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3733,7 +3783,7 @@
 		(uuid "431cb975-fefc-4b6d-b11f-65df6b59334f")
 	)
 	(label "VBUS"
-		(at 189.23 67.31 0)
+		(at 180.34 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3753,7 +3803,7 @@
 		(uuid "47007525-8869-4ef3-ac72-4929e4e56711")
 	)
 	(label "GL2"
-		(at 177.8 97.79 180)
+		(at 168.91 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3853,7 +3903,7 @@
 		(uuid "5561f3d8-d299-40f3-b48c-8363bd494b77")
 	)
 	(label "GL1"
-		(at 177.8 44.45 180)
+		(at 168.91 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3861,6 +3911,16 @@
 			(justify right bottom)
 		)
 		(uuid "584f1203-349d-439c-a0fa-aa3056804a14")
+	)
+	(label "Phase_V"
+		(at 194.31 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d88df6a-0ba1-4457-ba3b-824034d12b85")
 	)
 	(label "W_LOUT"
 		(at 105.41 154.94 0)
@@ -3873,7 +3933,7 @@
 		(uuid "5e06f51f-51fb-4efb-87c1-ee3b7e980a21")
 	)
 	(label "VS_1"
-		(at 185.42 86.36 180)
+		(at 176.53 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3942,6 +4002,16 @@
 		)
 		(uuid "743e3d10-d275-458a-9976-f515edd2471f")
 	)
+	(label "Iin3"
+		(at 180.34 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "753338dc-dd8c-4018-a08b-aa2ca9e035bd")
+	)
 	(label "Vcc_15v"
 		(at 25.4 21.59 180)
 		(effects
@@ -3963,7 +4033,7 @@
 		(uuid "91a9b7da-9b76-4872-ac28-4c6db578819b")
 	)
 	(label "GL3"
-		(at 176.53 152.4 180)
+		(at 167.64 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3983,7 +4053,7 @@
 		(uuid "94e16aaf-1844-4b9f-a42d-da674e86aafe")
 	)
 	(label "GH1"
-		(at 177.8 25.4 180)
+		(at 168.91 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4213,7 +4283,7 @@
 		(uuid "cfb728f0-dc47-4933-8ce2-39238cc3d5e2")
 	)
 	(label "GH3"
-		(at 176.53 132.08 180)
+		(at 167.64 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4283,7 +4353,7 @@
 		(uuid "eff8e759-6a14-405e-b3c3-f4ee4a42c444")
 	)
 	(label "GH2"
-		(at 177.8 76.2 180)
+		(at 168.91 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4301,6 +4371,16 @@
 			(justify left bottom)
 		)
 		(uuid "f49f46f3-0bff-483f-a7db-4eb1fab1fe96")
+	)
+	(label "Phase_U"
+		(at 194.31 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f781d866-1811-474b-8bc3-f5a8efbd14b9")
 	)
 	(label "GND"
 		(at 30.48 100.33 0)
@@ -4332,8 +4412,18 @@
 		)
 		(uuid "fd89392e-c802-476a-9e58-1e99108339f0")
 	)
+	(label "Iin2"
+		(at 180.34 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe2aff83-a222-4a18-8362-d0aa2b825573")
+	)
 	(label "VBUS"
-		(at 189.23 17.78 0)
+		(at 180.34 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5007,7 +5097,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:IRLR3705ZPBF")
-		(at 187.96 152.4 0)
+		(at 179.07 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5018,7 +5108,7 @@
 		(fields_autoplaced yes)
 		(uuid "36cf020a-1f63-4c2d-8457-3695283e0653")
 		(property "Reference" "Q6"
-			(at 193.04 152.4 0)
+			(at 184.15 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5029,7 +5119,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 187.96 152.4 0)
+			(at 179.07 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5039,7 +5129,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:IRLR3705ZPBF"
-			(at 187.96 152.4 0)
+			(at 179.07 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5050,7 +5140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 152.4 0)
+			(at 179.07 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5061,7 +5151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 152.4 0)
+			(at 179.07 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,7 +7030,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:IRLR3705ZPBF")
-		(at 187.96 132.08 0)
+		(at 179.07 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6951,7 +7041,7 @@
 		(fields_autoplaced yes)
 		(uuid "61656d9a-e9b0-4bcb-9dc7-2ff8b2d51fd1")
 		(property "Reference" "Q5"
-			(at 193.04 132.08 0)
+			(at 184.15 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6962,7 +7052,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 187.96 132.08 0)
+			(at 179.07 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6972,7 +7062,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:IRLR3705ZPBF"
-			(at 187.96 132.08 0)
+			(at 179.07 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6983,7 +7073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 132.08 0)
+			(at 179.07 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,7 +7084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 132.08 0)
+			(at 179.07 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8644,7 +8734,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:IRLR3705ZPBF")
-		(at 187.96 25.4 0)
+		(at 179.07 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8655,7 +8745,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e4711c9-677b-434e-8149-afbd76d504c8")
 		(property "Reference" "Q1"
-			(at 193.04 25.4 0)
+			(at 184.15 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8666,7 +8756,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 187.96 25.4 0)
+			(at 179.07 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8676,7 +8766,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:IRLR3705ZPBF"
-			(at 187.96 25.4 0)
+			(at 179.07 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8687,7 +8777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 25.4 0)
+			(at 179.07 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8698,7 +8788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 25.4 0)
+			(at 179.07 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9804,7 +9894,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:IRLR3705ZPBF")
-		(at 187.96 76.2 0)
+		(at 179.07 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9815,7 +9905,7 @@
 		(fields_autoplaced yes)
 		(uuid "b68777b7-2c5e-4baa-9f55-02659334acbf")
 		(property "Reference" "Q3"
-			(at 193.04 76.2 0)
+			(at 184.15 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9826,7 +9916,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 187.96 76.2 0)
+			(at 179.07 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9836,7 +9926,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:IRLR3705ZPBF"
-			(at 187.96 76.2 0)
+			(at 179.07 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9847,7 +9937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 76.2 0)
+			(at 179.07 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9858,7 +9948,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 76.2 0)
+			(at 179.07 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10192,7 +10282,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:IRLR3705ZPBF")
-		(at 187.96 97.79 0)
+		(at 179.07 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10203,7 +10293,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca5f99cd-3a6c-49b8-b85f-197bda8aa4fd")
 		(property "Reference" "Q4"
-			(at 193.04 97.79 0)
+			(at 184.15 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10214,7 +10304,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 187.96 97.79 0)
+			(at 179.07 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10224,7 +10314,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:IRLR3705ZPBF"
-			(at 187.96 97.79 0)
+			(at 179.07 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10235,7 +10325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 97.79 0)
+			(at 179.07 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10246,7 +10336,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 97.79 0)
+			(at 179.07 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +10592,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:IRLR3705ZPBF")
-		(at 187.96 44.45 0)
+		(at 179.07 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10513,7 +10603,7 @@
 		(fields_autoplaced yes)
 		(uuid "d220d905-b5c7-45be-bca6-216592ff1dcc")
 		(property "Reference" "Q2"
-			(at 193.04 44.45 0)
+			(at 184.15 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10524,7 +10614,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 187.96 44.45 0)
+			(at 179.07 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10534,7 +10624,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:IRLR3705ZPBF"
-			(at 187.96 44.45 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10545,7 +10635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 44.45 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10556,7 +10646,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 44.45 0)
+			(at 179.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
