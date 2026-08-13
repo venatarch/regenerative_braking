@@ -663,7 +663,7 @@
         "uuid": "058fbdf2-a911-4044-912a-e4c9081c01f8"
       }
     ],
-    "used_designators": "R1-9,#GND1,IC1-3,C1-6,D1-9,R_ON_10ohm1-6,Q1-12,ACS712\\-30A1-12",
+    "used_designators": "R1-15,#GND1,IC1-3,C1-9,D1-15,R_ON_10ohm1-9,Q1-12,ACS712\\-30A1-12",
     "variants": []
   },
   "sheets": [

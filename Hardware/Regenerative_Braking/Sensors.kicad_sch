@@ -5,33 +5,62 @@
 	(uuid "2bde55a4-fe0f-47f9-8595-3aa8f71730cb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ACS712-30A_1"
+		(symbol "Regen_braking:100kohm_divider"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0.508 5.588 0)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "100kohm_divider"
+				(at 13.97 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "RESC1608X55N"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Thin Film Resistors - SMD 100K OHM .1% 25PPM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -42,8 +71,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -51,10 +80,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Yageo Group"
+				(at 13.97 -496.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -62,33 +92,92 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "ACS712-30A_1_0_1"
+			(property "Manufacturer_Part_Number" "RT0603BRD07100KL"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "603-RT0603BRD07100KL"
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD07100KL?qs=axriQ0Yj98%252BtJ4o%2FXFGgtQ%3D%3D"
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "RT0603BRD07100KL"
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rt0603brd07100kl/yageo"
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "100kohm_divider_1_1"
 				(rectangle
-					(start -6.35 3.81)
-					(end 7.62 -3.81)
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "ACS712-30A_1_1_1"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "GND"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -96,35 +185,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "OUT"
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -135,33 +206,38 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ACS712-30A_2"
+		(symbol "Regen_braking:100nf_rcFilter"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0.508 5.588 0)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "100nf_rcFilter"
+				(at 0 -5.0885 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "C1206C104J5RACTU:CAPC3216X88N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -170,6 +246,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "Datasheet" ""
@@ -183,7 +260,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Capacitor; Ceramic; Cap; 0.100uF; Tol+5%; SMT; Vol-Rtg 50V; X7R; TR | KEMET C1206C104J5RACTU"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -192,72 +269,148 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "ACS712-30A_2_0_1"
+			(property "MF" "KEMET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "1206-2 KEMET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/C1206C104J5RACTU/Kemet/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "C1206C104J5RACTU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/C1206C104J5RACTU/Kemet/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "100nf_rcFilter_0_0"
 				(rectangle
-					(start -6.35 3.81)
-					(end 7.62 -3.81)
+					(start 0 -1.9069)
+					(end 0.635 1.905)
 					(stroke
-						(width 0)
+						(width 0.1)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-			)
-			(symbol "ACS712-30A_2_1_1"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type outline)
 					)
 				)
-				(pin output line
-					(at -8.89 0 0)
+				(pin passive line
+					(at -2.54 0 0)
 					(length 2.54)
-					(name "OUT"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 -2.54 0)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "VCC"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -265,33 +418,38 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regen_braking:ACS712-30A"
+		(symbol "Regen_braking:10kohm_divider"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0.508 5.588 0)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "10kohm_divider"
+				(at -7.63 -5.0866 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "RC1206FR-0710KL:RESC3116X65N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -300,6 +458,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "Datasheet" ""
@@ -313,7 +472,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -322,72 +481,234 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "ACS712-30A_0_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 7.62 -3.81)
+			(property "MF" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "1206-2 YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC1206FR-07%2010KL/Yageo/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "RC1206FR-07 10KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/RC1206FR-07%2010KL/Yageo/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "10kohm_divider_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "ACS712-30A_1_1"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "GND"
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "OUT"
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -395,14 +716,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regen_braking:solder_pad_acs712_inout"
+		(symbol "Regen_braking:BAT54T1G"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0 0 0)
+			(property "Reference" "D"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -411,8 +735,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "BAT54T1G"
+				(at 0 -3.429 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -421,7 +745,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "BAT54T1G:SODFL3718X115"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -430,6 +754,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "Datasheet" ""
@@ -443,7 +768,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Rectifier Diode Schottky 0.2A 5ns 2-Pin SOD-123 T/R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -452,54 +777,270 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "solder_pad_acs712_inout_0_1"
-				(rectangle
-					(start 2.54 6.35)
-					(end -2.54 1.27)
+			(property "MF" "onsemi"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "SOD-123-2 ON Semiconductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "BAT54T1G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "BAT54T1G_0_0"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "solder_pad_acs712_inout_1_1"
-				(pin input line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "IN"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.016) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "OUT"
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -507,14 +1048,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "solder_pad_acs712_inout_1"
+		(symbol "Regen_braking:R_ON_10ohm"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0 0 0)
+			(property "Reference" "R_ON_10ohm"
+				(at -6.35 7.874 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -566,164 +1107,147 @@
 					)
 				)
 			)
-			(symbol "solder_pad_acs712_inout_1_0_1"
-				(rectangle
-					(start 2.54 6.35)
-					(end -2.54 1.27)
+			(symbol "R_ON_10ohm_0_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.175 5.715)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "solder_pad_acs712_inout_1_1_1"
-				(pin input line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy -3.175 5.715) (xy -1.905 1.905)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "solder_pad_acs712_inout_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "solder_pad_acs712_inout_2_0_1"
-				(rectangle
-					(start 2.54 6.35)
-					(end -2.54 1.27)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "solder_pad_acs712_inout_2_1_1"
-				(pin input line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "IN"
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 5.715) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 5.715) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 5.715) (xy 5.715 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.905) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -8.89 3.81 0)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "OUT"
+				(pin passive line
+					(at 11.43 3.81 180)
+					(length 5.08)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -733,8 +1257,8 @@
 		)
 	)
 	(rectangle
-		(start 16.51 20.32)
-		(end 78.74 182.88)
+		(start 15.24 20.32)
+		(end 115.57 182.88)
 		(stroke
 			(width 0.635)
 			(type dash)
@@ -745,7 +1269,7 @@
 		)
 		(uuid "356f7df8-fec1-4ed8-bb3b-50f0f5b8c68a")
 	)
-	(text "INVERTER SIDE CURRENT SENSING\n"
+	(text "INVERTER SIDE VOLTAGE SENSING\n"
 		(exclude_from_sim no)
 		(at 48.26 32.512 0)
 		(effects
@@ -756,339 +1280,682 @@
 		)
 		(uuid "4930fdb5-3381-4d87-a403-d84f1c966c9b")
 	)
+	(junction
+		(at 73.66 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11b611c5-b864-4650-9eaf-40749e3643f9")
+	)
+	(junction
+		(at 45.72 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eb7009a-4d09-435c-b901-30a1d08532ad")
+	)
+	(junction
+		(at 45.72 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e0687c1-c1fa-488f-8bb4-f104fbef0840")
+	)
+	(junction
+		(at 92.71 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5828cece-cd86-4fc3-9f64-e78f315ffe82")
+	)
+	(junction
+		(at 92.71 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "782bc8ab-29ce-47af-affc-bf1503c76cba")
+	)
+	(junction
+		(at 80.01 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c02663a-9f42-41a3-8ba9-1af00e85fb54")
+	)
+	(junction
+		(at 80.01 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b142a9dc-9185-4118-963d-94d434f5d941")
+	)
+	(junction
+		(at 80.01 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef90984-e6ba-4974-9ef9-696e3a6ac01a")
+	)
+	(junction
+		(at 73.66 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d159ff20-53bd-4fb8-a732-4334a24e3e5a")
+	)
+	(junction
+		(at 73.66 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7121759-6368-417d-b7e8-3ad49460d5d8")
+	)
+	(junction
+		(at 92.71 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7668bdf-5105-46cf-bb24-c80fc4cb4806")
+	)
+	(junction
+		(at 45.72 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edc053cc-d240-449c-9982-15f6ba63c17b")
+	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 52.07 64.77)
+			(xy 80.01 127) (xy 80.01 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23d2e95a-0ae9-4496-922a-333df525de43")
+		(uuid "058e6049-bec7-4208-b6d5-3a8e365c6c29")
 	)
 	(wire
 		(pts
-			(xy 38.1 167.64) (xy 57.15 167.64)
+			(xy 73.66 127) (xy 80.01 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b93e6cd-fcb5-43d9-af99-55b214bc91e3")
+		(uuid "05e36d8a-366f-4f30-bd1e-cdeb7bd76ce3")
 	)
 	(wire
 		(pts
-			(xy 45.72 99.06) (xy 50.8 99.06)
+			(xy 73.66 55.88) (xy 73.66 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e0556a0-2043-4d78-a3aa-2f08abfb6c01")
+		(uuid "0f8888f1-bcbb-4e30-9851-b9076adbcbf3")
 	)
 	(wire
 		(pts
-			(xy 45.72 49.53) (xy 50.8 49.53)
+			(xy 92.71 54.61) (xy 92.71 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fe6e2cb-7705-4179-b3bb-7d7dede3b576")
+		(uuid "16afc763-6df5-489d-8fba-b6e183a23bba")
 	)
 	(wire
 		(pts
-			(xy 45.72 93.98) (xy 50.8 93.98)
+			(xy 41.91 45.72) (xy 45.72 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "493caa3a-a175-4085-80ef-f761b6ba10e6")
+		(uuid "1a8c7829-cf5f-4341-874b-416e82e894d2")
 	)
 	(wire
 		(pts
-			(xy 44.45 154.94) (xy 49.53 154.94)
+			(xy 45.72 88.9) (xy 45.72 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49a3eb83-3817-4132-a4d1-9f1a0cce3d14")
+		(uuid "2cb06b88-e6a0-4e2a-9943-7c4893c46afc")
 	)
 	(wire
 		(pts
-			(xy 45.72 46.99) (xy 50.8 46.99)
+			(xy 80.01 135.89) (xy 80.01 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6acb317e-adb2-4c56-84ca-c9d241da0652")
+		(uuid "3362bbba-9b35-4c4d-a980-8c60701f86af")
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 50.8 44.45)
+			(xy 45.72 86.36) (xy 50.8 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75d426c3-2c80-4d15-9107-d24a0f0c385a")
+		(uuid "363e8627-3680-4e37-a6ee-46a3fbd8dd37")
 	)
 	(wire
 		(pts
-			(xy 45.72 96.52) (xy 50.8 96.52)
+			(xy 80.01 45.72) (xy 80.01 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a411da8-fa9d-4273-a16a-a23a854fbfce")
+		(uuid "3b32c6ae-c9e6-43b6-819c-32ba55462017")
 	)
 	(wire
 		(pts
-			(xy 57.15 118.11) (xy 57.15 121.92)
+			(xy 45.72 109.22) (xy 45.72 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ab6fd5f-8156-4e0d-bf56-93923cd4740d")
+		(uuid "3c2457b7-1ce4-4d49-adff-4e61a4fbf565")
 	)
 	(wire
 		(pts
-			(xy 57.15 167.64) (xy 57.15 171.45)
+			(xy 45.72 149.86) (xy 45.72 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0021908-59ce-4667-9752-937399d542d9")
+		(uuid "3cb0b713-3a68-40a3-8fe5-5cd4c3bbe150")
 	)
 	(wire
 		(pts
-			(xy 39.37 62.23) (xy 52.07 62.23)
+			(xy 80.01 86.36) (xy 92.71 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abd08d0e-e7b2-445e-a5fc-8ecb18f7cb3d")
+		(uuid "4133822e-2504-496a-9303-7128db708153")
 	)
 	(wire
 		(pts
-			(xy 44.45 152.4) (xy 49.53 152.4)
+			(xy 92.71 127) (xy 105.41 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5a579c7-bf0a-4fe2-a93e-252cc2225e1c")
+		(uuid "454afab0-bc79-4a55-93c9-685aa792d20b")
 	)
 	(wire
 		(pts
-			(xy 44.45 149.86) (xy 49.53 149.86)
+			(xy 92.71 86.36) (xy 92.71 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf58dc04-aa30-4078-9897-006cde20ad51")
+		(uuid "52b9810b-f525-45e8-983e-3fb23ff7295b")
 	)
 	(wire
 		(pts
-			(xy 39.37 118.11) (xy 57.15 118.11)
+			(xy 92.71 135.89) (xy 92.71 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d094514b-b047-43ee-a089-632eca2958fd")
+		(uuid "5b5500f9-535b-4fb6-aa2f-6fc652454e5c")
 	)
-	(label "5V"
-		(at 50.8 93.98 0)
+	(wire
+		(pts
+			(xy 45.72 48.26) (xy 45.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d96dfda-76bf-4109-aea4-a71962e32eb0")
+	)
+	(wire
+		(pts
+			(xy 71.12 86.36) (xy 73.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633fabc7-9188-4796-8983-ef9b4dad5b4d")
+	)
+	(wire
+		(pts
+			(xy 80.01 86.36) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0a685e-4a25-41c1-99ee-51bbbb642e4e")
+	)
+	(wire
+		(pts
+			(xy 80.01 45.72) (xy 92.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72aff844-37ca-42f9-8ee1-ae4a0b090406")
+	)
+	(wire
+		(pts
+			(xy 45.72 45.72) (xy 50.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736f4ad4-f637-4c26-90d6-58cdc1c1adee")
+	)
+	(wire
+		(pts
+			(xy 73.66 45.72) (xy 80.01 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78332d69-ff9b-4738-9623-16b6e4934f78")
+	)
+	(wire
+		(pts
+			(xy 73.66 86.36) (xy 80.01 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab122ce-7435-4bb6-97a0-2c722d6a44de")
+	)
+	(wire
+		(pts
+			(xy 92.71 45.72) (xy 105.41 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8918d5f5-5f84-4e3c-945c-20df6f1e2559")
+	)
+	(wire
+		(pts
+			(xy 73.66 137.16) (xy 73.66 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891ce0ab-04ee-432a-bdb9-9c516cc153db")
+	)
+	(wire
+		(pts
+			(xy 73.66 96.52) (xy 73.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af162fe-dc58-4cb4-9afc-3ed4e32ec09e")
+	)
+	(wire
+		(pts
+			(xy 80.01 127) (xy 92.71 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec9268e-82f5-493d-98d9-a7e2da032a73")
+	)
+	(wire
+		(pts
+			(xy 41.91 127) (xy 45.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe4c47b-384f-453b-9e65-05ab03e55dd9")
+	)
+	(wire
+		(pts
+			(xy 45.72 129.54) (xy 45.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978f49ad-65cf-4926-bb64-9ffa46efba25")
+	)
+	(wire
+		(pts
+			(xy 45.72 68.58) (xy 45.72 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ec796b-9e00-4b94-9b94-3dc832e1e900")
+	)
+	(wire
+		(pts
+			(xy 20.32 86.36) (xy 24.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13c74df-f0dd-492a-9627-3311f2ea54cd")
+	)
+	(wire
+		(pts
+			(xy 73.66 86.36) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1dd803a-119a-4352-918a-889e6d756d74")
+	)
+	(wire
+		(pts
+			(xy 71.12 127) (xy 73.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31fe8de-3012-49d1-b2e0-0343e532c085")
+	)
+	(wire
+		(pts
+			(xy 71.12 45.72) (xy 73.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4f7b03-a356-4378-9568-258ffe6fd8ba")
+	)
+	(wire
+		(pts
+			(xy 20.32 127) (xy 24.13 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5583cf-e5dd-4f96-a109-1f0e13ef4216")
+	)
+	(wire
+		(pts
+			(xy 73.66 45.72) (xy 73.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb610f9-e9fe-4cde-bd50-8709857968de")
+	)
+	(wire
+		(pts
+			(xy 73.66 127) (xy 73.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10460fa-0bbb-4188-b0be-d214ebf40ae6")
+	)
+	(wire
+		(pts
+			(xy 92.71 95.25) (xy 92.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da09c243-5735-41ef-a7a6-9b077eb7bd6e")
+	)
+	(wire
+		(pts
+			(xy 80.01 95.25) (xy 80.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc717155-32ac-4db9-b768-c684b882f1e2")
+	)
+	(wire
+		(pts
+			(xy 92.71 45.72) (xy 92.71 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8e958e-803a-4b98-b072-c3a76d43813a")
+	)
+	(wire
+		(pts
+			(xy 80.01 54.61) (xy 80.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5b4916-2cb9-4631-b1da-0e5765b2e681")
+	)
+	(wire
+		(pts
+			(xy 45.72 127) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb16921b-ca6f-4b9e-bde6-3ca87db6ff6c")
+	)
+	(wire
+		(pts
+			(xy 92.71 86.36) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2cc88c-ec0e-4bee-b726-35747bfccb93")
+	)
+	(wire
+		(pts
+			(xy 92.71 127) (xy 92.71 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f978656c-edd2-41d0-b82e-f9470c0916b0")
+	)
+	(wire
+		(pts
+			(xy 41.91 86.36) (xy 45.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff049c5b-3ee1-479d-9e97-dc484c04479c")
+	)
+	(wire
+		(pts
+			(xy 20.32 45.72) (xy 24.13 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff32a119-3f5c-497a-a3c3-5770b2b26444")
+	)
+	(label "Phase_W"
+		(at 22.86 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0ad034ca-f8b7-44f9-8724-b9a911c95bb2")
-	)
-	(label "Iin1"
-		(at 24.13 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15136df2-a8ce-486f-b39a-57dbeadaf2b8")
-	)
-	(label "Iout3"
-		(at 38.1 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21ab023d-0c75-4664-b190-96265803b94d")
+		(uuid "2d601c73-d0d3-47cc-b113-ee2583179672")
 	)
 	(label "GND"
-		(at 50.8 49.53 0)
+		(at 45.72 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "23ffa0ef-6521-42cb-9eda-fecec0b5d19a")
+		(uuid "386cbdda-997b-42d3-86a6-379394edbadf")
 	)
 	(label "GND"
-		(at 49.53 154.94 0)
+		(at 73.66 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2735fdd1-311d-4d6c-accf-c31dceab8352")
-	)
-	(label "Iout2"
-		(at 39.37 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2fd21499-81c9-4af9-89ec-9e660015e24b")
-	)
-	(label "Iout3"
-		(at 25.4 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30160719-bd00-4f94-9c3e-d0e3b4c304e7")
-	)
-	(label "Iout2"
-		(at 26.67 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ed8ca02-43c4-4b6f-a5f2-7ff76808d61c")
+		(uuid "5d419544-1fb7-40e9-aa46-b9dbbc679c12")
 	)
 	(label "GND"
-		(at 50.8 99.06 0)
+		(at 92.71 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "766e0fdd-3992-47a0-9bdc-ffeb1794bfe4")
-	)
-	(label "Iout1"
-		(at 26.67 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83bbb6ec-09d1-4e1e-9a6c-e411d5e9b06a")
-	)
-	(label "Iin2"
-		(at 24.13 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85557f35-2e48-4667-a9d6-c78b100dc927")
-	)
-	(label "Iout1"
-		(at 39.37 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87469d69-1b91-4629-aee1-baf673c00e96")
-	)
-	(label "5V"
-		(at 49.53 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d93fb7f-75fc-4e97-8fcd-3890b91b8a9a")
-	)
-	(label "5V"
-		(at 50.8 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e15820a-f310-4c3b-9ca0-b9fc4fa9b6e3")
+		(uuid "610f7992-778f-4595-9a94-9441d06194bd")
 	)
 	(label "GND"
-		(at 57.15 171.45 0)
+		(at 73.66 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a1126750-9cb5-46f8-bf1f-7db74a57fa6d")
+		(uuid "685d26a4-d759-49cd-8daf-c8a556ce3e1d")
 	)
 	(label "GND"
-		(at 57.15 121.92 0)
+		(at 80.01 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ae9e0ea9-3d0f-4245-86fb-525717458fa5")
-	)
-	(label "Iin3"
-		(at 22.86 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce2ac94d-27db-43f2-ac20-6a425906ae75")
+		(uuid "6afe3518-2ba8-4b39-a43d-4b02ba9ec742")
 	)
 	(label "GND"
-		(at 52.07 64.77 0)
+		(at 80.01 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e4f667ac-6bbd-4021-98bd-03da92d7e2fc")
+		(uuid "7645fba8-fec4-49cd-868c-fcf443e2e0de")
+	)
+	(label "GND"
+		(at 45.72 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "823a30a1-448e-401f-9e3c-7852b9dbd36c")
+	)
+	(label "Phase_V"
+		(at 22.86 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87989484-cf82-4a35-9907-ce6a7a8c8be0")
+	)
+	(label "GND"
+		(at 80.01 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "913cca80-c359-43d8-b707-a7fc6edebc20")
+	)
+	(label "Phase_U"
+		(at 22.86 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a907d433-d43e-4ab2-aed1-595a36315c8f")
+	)
+	(label "GND"
+		(at 92.71 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a91ab943-8333-457d-b16e-103327f8703b")
+	)
+	(label "GND"
+		(at 73.66 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bee30ff1-a72c-4ad0-8cf7-402e59a9506a")
+	)
+	(label "GND"
+		(at 45.72 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5ed7cc7-756f-45c9-a1b9-73c1491513ac")
+	)
+	(label "GND"
+		(at 92.71 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e68cca02-5dc5-4b09-8dc5-53f1d6b79d67")
 	)
 	(symbol
-		(lib_id "Regen_braking:ACS712-30A")
-		(at 36.83 46.99 180)
+		(lib_id "Regen_braking:100nf_rcFilter")
+		(at 73.66 50.8 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1096,30 +1963,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d3bee07-62bf-4df2-aa90-d2b08b288beb")
-		(property "Reference" "ACS712-30A1"
-			(at 36.195 40.64 0)
+		(uuid "05f43ac5-a16c-403f-9635-48066422cc68")
+		(property "Reference" "C7"
+			(at 69.85 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 36.83 46.99 0)
+		(property "Value" "100nf_rcFilter"
+			(at 69.85 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Regen_braking:ACS712_Module_27x12mm"
-			(at 36.83 46.99 0)
+		(property "Footprint" "Regen_braking:100nf_rcFilter"
+			(at 73.66 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1127,10 +1995,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 46.99 0)
+			(at 73.66 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1140,8 +2009,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 36.83 46.99 0)
+		(property "Description" "Capacitor; Ceramic; Cap; 0.100uF; Tol+5%; SMT; Vol-Rtg 50V; X7R; TR | KEMET C1206C104J5RACTU"
+			(at 73.66 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1149,29 +2018,111 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(pin ""
-			(uuid "8426950e-9a02-4fca-a4cf-c2d2427b9a67")
+		(property "MF" "KEMET"
+			(at 73.66 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin ""
-			(uuid "41136648-87ce-4fc5-afc4-7f5cb4f164ff")
+		(property "Package" "1206-2 KEMET"
+			(at 73.66 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin ""
-			(uuid "c0b223bc-a3f1-4ebf-8793-0171f2768635")
+		(property "Price" "None"
+			(at 73.66 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C1206C104J5RACTU/Kemet/view-part/?ref=snap"
+			(at 73.66 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "C1206C104J5RACTU"
+			(at 73.66 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 73.66 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/C1206C104J5RACTU/Kemet/view-part/?ref=eda"
+			(at 73.66 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "823a49b8-4004-42ce-a22f-b8d6c45a5de1")
+		)
+		(pin "1"
+			(uuid "dc5bf6a4-478f-41ca-bbee-73c305b9a23d")
 		)
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Regen_braking:solder_pad_acs712_inout")
-		(at 29.21 67.31 90)
+		(lib_id "Regen_braking:BAT54T1G")
+		(at 80.01 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1180,9 +2131,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "28cfc24f-abfe-44ee-90ff-c25d9d0eb813")
-		(property "Reference" "ACS712-30A4"
-			(at 29.21 67.31 90)
+		(uuid "228f6f6a-48df-4f8f-a1f4-101e035915d8")
+		(property "Reference" "D14"
+			(at 82.55 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1192,247 +2143,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
-			(at 29.21 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Regen_braking:Solderpad_acs712_INOUT"
-			(at 29.21 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "abe7c93e-d7e4-48da-8d77-65a774dd732d")
-		)
-		(pin ""
-			(uuid "580c76a9-495b-4bbc-8285-2266af3987a6")
-		)
-		(instances
-			(project "Regenerative_Braking"
-				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ACS712-30A_2")
-		(lib_id "Regen_braking:ACS712-30A")
-		(at 35.56 152.4 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31c00fd6-1532-4dce-a8cf-5cd0c9a4394a")
-		(property "Reference" "ACS712-30A3"
-			(at 34.925 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 35.56 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Regen_braking:ACS712_Module_27x12mm"
-			(at 35.56 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "3b06401c-3d05-4d40-8141-c3ebce2ec341")
-		)
-		(pin ""
-			(uuid "178a8709-587a-4cba-bad7-0569e54be0f7")
-		)
-		(pin ""
-			(uuid "36ee12ad-4071-400c-b162-9f84530cfd21")
-		)
-		(instances
-			(project "Regenerative_Braking"
-				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ACS712-30A_1")
-		(lib_id "Regen_braking:ACS712-30A")
-		(at 36.83 96.52 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "379ce3b0-6ec7-414b-9bd4-a7354565a39e")
-		(property "Reference" "ACS712-30A2"
-			(at 36.195 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 36.83 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Regen_braking:ACS712_Module_27x12mm"
-			(at 36.83 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "034e7e05-ee8d-416e-8281-31e329ebb941")
-		)
-		(pin ""
-			(uuid "d446e88a-95d9-46c0-bd73-f7232280288d")
-		)
-		(pin ""
-			(uuid "1992ee96-ce4d-4b29-a6b9-e41a949435fd")
-		)
-		(instances
-			(project "Regenerative_Braking"
-				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "solder_pad_acs712_inout_1")
-		(lib_id "Regen_braking:solder_pad_acs712_inout")
-		(at 29.21 123.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "654d939c-a467-4664-b320-6f62f6c2ccc8")
-		(property "Reference" "ACS712-30A5"
-			(at 29.21 123.19 90)
+		(property "Value" "BAT54T1G"
+			(at 82.55 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1442,8 +2154,21 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
-			(at 29.21 123.19 0)
+		(property "Footprint" "Regen_braking:BAT54T1G"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1452,8 +2177,317 @@
 				)
 			)
 		)
-		(property "Footprint" "Regen_braking:Solderpad_acs712_INOUT"
-			(at 29.21 123.19 0)
+		(property "Description" "Rectifier Diode Schottky 0.2A 5ns 2-Pin SOD-123 T/R"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOD-123-2 ON Semiconductor"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=snap"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "BAT54T1G"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=eda"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "aa1a6b87-96c8-427b-a923-b9ed42a5322c")
+		)
+		(pin "2"
+			(uuid "0d61ff47-5237-4dab-9688-e60f9f32d88b")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:100kohm_divider")
+		(at 24.13 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22d39103-1b2d-4ee3-814b-aa1a3073ae12")
+		(property "Reference" "R14"
+			(at 33.02 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kohm_divider"
+			(at 33.02 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:100kohm_divider"
+			(at 38.1 223.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 38.1 323.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 100K OHM .1% 25PPM"
+			(at 24.13 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 38.1 523.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 38.1 623.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD07100KL"
+			(at 38.1 723.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603BRD07100KL"
+			(at 38.1 823.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD07100KL?qs=axriQ0Yj98%252BtJ4o%2FXFGgtQ%3D%3D"
+			(at 38.1 923.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "RT0603BRD07100KL"
+			(at 38.1 1023.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rt0603brd07100kl/yageo"
+			(at 38.1 1123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "e9da5588-e77d-41aa-83a8-e9738867b221")
+		)
+		(pin "1"
+			(uuid "0a1174b3-4fe0-415c-80d3-d9d3f732d533")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:R_ON_10ohm")
+		(at 59.69 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ba50e44-6fbe-4b89-8ee0-3f55efdd3cad")
+		(property "Reference" "R_ON_10ohm9"
+			(at 60.96 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 59.69 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:R_ON_10ohm"
+			(at 59.69 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1464,7 +2498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 123.19 0)
+			(at 59.69 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1475,7 +2509,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 123.19 0)
+			(at 59.69 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1485,25 +2519,24 @@
 				)
 			)
 		)
-		(pin ""
-			(uuid "5f1cf43a-b81b-46fb-aeb3-6de5d36828cd")
+		(pin "2"
+			(uuid "85e22c9e-3b19-4599-89e8-bf30cf0d3fe6")
 		)
-		(pin ""
-			(uuid "5a0d24a5-38d1-4354-aa34-16dadcb6a045")
+		(pin "1"
+			(uuid "97cde39f-2d5c-4290-b141-eb360aeb99f3")
 		)
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A5")
+					(reference "R_ON_10ohm9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "solder_pad_acs712_inout_2")
-		(lib_id "Regen_braking:solder_pad_acs712_inout")
-		(at 27.94 172.72 90)
+		(lib_id "Regen_braking:R_ON_10ohm")
+		(at 59.69 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1512,10 +2545,590 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c18b34a7-3a19-4d06-a156-396fc549b4bb")
-		(property "Reference" "ACS712-30A6"
-			(at 27.94 172.72 90)
+		(uuid "41f4e896-f8b3-493f-be60-5a03a350226e")
+		(property "Reference" "R_ON_10ohm8"
+			(at 60.96 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 59.69 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:R_ON_10ohm"
+			(at 59.69 90.17 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "108144c0-52ee-4c6b-9a00-59ab34b9d47b")
+		)
+		(pin "1"
+			(uuid "5a58ddb8-8b73-4961-ba0c-40590cbf2264")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R_ON_10ohm8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:100kohm_divider")
+		(at 24.13 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47fe9bbc-7381-4d66-aec3-c3ebb8331e8b")
+		(property "Reference" "R10"
+			(at 33.02 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kohm_divider"
+			(at 33.02 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:100kohm_divider"
+			(at 38.1 141.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 38.1 241.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 100K OHM .1% 25PPM"
+			(at 24.13 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 38.1 441.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 38.1 541.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD07100KL"
+			(at 38.1 641.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603BRD07100KL"
+			(at 38.1 741.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD07100KL?qs=axriQ0Yj98%252BtJ4o%2FXFGgtQ%3D%3D"
+			(at 38.1 841.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "RT0603BRD07100KL"
+			(at 38.1 941.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rt0603brd07100kl/yageo"
+			(at 38.1 1041.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "9352a6d9-1f85-448f-b914-2bf025cc3ef7")
+		)
+		(pin "1"
+			(uuid "79265c44-2e3f-460e-ad7f-3764fb8cc65e")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:100nf_rcFilter")
+		(at 73.66 132.08 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4930e128-f6fc-4bde-b4b5-80ba6d921f18")
+		(property "Reference" "C9"
+			(at 69.85 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf_rcFilter"
+			(at 69.85 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Regen_braking:100nf_rcFilter"
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor; Ceramic; Cap; 0.100uF; Tol+5%; SMT; Vol-Rtg 50V; X7R; TR | KEMET C1206C104J5RACTU"
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "KEMET"
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1206-2 KEMET"
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C1206C104J5RACTU/Kemet/view-part/?ref=snap"
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "C1206C104J5RACTU"
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/C1206C104J5RACTU/Kemet/view-part/?ref=eda"
+			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "182ab24f-01a0-4def-ae47-e2ae0584ea34")
+		)
+		(pin "1"
+			(uuid "0e891089-e6f5-4529-ae6c-5a057d4670c6")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:BAT54T1G")
+		(at 92.71 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51e14280-9850-4561-9b30-4fdbef0d8cf4")
+		(property "Reference" "D15"
+			(at 95.25 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54T1G"
+			(at 95.25 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Regen_braking:BAT54T1G"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rectifier Diode Schottky 0.2A 5ns 2-Pin SOD-123 T/R"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOD-123-2 ON Semiconductor"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=snap"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "BAT54T1G"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=eda"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "79d0c451-ce3f-451f-bff5-b3391fb115dc")
+		)
+		(pin "2"
+			(uuid "78b6b12f-d462-40d3-84ab-7366bf4bd790")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:10kohm_divider")
+		(at 45.72 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "598122cc-f119-48cb-a257-cd97949a2e62")
+		(property "Reference" "R13"
+			(at 41.91 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1525,8 +3138,32 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
-			(at 27.94 172.72 0)
+		(property "Value" "10kohm_divider"
+			(at 41.91 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Regen_braking:10kohm_divider"
+			(at 45.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 99.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1535,8 +3172,654 @@
 				)
 			)
 		)
-		(property "Footprint" "Regen_braking:Solderpad_acs712_INOUT"
-			(at 27.94 172.72 0)
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+			(at 45.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 45.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1206-2 YAGEO"
+			(at 45.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 45.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC1206FR-07%2010KL/Yageo/view-part/?ref=snap"
+			(at 45.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "RC1206FR-07 10KL"
+			(at 45.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 45.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RC1206FR-07%2010KL/Yageo/view-part/?ref=eda"
+			(at 45.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "eb5786cc-a699-4914-8b43-1d7894ae054c")
+		)
+		(pin "2"
+			(uuid "85c0ca18-86b1-4202-9d83-e559de890827")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:BAT54T1G")
+		(at 80.01 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5abae27d-bd03-48a6-9888-a72a9f160e09")
+		(property "Reference" "D12"
+			(at 82.55 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54T1G"
+			(at 82.55 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Regen_braking:BAT54T1G"
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rectifier Diode Schottky 0.2A 5ns 2-Pin SOD-123 T/R"
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOD-123-2 ON Semiconductor"
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=snap"
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "BAT54T1G"
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=eda"
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "c7361fa0-b28b-4abb-aec6-4e34b9057edb")
+		)
+		(pin "2"
+			(uuid "e6c75403-8b43-44e2-a7fe-97fa67fdaa7e")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:BAT54T1G")
+		(at 80.01 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "656a6894-a704-4b59-adc2-4a48884ea405")
+		(property "Reference" "D10"
+			(at 82.55 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54T1G"
+			(at 82.55 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Regen_braking:BAT54T1G"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rectifier Diode Schottky 0.2A 5ns 2-Pin SOD-123 T/R"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOD-123-2 ON Semiconductor"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=snap"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "BAT54T1G"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=eda"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "ee58f9bf-6147-4fab-8556-6b80903e0478")
+		)
+		(pin "2"
+			(uuid "e2ae59dc-1048-46b8-9181-4bb113dc1900")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:10kohm_divider")
+		(at 45.72 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a5b1e99-f972-4c02-8bee-d6efa61524eb")
+		(property "Reference" "R11"
+			(at 41.91 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kohm_divider"
+			(at 41.91 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Regen_braking:10kohm_divider"
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1206-2 YAGEO"
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC1206FR-07%2010KL/Yageo/view-part/?ref=snap"
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "RC1206FR-07 10KL"
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RC1206FR-07%2010KL/Yageo/view-part/?ref=eda"
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e82f562d-5563-4133-9321-953149ee4373")
+		)
+		(pin "2"
+			(uuid "ae37b7f8-1d50-41d0-92e0-c765f9986551")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:R_ON_10ohm")
+		(at 59.69 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e27cecf-faf9-4818-98fd-648dc6cedcad")
+		(property "Reference" "R_ON_10ohm7"
+			(at 60.96 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 59.69 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:R_ON_10ohm"
+			(at 59.69 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1547,7 +3830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 172.72 0)
+			(at 59.69 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1558,7 +3841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 172.72 0)
+			(at 59.69 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1568,16 +3851,853 @@
 				)
 			)
 		)
-		(pin ""
-			(uuid "d67d8394-a2da-4957-bb25-53534abea0b9")
+		(pin "2"
+			(uuid "f8393e53-1e4b-4a88-bc7d-f3574fb1b2b5")
 		)
-		(pin ""
-			(uuid "3d765fb5-4a53-4bb1-85eb-03cc3ba79437")
+		(pin "1"
+			(uuid "a6368e76-818a-4ded-b5e1-da507eb7bebb")
 		)
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A6")
+					(reference "R_ON_10ohm7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:100kohm_divider")
+		(at 24.13 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82bee6ea-5cae-486f-92b8-e9023d4b4288")
+		(property "Reference" "R12"
+			(at 33.02 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kohm_divider"
+			(at 33.02 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:100kohm_divider"
+			(at 38.1 182.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 38.1 282.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 100K OHM .1% 25PPM"
+			(at 24.13 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 38.1 482.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 38.1 582.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD07100KL"
+			(at 38.1 682.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603BRD07100KL"
+			(at 38.1 782.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD07100KL?qs=axriQ0Yj98%252BtJ4o%2FXFGgtQ%3D%3D"
+			(at 38.1 882.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "RT0603BRD07100KL"
+			(at 38.1 982.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rt0603brd07100kl/yageo"
+			(at 38.1 1082.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "3ca15f99-1b99-48c7-b1b2-d2a3b3aae145")
+		)
+		(pin "1"
+			(uuid "aa033d81-b279-4640-a3f1-337390337af5")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:BAT54T1G")
+		(at 92.71 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0391c35-8248-4de2-b50f-030b83a474fe")
+		(property "Reference" "D13"
+			(at 95.25 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54T1G"
+			(at 95.25 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Regen_braking:BAT54T1G"
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rectifier Diode Schottky 0.2A 5ns 2-Pin SOD-123 T/R"
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOD-123-2 ON Semiconductor"
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=snap"
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "BAT54T1G"
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=eda"
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a371740b-4a94-408e-abe3-72add8a55a24")
+		)
+		(pin "2"
+			(uuid "b08e2288-2aa9-4bc8-a4ea-bd253572b417")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:10kohm_divider")
+		(at 45.72 139.7 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1460cf9-151d-4c39-8329-b32430b30513")
+		(property "Reference" "R15"
+			(at 41.91 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kohm_divider"
+			(at 41.91 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Regen_braking:10kohm_divider"
+			(at 45.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+			(at 45.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 45.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1206-2 YAGEO"
+			(at 45.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 45.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC1206FR-07%2010KL/Yageo/view-part/?ref=snap"
+			(at 45.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "RC1206FR-07 10KL"
+			(at 45.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 45.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RC1206FR-07%2010KL/Yageo/view-part/?ref=eda"
+			(at 45.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4953db62-23aa-4ff2-a984-415b05da0ac8")
+		)
+		(pin "2"
+			(uuid "8b9d6154-b5d3-40bf-9902-e4efd0310905")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:100nf_rcFilter")
+		(at 73.66 91.44 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2095dc3-8078-460b-8d46-95a13a254828")
+		(property "Reference" "C8"
+			(at 69.85 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf_rcFilter"
+			(at 69.85 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Regen_braking:100nf_rcFilter"
+			(at 73.66 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor; Ceramic; Cap; 0.100uF; Tol+5%; SMT; Vol-Rtg 50V; X7R; TR | KEMET C1206C104J5RACTU"
+			(at 73.66 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "KEMET"
+			(at 73.66 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1206-2 KEMET"
+			(at 73.66 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 73.66 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C1206C104J5RACTU/Kemet/view-part/?ref=snap"
+			(at 73.66 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "C1206C104J5RACTU"
+			(at 73.66 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 73.66 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/C1206C104J5RACTU/Kemet/view-part/?ref=eda"
+			(at 73.66 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "4d21be45-9368-42d7-872a-2a44af3524df")
+		)
+		(pin "1"
+			(uuid "bb800b1f-19e8-4188-97ff-56a268f75d02")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:BAT54T1G")
+		(at 92.71 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d762bd59-e471-4d3c-b195-d701d70158fa")
+		(property "Reference" "D11"
+			(at 95.25 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54T1G"
+			(at 95.25 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Regen_braking:BAT54T1G"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rectifier Diode Schottky 0.2A 5ns 2-Pin SOD-123 T/R"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOD-123-2 ON Semiconductor"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=snap"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "BAT54T1G"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BAT54T1G/Onsemi/view-part/?ref=eda"
+			(at 92.71 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a315f8bf-3157-4e38-81af-4f5b2ef72cfb")
+		)
+		(pin "2"
+			(uuid "59dcb17a-8ea9-4dd1-970c-d907bb4156ea")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "D11")
 					(unit 1)
 				)
 			)
