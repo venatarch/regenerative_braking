@@ -2907,8 +2907,8 @@
 		)
 	)
 	(rectangle
-		(start 105.41 62.23)
-		(end 193.04 137.16)
+		(start 105.41 60.96)
+		(end 193.04 135.89)
 		(stroke
 			(width 0.635)
 			(type dash)
@@ -5097,7 +5097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf_rcFilter"
+		(property "Value" "10nf_rcFilter"
 			(at 71.12 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5439,6 +5439,172 @@
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
 					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:47,2.2,100k,10k,4.7,10ohm")
+		(at 45.72 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd22848-819d-4aeb-ac4a-6afb354f6b58")
+		(property "Reference" "R25"
+			(at 54.61 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 54.61 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:47,2.2,100k,10k,4.7,10ohm"
+			(at 59.69 257.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/datasheet/2/447/Yageo LR_CFR_2013-540723.pdf"
+			(at 59.69 357.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Carbon Film Resistors - Through Hole"
+			(at 45.72 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 59.69 557.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 59.69 657.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CFR-25JB-47R"
+			(at 59.69 757.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 59.69 857.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
+			(at 59.69 957.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 59.69 1057.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 59.69 1157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "d8f1ac49-712b-4877-bf4d-0f0dd972bdbd")
+		)
+		(pin "2"
+			(uuid "a567b99e-a7e3-4de8-9885-bfaee704c62b")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6286,6 +6452,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Regen_braking:47,2.2,100k,10k,4.7,10ohm")
+		(at 52.07 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "360e945a-19a3-4360-b5d8-be45fe7ca2b0")
+		(property "Reference" "R28"
+			(at 60.96 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 60.96 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:47,2.2,100k,10k,4.7,10ohm"
+			(at 66.04 210.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/datasheet/2/447/Yageo LR_CFR_2013-540723.pdf"
+			(at 66.04 310.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Carbon Film Resistors - Through Hole"
+			(at 52.07 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 66.04 510.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 66.04 610.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CFR-25JB-47R"
+			(at 66.04 710.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 66.04 810.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
+			(at 66.04 910.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 66.04 1010.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 66.04 1110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "c7107b09-9489-4304-bed3-319b1053d470")
+		)
+		(pin "2"
+			(uuid "d3587eae-1dc2-461e-85dc-bd7338619de3")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regen_braking:BAT54T1G")
 		(at 147.32 124.46 90)
 		(unit 1)
@@ -6642,7 +6974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf_rcFilter"
+		(property "Value" "10nf_rcFilter"
 			(at 71.12 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9269,6 +9601,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Regen_braking:47,2.2,100k,10k,4.7,10ohm")
+		(at 140.97 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9536e26d-50cc-45c2-ae84-0e6429960603")
+		(property "Reference" "R29"
+			(at 149.86 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 149.86 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:47,2.2,100k,10k,4.7,10ohm"
+			(at 154.94 131.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/datasheet/2/447/Yageo LR_CFR_2013-540723.pdf"
+			(at 154.94 231.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Carbon Film Resistors - Through Hole"
+			(at 140.97 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 154.94 431.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 154.94 531.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CFR-25JB-47R"
+			(at 154.94 631.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 154.94 731.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
+			(at 154.94 831.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 154.94 931.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 154.94 1031.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "ef86da67-9587-422b-83e7-8d63dd1f91bf")
+		)
+		(pin "2"
+			(uuid "d6ac0f79-a09f-4bff-ac2b-924c164c0a0e")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 114.3 120.65 90)
 		(unit 1)
@@ -9371,7 +9869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf_rcFilter"
+		(property "Value" "10nf_rcFilter"
 			(at 71.12 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9511,6 +10009,172 @@
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:47,2.2,100k,10k,4.7,10ohm")
+		(at 52.07 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5a5cc20-70de-4420-8e4a-1be10f9de224")
+		(property "Reference" "R27"
+			(at 60.96 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 60.96 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:47,2.2,100k,10k,4.7,10ohm"
+			(at 66.04 169.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/datasheet/2/447/Yageo LR_CFR_2013-540723.pdf"
+			(at 66.04 269.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Carbon Film Resistors - Through Hole"
+			(at 52.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 66.04 469.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 66.04 569.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CFR-25JB-47R"
+			(at 66.04 669.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 66.04 769.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
+			(at 66.04 869.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 66.04 969.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 66.04 1069.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "9792f223-ac28-439c-ab91-f4c89468b345")
+		)
+		(pin "2"
+			(uuid "72f7d300-8d45-4575-8f0a-e8bbd25d3cb8")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11597,6 +12261,172 @@
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:47,2.2,100k,10k,4.7,10ohm")
+		(at 52.07 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd7a2578-d845-4966-b669-a890ee2b1636")
+		(property "Reference" "R26"
+			(at 60.96 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 60.96 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:47,2.2,100k,10k,4.7,10ohm"
+			(at 66.04 131.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/datasheet/2/447/Yageo LR_CFR_2013-540723.pdf"
+			(at 66.04 231.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Carbon Film Resistors - Through Hole"
+			(at 52.07 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 66.04 431.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 66.04 531.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CFR-25JB-47R"
+			(at 66.04 631.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 66.04 731.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
+			(at 66.04 831.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 66.04 931.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 66.04 1031.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "ecab4180-a0f7-49c6-8225-76bfc2933a4e")
+		)
+		(pin "2"
+			(uuid "d0905610-250b-4b21-b86f-2af825f807b6")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "R26")
 					(unit 1)
 				)
 			)
