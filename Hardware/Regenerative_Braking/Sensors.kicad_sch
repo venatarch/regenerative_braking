@@ -1572,136 +1572,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regen_braking:ACS712-30A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0.508 5.588 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ACS712-30A_0_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 7.62 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ACS712-30A_1_1"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regen_braking:BAT54T1G"
 			(pin_names
 				(offset 1.016)
@@ -2783,118 +2653,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regen_braking:solder_pad_acs712_inout"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "solder_pad_acs712_inout_0_1"
-				(rectangle
-					(start 2.54 6.35)
-					(end -2.54 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "solder_pad_acs712_inout_1_1"
-				(pin input line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4180,16 +3938,6 @@
 		)
 		(uuid "4e529056-f76a-48e5-8826-e00ffe69aca0")
 	)
-	(label "ACS_out"
-		(at 241.3 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4f6c0947-137a-4fc2-9019-9dc9fac492f7")
-	)
 	(label "3V3"
 		(at 160.02 77.47 90)
 		(effects
@@ -4199,16 +3947,6 @@
 			(justify left bottom)
 		)
 		(uuid "51156faf-3ac6-4309-a4e4-7f14d4e67cd4")
-	)
-	(label "VBUS"
-		(at 222.25 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "552db591-272b-43ec-949a-ba2f700ebf49")
 	)
 	(label "VBUS"
 		(at 27.94 161.29 180)
@@ -4319,16 +4057,6 @@
 			(justify left bottom)
 		)
 		(uuid "6df16ca6-85c4-4d4d-8390-f22e7169e329")
-	)
-	(label "DC_BUS"
-		(at 222.25 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f3bc72b-b654-42ca-8965-359d603a1a04")
 	)
 	(label "3V3"
 		(at 81.28 102.87 0)
@@ -4461,16 +4189,6 @@
 		(uuid "91a42643-245a-4ea3-82fb-27fcb5a7e1fd")
 	)
 	(label "GND"
-		(at 241.3 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "92031a27-db87-44b7-a032-756c763466d7")
-	)
-	(label "GND"
 		(at 262.89 36.83 0)
 		(effects
 			(font
@@ -4479,16 +4197,6 @@
 			(justify left bottom)
 		)
 		(uuid "9a3bddda-ebb3-475b-a6d2-e730aa58f8a6")
-	)
-	(label "5V"
-		(at 241.3 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ded0546-ba76-417d-a589-8f29545ddde3")
 	)
 	(label "3V3"
 		(at 120.65 77.47 90)
@@ -9517,90 +9225,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regen_braking:ACS712-30A")
-		(at 250.19 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8782a992-9488-4f88-bba4-f11325e351d9")
-		(property "Reference" "ACS712-30A1"
-			(at 259.08 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 250.19 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Regen_braking:ACS712_Module_27x12mm"
-			(at 250.19 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "e202d4d6-90e1-419d-ba43-ffb355e24539")
-		)
-		(pin ""
-			(uuid "172c197f-05c8-4f2e-ba2d-a209942f05e4")
-		)
-		(pin ""
-			(uuid "bc755fd6-5028-4be0-99d3-4bbf03b15841")
-		)
-		(instances
-			(project "Regenerative_Braking"
-				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regen_braking:47,2.2,100k,10k,4.7,10ohm")
 		(at 140.97 35.56 0)
 		(unit 1)
@@ -11599,86 +11223,6 @@
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regen_braking:solder_pad_acs712_inout")
-		(at 217.17 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f51bd96b-0ddd-4cb7-b062-e04629276bcf")
-		(property "Reference" "ACS712-30A2"
-			(at 217.17 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 217.17 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Regen_braking:Solderpad_acs712_INOUT"
-			(at 217.17 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "1717f2e1-293f-4853-9ef3-2031d4fe0a7c")
-		)
-		(pin ""
-			(uuid "f64eb67f-e057-45bc-a502-0042413c368c")
-		)
-		(instances
-			(project "Regenerative_Braking"
-				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A2")
 					(unit 1)
 				)
 			)
