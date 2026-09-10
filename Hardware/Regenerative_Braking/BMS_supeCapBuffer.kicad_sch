@@ -5568,6 +5568,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 135.89) (xy 105.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1aee4b-3829-40b2-97ed-ef97b5b7c6c7")
+	)
+	(wire
+		(pts
 			(xy 113.03 143.51) (xy 115.57 143.51)
 		)
 		(stroke
@@ -5718,7 +5728,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 132.08) (xy 107.95 132.08)
+			(xy 105.41 135.89) (xy 104.14 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6117,7 +6127,7 @@
 		(uuid "4ad551e1-a2ca-40dc-a850-760e5d4f92f9")
 	)
 	(label "GND"
-		(at 107.95 132.08 0)
+		(at 104.14 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)

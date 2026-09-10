@@ -2083,10 +2083,390 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 114.3 62.23) (xy 118.11 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a518884-87ae-47d2-a33d-a174c85ec4f8")
+	)
+	(wire
+		(pts
+			(xy 114.3 77.47) (xy 118.11 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9702fc-080f-4bf7-8178-250f99e30d14")
+	)
+	(wire
+		(pts
+			(xy 27.94 95.25) (xy 34.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f759bbc-0ab5-4bfe-93dc-9bc0903ace92")
+	)
+	(wire
+		(pts
+			(xy 114.3 82.55) (xy 118.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d862737-719e-41f6-b248-5097368ed8e4")
+	)
+	(wire
+		(pts
+			(xy 114.3 69.85) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9c41ab-77dc-4fe2-963b-8a5f808ea008")
+	)
+	(wire
+		(pts
+			(xy 113.03 113.03) (xy 118.11 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5207c9-cc34-4ae1-b2f8-ad5d39ac93b3")
+	)
+	(wire
+		(pts
+			(xy 114.3 80.01) (xy 118.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c4a5a1-4481-49c3-b9cc-2895ddf28c08")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 118.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6218ce76-d5a8-4e18-8739-359ed791affd")
+	)
+	(wire
+		(pts
+			(xy 27.94 80.01) (xy 34.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d2b83e-1799-4493-baca-1010c23a754d")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 118.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687a4080-0d97-4b6e-a66d-ca94eaa23c0f")
+	)
+	(wire
+		(pts
+			(xy 27.94 82.55) (xy 34.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89761263-6795-43a2-bf30-080f4c657436")
+	)
+	(wire
+		(pts
+			(xy 113.03 118.11) (xy 118.11 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd6d7c4-b566-4dc3-9c41-c6dab5a4b659")
+	)
+	(wire
+		(pts
+			(xy 114.3 87.63) (xy 118.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af18091-d104-4564-8bae-64f553cdd0a5")
+	)
+	(wire
+		(pts
+			(xy 114.3 59.69) (xy 118.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e15315-ebcb-4368-86f1-bb32f8a3710f")
+	)
+	(wire
+		(pts
+			(xy 27.94 102.87) (xy 34.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b482ed43-f90b-4ffc-af5d-e6d8c0acd8cd")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 118.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb360595-5890-4952-b7f6-ddc33dc04f58")
+	)
+	(wire
+		(pts
+			(xy 113.03 115.57) (xy 118.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caae7199-8012-430f-8a38-a12d6605a1f6")
+	)
+	(wire
+		(pts
+			(xy 27.94 72.39) (xy 34.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdd484e-898e-44fa-a830-7e44db65e35e")
+	)
+	(wire
+		(pts
+			(xy 27.94 77.47) (xy 34.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d160691f-5545-4d21-b076-0ff2821a8ef0")
+	)
+	(wire
+		(pts
+			(xy 114.3 90.17) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee874f5d-b644-4b8d-9262-4ddc531a0658")
+	)
+	(label "U_LOW"
+		(at 113.03 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01a0e43f-479b-43d4-a499-bb9a674c5b6e")
+	)
+	(label "OUT1"
+		(at 114.3 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b2fc700-ad05-4188-b960-1d7f87a5dcff")
+	)
+	(label "U_HIGH"
+		(at 114.3 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0be59941-f4c1-436c-b12b-b3323d3ae0a9")
+	)
+	(label "OUT3"
+		(at 27.94 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11c97fac-b3e3-48f4-9a18-03d0a4646d0a")
+	)
+	(label "U_ADC1"
+		(at 27.94 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14f27856-6ac7-4850-a41c-425f89e57688")
+	)
+	(label "TX"
+		(at 114.3 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26535041-806e-4539-8861-94ae532e28a3")
+	)
+	(label "V_HIGH"
+		(at 114.3 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "353b0cea-cb0c-4235-9934-8cdac87c60b4")
+	)
+	(label "W_LOW"
+		(at 113.03 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fb6b7c2-a994-42ff-aa08-15487df4931e")
+	)
+	(label "GND"
+		(at 27.94 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59c76430-9610-498e-856e-ac120c1616c2")
+	)
+	(label "W_HIGH"
+		(at 114.3 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66843ab0-6864-4239-87bd-20e258b847f2")
+	)
+	(label "V_LOW"
+		(at 113.03 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79173d17-3526-4374-9bfa-c0873b9f2b43")
+	)
+	(label "OUT4"
+		(at 114.3 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "878c7104-435f-4142-9835-dcad3cf61d99")
+	)
+	(label "V_ADC1"
+		(at 27.94 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8dc0e504-72bf-4642-afc6-7dc2764db4c3")
+	)
+	(label "OUT4"
+		(at 114.3 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7a3ba4b-038f-45c3-bed0-f319af8cc5f3")
+	)
+	(label "RX"
+		(at 114.3 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcc1294b-9ff0-4306-8a7c-acda889983cd")
+	)
+	(label "OUT2"
+		(at 114.3 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be8b1ded-70bf-4923-a3cb-720ac5c40bec")
+	)
+	(label "W_ADC1"
+		(at 27.94 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5fccc80-a71b-4f3a-b10f-08397739c26c")
+	)
+	(label "VSENSE_BAT"
+		(at 27.94 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efdf676e-ab70-4f4b-8378-d77383fd5cc4")
+	)
 	(symbol
 		(lib_id "Regen_braking:NUCLEO-F446RE")
-		(at 143.51 88.9 0)
-		(unit 1)
+		(at 260.35 52.07 0)
+		(unit 6)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2094,9 +2474,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd642116-6056-495e-937b-1ef5e3392114")
+		(uuid "21c46464-ad57-446f-a0b3-05672b53ebfb")
 		(property "Reference" "U1"
-			(at 143.51 43.18 0)
+			(at 260.35 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2106,7 +2486,7 @@
 			)
 		)
 		(property "Value" "NUCLEO-F446RE"
-			(at 143.51 45.72 0)
+			(at 260.35 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2116,7 +2496,7 @@
 			)
 		)
 		(property "Footprint" "NUCLEO-F446RE:MODULE_NUCLEO-F446RE"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2128,7 +2508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2139,7 +2519,7 @@
 			)
 		)
 		(property "Description" "STM32F446RE, mbed-Enabled Development Nucleo-64 STM32F4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2151,7 +2531,7 @@
 			)
 		)
 		(property "MF" "STMicroelectronics"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2163,7 +2543,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2175,7 +2555,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2187,7 +2567,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2199,7 +2579,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=eda"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2211,7 +2591,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2223,7 +2603,7 @@
 			)
 		)
 		(property "PARTREV" "13"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2235,7 +2615,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=snap"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,7 +2627,7 @@
 			)
 		)
 		(property "MP" "NUCLEO-F446RE"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,7 +2639,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=284290&manufacturer=STMicroelectronics&part_name=NUCLEO-F446RE&search_term=stm32 nucleo-64 development board with stm32f446re mcu"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2271,7 +2651,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2283,7 +2663,2079 @@
 			)
 		)
 		(property "MANUFACTURER" "STMicroelectronics"
-			(at 143.51 88.9 0)
+			(at 260.35 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "CN7_6"
+			(uuid "4876ad80-4de7-4d52-9b86-d26700d738f6")
+		)
+		(pin "CN7_8"
+			(uuid "09b5515d-f3df-4def-a689-77940785e90e")
+		)
+		(pin "CN7_5"
+			(uuid "88c39741-c289-4e30-b1ef-db1e6c9d6b91")
+		)
+		(pin "CN7_17"
+			(uuid "4ed6c9a4-ef61-4eff-8b8c-c3f9712997bd")
+		)
+		(pin "CN7_3"
+			(uuid "736db4d9-1328-4d96-9a6f-31d79e110e7a")
+		)
+		(pin "CN7_21"
+			(uuid "a591f153-d611-4353-a5b1-8a8d8ec915e0")
+		)
+		(pin "CN7_19"
+			(uuid "9063b7f3-1531-49f4-a02c-4e90c1b449ed")
+		)
+		(pin "CN7_22"
+			(uuid "0cfdb3e3-7ed6-47f3-bf89-1446f26c7d66")
+		)
+		(pin "CN7_1"
+			(uuid "645f43c9-bc7f-4efd-8aba-c353c65f51da")
+		)
+		(pin "CN7_4"
+			(uuid "c33ccef3-236b-406e-a506-e6f395f7fbcf")
+		)
+		(pin "CN7_12"
+			(uuid "0d248c5b-48a1-4717-a05f-0a8006975707")
+		)
+		(pin "CN7_13"
+			(uuid "d4a7ed99-bece-41d5-a9f9-84f3bed154f9")
+		)
+		(pin "CN7_2"
+			(uuid "ea6615ea-ce02-4e9e-80da-1c219a77c6b5")
+		)
+		(pin "CN7_14"
+			(uuid "5c3c6d8b-6cae-4657-9fb4-500bffa6ce01")
+		)
+		(pin "CN7_7"
+			(uuid "b697997b-e8d8-4dd6-ac19-b8ffa30f2b4c")
+		)
+		(pin "CN7_15"
+			(uuid "40c1b59c-10cd-45f6-af0a-5f58989979b2")
+		)
+		(pin "CN7_16"
+			(uuid "5171ebaa-25ad-4f73-8156-c836c5eb5934")
+		)
+		(pin "CN7_18"
+			(uuid "184fa4d2-cb9e-4fd3-a67b-2a0df94664cb")
+		)
+		(pin "CN7_20"
+			(uuid "524f05c1-a119-4f32-a134-965817c55bc3")
+		)
+		(pin "CN7_25"
+			(uuid "009e8f3a-97f5-4d10-aedc-dc7850af99fa")
+		)
+		(pin "CN7_36"
+			(uuid "cb221147-a3a7-48d4-939a-4bbeb2a9ae64")
+		)
+		(pin "CN7_27"
+			(uuid "740647b4-ee05-4b7a-b4c6-d7136ff024af")
+		)
+		(pin "CN7_30"
+			(uuid "bfe52677-b61c-48c8-8f6d-491b05d761fd")
+		)
+		(pin "CN7_34"
+			(uuid "864099d8-4ca2-4d55-91db-7bb6336f7e8a")
+		)
+		(pin "CN7_32"
+			(uuid "bc288580-3ac7-4b4b-a905-5a86fc891ee6")
+		)
+		(pin "CN7_28"
+			(uuid "720fb8cb-de6f-4ea4-a223-12be042505e9")
+		)
+		(pin "CN7_37"
+			(uuid "3cfc1000-c017-42d9-b1a4-520b2f455038")
+		)
+		(pin "CN7_24"
+			(uuid "437ae8a0-d78e-43a8-ac57-5dd7bf833a14")
+		)
+		(pin "CN7_33"
+			(uuid "e4dd10c8-571f-45f6-893f-7e80c2835016")
+		)
+		(pin "CN10_21"
+			(uuid "00f904f6-1546-469a-b159-db5ce40c24ac")
+		)
+		(pin "CN7_35"
+			(uuid "9cbd0567-a5ff-4d4a-9bc6-753b083cee39")
+		)
+		(pin "CN7_23"
+			(uuid "c909344f-0df4-49b5-b5d5-398c59945d74")
+		)
+		(pin "CN10_1"
+			(uuid "85e69dd9-bf99-4f50-981a-525c14e78e81")
+		)
+		(pin "CN10_4"
+			(uuid "c4895db0-c144-427e-b59a-cf501a143757")
+		)
+		(pin "CN10_13"
+			(uuid "4d1b30f1-2ea3-4c6b-a502-02789105d771")
+		)
+		(pin "CN10_15"
+			(uuid "9139d6d0-774d-422d-982e-38f35a9e2ad1")
+		)
+		(pin "CN7_38"
+			(uuid "8bdbce5e-113c-464e-9f8f-b981a3558ee7")
+		)
+		(pin "CN10_2"
+			(uuid "f96e966b-068d-4d7f-a89e-1c6390536b83")
+		)
+		(pin "CN10_12"
+			(uuid "1059bcf4-5bd3-45fa-90f0-6af6a49a5957")
+		)
+		(pin "CN10_16"
+			(uuid "63c2773e-6f89-4102-a8cd-9addef9e534c")
+		)
+		(pin "CN7_29"
+			(uuid "02745a96-dfdc-4c70-b167-08f59312e710")
+		)
+		(pin "CN7_31"
+			(uuid "dd16ff74-0368-4067-95e3-9c8e2c7cac6d")
+		)
+		(pin "CN10_9"
+			(uuid "6d531230-7efb-41e2-88d6-48b4e4eea6e8")
+		)
+		(pin "CN10_5"
+			(uuid "8bf2732f-3b46-4cac-bd8f-018bbdc6c363")
+		)
+		(pin "CN10_14"
+			(uuid "4a821326-0985-4011-b827-037acd1893bb")
+		)
+		(pin "CN10_11"
+			(uuid "852e1c3b-0de5-44b5-b5f6-31c2c0ce3cb6")
+		)
+		(pin "CN10_17"
+			(uuid "c39682ac-3dce-4ad9-aba3-ec72c8040ebe")
+		)
+		(pin "CN10_3"
+			(uuid "e72c92b0-86e4-4a0c-a188-337ff79ec845")
+		)
+		(pin "CN10_7"
+			(uuid "7f9968f5-59af-4de8-9c8b-23db2c76985f")
+		)
+		(pin "CN10_6"
+			(uuid "b28cc347-dbfd-4238-9538-772042bcd61d")
+		)
+		(pin "CN10_8"
+			(uuid "87688eda-d779-4d80-b172-9f6d58335159")
+		)
+		(pin "CN10_19"
+			(uuid "f13f5e21-0a34-4bda-947b-60da7d6fee07")
+		)
+		(pin "CN10_20"
+			(uuid "01b110ad-93dc-479b-b205-779c489f25d0")
+		)
+		(pin "CN10_22"
+			(uuid "4832c979-898e-4fcd-ae93-ab59db49b09c")
+		)
+		(pin "CN10_26"
+			(uuid "17304323-9c0c-445d-b8c5-bfb57c585a40")
+		)
+		(pin "CN10_25"
+			(uuid "c07dc483-522b-48d0-a61f-f191c7049895")
+		)
+		(pin "CN10_34"
+			(uuid "61a984af-e6b7-4a61-b912-651586c98eb2")
+		)
+		(pin "CN10_27"
+			(uuid "f437e66e-9b59-42e3-a9c1-230aab941b13")
+		)
+		(pin "CN10_23"
+			(uuid "71df4cac-a692-4531-82ce-090d095d0e20")
+		)
+		(pin "CN9_1"
+			(uuid "e65e85c1-1eda-4398-9f60-8417434b0eff")
+		)
+		(pin "CN10_32"
+			(uuid "799e5419-1614-49fa-b70d-1aebee562a52")
+		)
+		(pin "CN10_35"
+			(uuid "cd9129e1-8001-4440-82ea-74a90fe03a65")
+		)
+		(pin "CN10_29"
+			(uuid "9553f246-6518-438d-9ec4-3a06e10584b8")
+		)
+		(pin "CN10_37"
+			(uuid "d67beb69-71dc-4a88-8554-de3ea857a770")
+		)
+		(pin "CN6_3"
+			(uuid "07ee56d4-e4af-4a08-ad31-c9dbd85c6a7c")
+		)
+		(pin "CN6_5"
+			(uuid "3360616e-2ec4-4efd-9e82-8e8c31f3d28a")
+		)
+		(pin "CN6_6"
+			(uuid "bc483a69-3754-4b3f-bd71-0928e5309184")
+		)
+		(pin "CN8_5"
+			(uuid "d7bda20e-1489-48ec-bfca-96925a105597")
+		)
+		(pin "CN5_3"
+			(uuid "0a9a1347-84ad-4f3f-b6f9-1610526846d5")
+		)
+		(pin "CN10_24"
+			(uuid "c86b4953-3767-4d2e-a5fb-e7fd08e0bb2f")
+		)
+		(pin "CN10_28"
+			(uuid "b28dd5d0-1fb9-4132-9515-bd6b8abe6836")
+		)
+		(pin "CN10_31"
+			(uuid "0f6353af-0302-4f5c-af7f-e9ed528bb196")
+		)
+		(pin "CN10_30"
+			(uuid "602ece82-dfd3-46ef-b1e1-f8bd62fbf63b")
+		)
+		(pin "CN10_33"
+			(uuid "33575f49-fe2b-477f-80bb-6327e90123cb")
+		)
+		(pin "CN6_4"
+			(uuid "06710ca6-b572-44e5-a0a8-80472b2d19d0")
+		)
+		(pin "CN6_2"
+			(uuid "177df6a4-6a6b-466a-9eca-f2c1dbe579b0")
+		)
+		(pin "CN6_7"
+			(uuid "0ad2a36e-76c5-425d-8059-69d6e0267c6b")
+		)
+		(pin "CN6_8"
+			(uuid "a9256a4f-0279-4167-b365-5cb2f09d355b")
+		)
+		(pin "CN9_3"
+			(uuid "0d9a5a13-2c1e-4e53-8ff2-f628a1551082")
+		)
+		(pin "CN9_2"
+			(uuid "5e46445b-022f-43a0-968b-c77acd37b72f")
+		)
+		(pin "CN9_5"
+			(uuid "19790090-ae22-479b-9606-92fbde1c6a64")
+		)
+		(pin "CN9_6"
+			(uuid "3ec7b8e7-6f30-45bf-a030-65907640a009")
+		)
+		(pin "CN9_7"
+			(uuid "c733a87e-1f28-4df3-a744-de844e262157")
+		)
+		(pin "CN8_1"
+			(uuid "661060d7-3b29-4797-8a13-8350e6668b91")
+		)
+		(pin "CN8_2"
+			(uuid "fb53d65a-1718-4877-bb35-b1b86495b6d4")
+		)
+		(pin "CN8_4"
+			(uuid "f93fb668-52b1-4aed-a356-2c6f618a8409")
+		)
+		(pin "CN8_6"
+			(uuid "41865b74-6221-41b3-bcbd-173e48d6c6a0")
+		)
+		(pin "CN5_1"
+			(uuid "4308a599-bc6a-4b81-b1af-54ef4965d966")
+		)
+		(pin "CN9_4"
+			(uuid "9a33e57e-39a5-4b59-9fbe-473565bbff37")
+		)
+		(pin "CN9_8"
+			(uuid "c1cd042b-1164-4185-aa75-0b2c00206b7b")
+		)
+		(pin "CN8_3"
+			(uuid "7bf79dbd-bfd4-44a2-83b0-b05f5d7386e3")
+		)
+		(pin "CN5_2"
+			(uuid "92d7597a-7936-4c5d-a4d0-e46c6b045722")
+		)
+		(pin "CN5_4"
+			(uuid "f47bac0d-63c8-4ff2-89cd-b232fd049368")
+		)
+		(pin "CN5_6"
+			(uuid "008c01d5-fc91-4f76-bcfa-a0f198916863")
+		)
+		(pin "CN5_7"
+			(uuid "1de6b400-5691-4140-8a71-118865c83078")
+		)
+		(pin "CN5_8"
+			(uuid "ac27c569-c59d-4798-bdc1-4ea8cc3c4bb1")
+		)
+		(pin "CN5_9"
+			(uuid "e58b9645-8776-4600-8396-0b34385ddf73")
+		)
+		(pin "CN5_10"
+			(uuid "dd99b317-678f-4ef2-a14b-dc87c690736c")
+		)
+		(pin "CN5_5"
+			(uuid "b3b46bdb-f071-4353-8092-00e23d651783")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/737a02a9-8a80-4cf0-ac97-70634fe1df45"
+					(reference "U1")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:NUCLEO-F446RE")
+		(at 204.47 119.38 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "250c9de6-9999-429a-9ee8-58c562d0e35a")
+		(property "Reference" "U1"
+			(at 210.82 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NUCLEO-F446RE"
+			(at 210.82 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NUCLEO-F446RE:MODULE_NUCLEO-F446RE"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STM32F446RE, mbed-Enabled Development Nucleo-64 STM32F4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=eda"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "13"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=snap"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "NUCLEO-F446RE"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=284290&manufacturer=STMicroelectronics&part_name=NUCLEO-F446RE&search_term=stm32 nucleo-64 development board with stm32f446re mcu"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "CN7_6"
+			(uuid "4876ad80-4de7-4d52-9b86-d26700d738f7")
+		)
+		(pin "CN7_8"
+			(uuid "09b5515d-f3df-4def-a689-77940785e90f")
+		)
+		(pin "CN7_5"
+			(uuid "88c39741-c289-4e30-b1ef-db1e6c9d6b92")
+		)
+		(pin "CN7_17"
+			(uuid "4ed6c9a4-ef61-4eff-8b8c-c3f9712997be")
+		)
+		(pin "CN7_3"
+			(uuid "736db4d9-1328-4d96-9a6f-31d79e110e7b")
+		)
+		(pin "CN7_21"
+			(uuid "a591f153-d611-4353-a5b1-8a8d8ec915e1")
+		)
+		(pin "CN7_19"
+			(uuid "9063b7f3-1531-49f4-a02c-4e90c1b449ee")
+		)
+		(pin "CN7_22"
+			(uuid "0cfdb3e3-7ed6-47f3-bf89-1446f26c7d67")
+		)
+		(pin "CN7_1"
+			(uuid "645f43c9-bc7f-4efd-8aba-c353c65f51db")
+		)
+		(pin "CN7_4"
+			(uuid "c33ccef3-236b-406e-a506-e6f395f7fbd0")
+		)
+		(pin "CN7_12"
+			(uuid "0d248c5b-48a1-4717-a05f-0a8006975708")
+		)
+		(pin "CN7_13"
+			(uuid "d4a7ed99-bece-41d5-a9f9-84f3bed154fa")
+		)
+		(pin "CN7_2"
+			(uuid "ea6615ea-ce02-4e9e-80da-1c219a77c6b6")
+		)
+		(pin "CN7_14"
+			(uuid "5c3c6d8b-6cae-4657-9fb4-500bffa6ce02")
+		)
+		(pin "CN7_7"
+			(uuid "b697997b-e8d8-4dd6-ac19-b8ffa30f2b4d")
+		)
+		(pin "CN7_15"
+			(uuid "40c1b59c-10cd-45f6-af0a-5f58989979b3")
+		)
+		(pin "CN7_16"
+			(uuid "5171ebaa-25ad-4f73-8156-c836c5eb5935")
+		)
+		(pin "CN7_18"
+			(uuid "184fa4d2-cb9e-4fd3-a67b-2a0df94664cc")
+		)
+		(pin "CN7_20"
+			(uuid "524f05c1-a119-4f32-a134-965817c55bc4")
+		)
+		(pin "CN7_25"
+			(uuid "009e8f3a-97f5-4d10-aedc-dc7850af99fb")
+		)
+		(pin "CN7_36"
+			(uuid "cb221147-a3a7-48d4-939a-4bbeb2a9ae65")
+		)
+		(pin "CN7_27"
+			(uuid "740647b4-ee05-4b7a-b4c6-d7136ff024b0")
+		)
+		(pin "CN7_30"
+			(uuid "bfe52677-b61c-48c8-8f6d-491b05d761fe")
+		)
+		(pin "CN7_34"
+			(uuid "864099d8-4ca2-4d55-91db-7bb6336f7e8b")
+		)
+		(pin "CN7_32"
+			(uuid "bc288580-3ac7-4b4b-a905-5a86fc891ee7")
+		)
+		(pin "CN7_28"
+			(uuid "720fb8cb-de6f-4ea4-a223-12be042505ea")
+		)
+		(pin "CN7_37"
+			(uuid "3cfc1000-c017-42d9-b1a4-520b2f455039")
+		)
+		(pin "CN7_24"
+			(uuid "437ae8a0-d78e-43a8-ac57-5dd7bf833a15")
+		)
+		(pin "CN7_33"
+			(uuid "e4dd10c8-571f-45f6-893f-7e80c2835017")
+		)
+		(pin "CN10_21"
+			(uuid "00f904f6-1546-469a-b159-db5ce40c24ad")
+		)
+		(pin "CN7_35"
+			(uuid "9cbd0567-a5ff-4d4a-9bc6-753b083cee3a")
+		)
+		(pin "CN7_23"
+			(uuid "c909344f-0df4-49b5-b5d5-398c59945d75")
+		)
+		(pin "CN10_1"
+			(uuid "85e69dd9-bf99-4f50-981a-525c14e78e82")
+		)
+		(pin "CN10_4"
+			(uuid "c4895db0-c144-427e-b59a-cf501a143758")
+		)
+		(pin "CN10_13"
+			(uuid "4d1b30f1-2ea3-4c6b-a502-02789105d772")
+		)
+		(pin "CN10_15"
+			(uuid "9139d6d0-774d-422d-982e-38f35a9e2ad2")
+		)
+		(pin "CN7_38"
+			(uuid "8bdbce5e-113c-464e-9f8f-b981a3558ee8")
+		)
+		(pin "CN10_2"
+			(uuid "f96e966b-068d-4d7f-a89e-1c6390536b84")
+		)
+		(pin "CN10_12"
+			(uuid "1059bcf4-5bd3-45fa-90f0-6af6a49a5958")
+		)
+		(pin "CN10_16"
+			(uuid "63c2773e-6f89-4102-a8cd-9addef9e534d")
+		)
+		(pin "CN7_29"
+			(uuid "02745a96-dfdc-4c70-b167-08f59312e711")
+		)
+		(pin "CN7_31"
+			(uuid "dd16ff74-0368-4067-95e3-9c8e2c7cac6e")
+		)
+		(pin "CN10_9"
+			(uuid "6d531230-7efb-41e2-88d6-48b4e4eea6e9")
+		)
+		(pin "CN10_5"
+			(uuid "8bf2732f-3b46-4cac-bd8f-018bbdc6c364")
+		)
+		(pin "CN10_14"
+			(uuid "4a821326-0985-4011-b827-037acd1893bc")
+		)
+		(pin "CN10_11"
+			(uuid "852e1c3b-0de5-44b5-b5f6-31c2c0ce3cb7")
+		)
+		(pin "CN10_17"
+			(uuid "c39682ac-3dce-4ad9-aba3-ec72c8040ebf")
+		)
+		(pin "CN10_3"
+			(uuid "e72c92b0-86e4-4a0c-a188-337ff79ec846")
+		)
+		(pin "CN10_7"
+			(uuid "7f9968f5-59af-4de8-9c8b-23db2c769860")
+		)
+		(pin "CN10_6"
+			(uuid "b28cc347-dbfd-4238-9538-772042bcd61e")
+		)
+		(pin "CN10_8"
+			(uuid "87688eda-d779-4d80-b172-9f6d5833515a")
+		)
+		(pin "CN10_19"
+			(uuid "f13f5e21-0a34-4bda-947b-60da7d6fee08")
+		)
+		(pin "CN10_20"
+			(uuid "01b110ad-93dc-479b-b205-779c489f25d1")
+		)
+		(pin "CN10_22"
+			(uuid "4832c979-898e-4fcd-ae93-ab59db49b09d")
+		)
+		(pin "CN10_26"
+			(uuid "17304323-9c0c-445d-b8c5-bfb57c585a41")
+		)
+		(pin "CN10_25"
+			(uuid "c07dc483-522b-48d0-a61f-f191c7049896")
+		)
+		(pin "CN10_34"
+			(uuid "61a984af-e6b7-4a61-b912-651586c98eb3")
+		)
+		(pin "CN10_27"
+			(uuid "f437e66e-9b59-42e3-a9c1-230aab941b14")
+		)
+		(pin "CN10_23"
+			(uuid "71df4cac-a692-4531-82ce-090d095d0e21")
+		)
+		(pin "CN9_1"
+			(uuid "e65e85c1-1eda-4398-9f60-8417434b0f00")
+		)
+		(pin "CN10_32"
+			(uuid "799e5419-1614-49fa-b70d-1aebee562a53")
+		)
+		(pin "CN10_35"
+			(uuid "cd9129e1-8001-4440-82ea-74a90fe03a66")
+		)
+		(pin "CN10_29"
+			(uuid "9553f246-6518-438d-9ec4-3a06e10584b9")
+		)
+		(pin "CN10_37"
+			(uuid "d67beb69-71dc-4a88-8554-de3ea857a771")
+		)
+		(pin "CN6_3"
+			(uuid "07ee56d4-e4af-4a08-ad31-c9dbd85c6a7d")
+		)
+		(pin "CN6_5"
+			(uuid "3360616e-2ec4-4efd-9e82-8e8c31f3d28b")
+		)
+		(pin "CN6_6"
+			(uuid "bc483a69-3754-4b3f-bd71-0928e5309185")
+		)
+		(pin "CN8_5"
+			(uuid "d7bda20e-1489-48ec-bfca-96925a105598")
+		)
+		(pin "CN5_3"
+			(uuid "0a9a1347-84ad-4f3f-b6f9-1610526846d6")
+		)
+		(pin "CN10_24"
+			(uuid "c86b4953-3767-4d2e-a5fb-e7fd08e0bb30")
+		)
+		(pin "CN10_28"
+			(uuid "b28dd5d0-1fb9-4132-9515-bd6b8abe6837")
+		)
+		(pin "CN10_31"
+			(uuid "0f6353af-0302-4f5c-af7f-e9ed528bb197")
+		)
+		(pin "CN10_30"
+			(uuid "602ece82-dfd3-46ef-b1e1-f8bd62fbf63c")
+		)
+		(pin "CN10_33"
+			(uuid "33575f49-fe2b-477f-80bb-6327e90123cc")
+		)
+		(pin "CN6_4"
+			(uuid "06710ca6-b572-44e5-a0a8-80472b2d19d1")
+		)
+		(pin "CN6_2"
+			(uuid "177df6a4-6a6b-466a-9eca-f2c1dbe579b1")
+		)
+		(pin "CN6_7"
+			(uuid "0ad2a36e-76c5-425d-8059-69d6e0267c6c")
+		)
+		(pin "CN6_8"
+			(uuid "a9256a4f-0279-4167-b365-5cb2f09d355c")
+		)
+		(pin "CN9_3"
+			(uuid "0d9a5a13-2c1e-4e53-8ff2-f628a1551083")
+		)
+		(pin "CN9_2"
+			(uuid "5e46445b-022f-43a0-968b-c77acd37b730")
+		)
+		(pin "CN9_5"
+			(uuid "19790090-ae22-479b-9606-92fbde1c6a65")
+		)
+		(pin "CN9_6"
+			(uuid "3ec7b8e7-6f30-45bf-a030-65907640a00a")
+		)
+		(pin "CN9_7"
+			(uuid "c733a87e-1f28-4df3-a744-de844e262158")
+		)
+		(pin "CN8_1"
+			(uuid "661060d7-3b29-4797-8a13-8350e6668b92")
+		)
+		(pin "CN8_2"
+			(uuid "fb53d65a-1718-4877-bb35-b1b86495b6d5")
+		)
+		(pin "CN8_4"
+			(uuid "f93fb668-52b1-4aed-a356-2c6f618a840a")
+		)
+		(pin "CN8_6"
+			(uuid "41865b74-6221-41b3-bcbd-173e48d6c6a1")
+		)
+		(pin "CN5_1"
+			(uuid "4308a599-bc6a-4b81-b1af-54ef4965d967")
+		)
+		(pin "CN9_4"
+			(uuid "9a33e57e-39a5-4b59-9fbe-473565bbff38")
+		)
+		(pin "CN9_8"
+			(uuid "c1cd042b-1164-4185-aa75-0b2c00206b7c")
+		)
+		(pin "CN8_3"
+			(uuid "7bf79dbd-bfd4-44a2-83b0-b05f5d7386e4")
+		)
+		(pin "CN5_2"
+			(uuid "92d7597a-7936-4c5d-a4d0-e46c6b045723")
+		)
+		(pin "CN5_4"
+			(uuid "f47bac0d-63c8-4ff2-89cd-b232fd049369")
+		)
+		(pin "CN5_6"
+			(uuid "008c01d5-fc91-4f76-bcfa-a0f198916864")
+		)
+		(pin "CN5_7"
+			(uuid "1de6b400-5691-4140-8a71-118865c83079")
+		)
+		(pin "CN5_8"
+			(uuid "ac27c569-c59d-4798-bdc1-4ea8cc3c4bb2")
+		)
+		(pin "CN5_9"
+			(uuid "e58b9645-8776-4600-8396-0b34385ddf74")
+		)
+		(pin "CN5_10"
+			(uuid "dd99b317-678f-4ef2-a14b-dc87c690736d")
+		)
+		(pin "CN5_5"
+			(uuid "b3b46bdb-f071-4353-8092-00e23d651784")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/737a02a9-8a80-4cf0-ac97-70634fe1df45"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:NUCLEO-F446RE")
+		(at 203.2 53.34 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b48d2c3-a8c2-4b6c-8312-6fc7c4157b20")
+		(property "Reference" "U1"
+			(at 209.55 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NUCLEO-F446RE"
+			(at 209.55 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NUCLEO-F446RE:MODULE_NUCLEO-F446RE"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STM32F446RE, mbed-Enabled Development Nucleo-64 STM32F4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=eda"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "13"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=snap"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "NUCLEO-F446RE"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=284290&manufacturer=STMicroelectronics&part_name=NUCLEO-F446RE&search_term=stm32 nucleo-64 development board with stm32f446re mcu"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "CN7_6"
+			(uuid "4876ad80-4de7-4d52-9b86-d26700d738f8")
+		)
+		(pin "CN7_8"
+			(uuid "09b5515d-f3df-4def-a689-77940785e910")
+		)
+		(pin "CN7_5"
+			(uuid "88c39741-c289-4e30-b1ef-db1e6c9d6b93")
+		)
+		(pin "CN7_17"
+			(uuid "4ed6c9a4-ef61-4eff-8b8c-c3f9712997bf")
+		)
+		(pin "CN7_3"
+			(uuid "736db4d9-1328-4d96-9a6f-31d79e110e7c")
+		)
+		(pin "CN7_21"
+			(uuid "a591f153-d611-4353-a5b1-8a8d8ec915e2")
+		)
+		(pin "CN7_19"
+			(uuid "9063b7f3-1531-49f4-a02c-4e90c1b449ef")
+		)
+		(pin "CN7_22"
+			(uuid "0cfdb3e3-7ed6-47f3-bf89-1446f26c7d68")
+		)
+		(pin "CN7_1"
+			(uuid "645f43c9-bc7f-4efd-8aba-c353c65f51dc")
+		)
+		(pin "CN7_4"
+			(uuid "c33ccef3-236b-406e-a506-e6f395f7fbd1")
+		)
+		(pin "CN7_12"
+			(uuid "0d248c5b-48a1-4717-a05f-0a8006975709")
+		)
+		(pin "CN7_13"
+			(uuid "d4a7ed99-bece-41d5-a9f9-84f3bed154fb")
+		)
+		(pin "CN7_2"
+			(uuid "ea6615ea-ce02-4e9e-80da-1c219a77c6b7")
+		)
+		(pin "CN7_14"
+			(uuid "5c3c6d8b-6cae-4657-9fb4-500bffa6ce03")
+		)
+		(pin "CN7_7"
+			(uuid "b697997b-e8d8-4dd6-ac19-b8ffa30f2b4e")
+		)
+		(pin "CN7_15"
+			(uuid "40c1b59c-10cd-45f6-af0a-5f58989979b4")
+		)
+		(pin "CN7_16"
+			(uuid "5171ebaa-25ad-4f73-8156-c836c5eb5936")
+		)
+		(pin "CN7_18"
+			(uuid "184fa4d2-cb9e-4fd3-a67b-2a0df94664cd")
+		)
+		(pin "CN7_20"
+			(uuid "524f05c1-a119-4f32-a134-965817c55bc5")
+		)
+		(pin "CN7_25"
+			(uuid "009e8f3a-97f5-4d10-aedc-dc7850af99fc")
+		)
+		(pin "CN7_36"
+			(uuid "cb221147-a3a7-48d4-939a-4bbeb2a9ae66")
+		)
+		(pin "CN7_27"
+			(uuid "740647b4-ee05-4b7a-b4c6-d7136ff024b1")
+		)
+		(pin "CN7_30"
+			(uuid "bfe52677-b61c-48c8-8f6d-491b05d761ff")
+		)
+		(pin "CN7_34"
+			(uuid "864099d8-4ca2-4d55-91db-7bb6336f7e8c")
+		)
+		(pin "CN7_32"
+			(uuid "bc288580-3ac7-4b4b-a905-5a86fc891ee8")
+		)
+		(pin "CN7_28"
+			(uuid "720fb8cb-de6f-4ea4-a223-12be042505eb")
+		)
+		(pin "CN7_37"
+			(uuid "3cfc1000-c017-42d9-b1a4-520b2f45503a")
+		)
+		(pin "CN7_24"
+			(uuid "437ae8a0-d78e-43a8-ac57-5dd7bf833a16")
+		)
+		(pin "CN7_33"
+			(uuid "e4dd10c8-571f-45f6-893f-7e80c2835018")
+		)
+		(pin "CN10_21"
+			(uuid "00f904f6-1546-469a-b159-db5ce40c24ae")
+		)
+		(pin "CN7_35"
+			(uuid "9cbd0567-a5ff-4d4a-9bc6-753b083cee3b")
+		)
+		(pin "CN7_23"
+			(uuid "c909344f-0df4-49b5-b5d5-398c59945d76")
+		)
+		(pin "CN10_1"
+			(uuid "85e69dd9-bf99-4f50-981a-525c14e78e83")
+		)
+		(pin "CN10_4"
+			(uuid "c4895db0-c144-427e-b59a-cf501a143759")
+		)
+		(pin "CN10_13"
+			(uuid "4d1b30f1-2ea3-4c6b-a502-02789105d773")
+		)
+		(pin "CN10_15"
+			(uuid "9139d6d0-774d-422d-982e-38f35a9e2ad3")
+		)
+		(pin "CN7_38"
+			(uuid "8bdbce5e-113c-464e-9f8f-b981a3558ee9")
+		)
+		(pin "CN10_2"
+			(uuid "f96e966b-068d-4d7f-a89e-1c6390536b85")
+		)
+		(pin "CN10_12"
+			(uuid "1059bcf4-5bd3-45fa-90f0-6af6a49a5959")
+		)
+		(pin "CN10_16"
+			(uuid "63c2773e-6f89-4102-a8cd-9addef9e534e")
+		)
+		(pin "CN7_29"
+			(uuid "02745a96-dfdc-4c70-b167-08f59312e712")
+		)
+		(pin "CN7_31"
+			(uuid "dd16ff74-0368-4067-95e3-9c8e2c7cac6f")
+		)
+		(pin "CN10_9"
+			(uuid "6d531230-7efb-41e2-88d6-48b4e4eea6ea")
+		)
+		(pin "CN10_5"
+			(uuid "8bf2732f-3b46-4cac-bd8f-018bbdc6c365")
+		)
+		(pin "CN10_14"
+			(uuid "4a821326-0985-4011-b827-037acd1893bd")
+		)
+		(pin "CN10_11"
+			(uuid "852e1c3b-0de5-44b5-b5f6-31c2c0ce3cb8")
+		)
+		(pin "CN10_17"
+			(uuid "c39682ac-3dce-4ad9-aba3-ec72c8040ec0")
+		)
+		(pin "CN10_3"
+			(uuid "e72c92b0-86e4-4a0c-a188-337ff79ec847")
+		)
+		(pin "CN10_7"
+			(uuid "7f9968f5-59af-4de8-9c8b-23db2c769861")
+		)
+		(pin "CN10_6"
+			(uuid "b28cc347-dbfd-4238-9538-772042bcd61f")
+		)
+		(pin "CN10_8"
+			(uuid "87688eda-d779-4d80-b172-9f6d5833515b")
+		)
+		(pin "CN10_19"
+			(uuid "f13f5e21-0a34-4bda-947b-60da7d6fee09")
+		)
+		(pin "CN10_20"
+			(uuid "01b110ad-93dc-479b-b205-779c489f25d2")
+		)
+		(pin "CN10_22"
+			(uuid "4832c979-898e-4fcd-ae93-ab59db49b09e")
+		)
+		(pin "CN10_26"
+			(uuid "17304323-9c0c-445d-b8c5-bfb57c585a42")
+		)
+		(pin "CN10_25"
+			(uuid "c07dc483-522b-48d0-a61f-f191c7049897")
+		)
+		(pin "CN10_34"
+			(uuid "61a984af-e6b7-4a61-b912-651586c98eb4")
+		)
+		(pin "CN10_27"
+			(uuid "f437e66e-9b59-42e3-a9c1-230aab941b15")
+		)
+		(pin "CN10_23"
+			(uuid "71df4cac-a692-4531-82ce-090d095d0e22")
+		)
+		(pin "CN9_1"
+			(uuid "e65e85c1-1eda-4398-9f60-8417434b0f01")
+		)
+		(pin "CN10_32"
+			(uuid "799e5419-1614-49fa-b70d-1aebee562a54")
+		)
+		(pin "CN10_35"
+			(uuid "cd9129e1-8001-4440-82ea-74a90fe03a67")
+		)
+		(pin "CN10_29"
+			(uuid "9553f246-6518-438d-9ec4-3a06e10584ba")
+		)
+		(pin "CN10_37"
+			(uuid "d67beb69-71dc-4a88-8554-de3ea857a772")
+		)
+		(pin "CN6_3"
+			(uuid "07ee56d4-e4af-4a08-ad31-c9dbd85c6a7e")
+		)
+		(pin "CN6_5"
+			(uuid "3360616e-2ec4-4efd-9e82-8e8c31f3d28c")
+		)
+		(pin "CN6_6"
+			(uuid "bc483a69-3754-4b3f-bd71-0928e5309186")
+		)
+		(pin "CN8_5"
+			(uuid "d7bda20e-1489-48ec-bfca-96925a105599")
+		)
+		(pin "CN5_3"
+			(uuid "0a9a1347-84ad-4f3f-b6f9-1610526846d7")
+		)
+		(pin "CN10_24"
+			(uuid "c86b4953-3767-4d2e-a5fb-e7fd08e0bb31")
+		)
+		(pin "CN10_28"
+			(uuid "b28dd5d0-1fb9-4132-9515-bd6b8abe6838")
+		)
+		(pin "CN10_31"
+			(uuid "0f6353af-0302-4f5c-af7f-e9ed528bb198")
+		)
+		(pin "CN10_30"
+			(uuid "602ece82-dfd3-46ef-b1e1-f8bd62fbf63d")
+		)
+		(pin "CN10_33"
+			(uuid "33575f49-fe2b-477f-80bb-6327e90123cd")
+		)
+		(pin "CN6_4"
+			(uuid "06710ca6-b572-44e5-a0a8-80472b2d19d2")
+		)
+		(pin "CN6_2"
+			(uuid "177df6a4-6a6b-466a-9eca-f2c1dbe579b2")
+		)
+		(pin "CN6_7"
+			(uuid "0ad2a36e-76c5-425d-8059-69d6e0267c6d")
+		)
+		(pin "CN6_8"
+			(uuid "a9256a4f-0279-4167-b365-5cb2f09d355d")
+		)
+		(pin "CN9_3"
+			(uuid "0d9a5a13-2c1e-4e53-8ff2-f628a1551084")
+		)
+		(pin "CN9_2"
+			(uuid "5e46445b-022f-43a0-968b-c77acd37b731")
+		)
+		(pin "CN9_5"
+			(uuid "19790090-ae22-479b-9606-92fbde1c6a66")
+		)
+		(pin "CN9_6"
+			(uuid "3ec7b8e7-6f30-45bf-a030-65907640a00b")
+		)
+		(pin "CN9_7"
+			(uuid "c733a87e-1f28-4df3-a744-de844e262159")
+		)
+		(pin "CN8_1"
+			(uuid "661060d7-3b29-4797-8a13-8350e6668b93")
+		)
+		(pin "CN8_2"
+			(uuid "fb53d65a-1718-4877-bb35-b1b86495b6d6")
+		)
+		(pin "CN8_4"
+			(uuid "f93fb668-52b1-4aed-a356-2c6f618a840b")
+		)
+		(pin "CN8_6"
+			(uuid "41865b74-6221-41b3-bcbd-173e48d6c6a2")
+		)
+		(pin "CN5_1"
+			(uuid "4308a599-bc6a-4b81-b1af-54ef4965d968")
+		)
+		(pin "CN9_4"
+			(uuid "9a33e57e-39a5-4b59-9fbe-473565bbff39")
+		)
+		(pin "CN9_8"
+			(uuid "c1cd042b-1164-4185-aa75-0b2c00206b7d")
+		)
+		(pin "CN8_3"
+			(uuid "7bf79dbd-bfd4-44a2-83b0-b05f5d7386e5")
+		)
+		(pin "CN5_2"
+			(uuid "92d7597a-7936-4c5d-a4d0-e46c6b045724")
+		)
+		(pin "CN5_4"
+			(uuid "f47bac0d-63c8-4ff2-89cd-b232fd04936a")
+		)
+		(pin "CN5_6"
+			(uuid "008c01d5-fc91-4f76-bcfa-a0f198916865")
+		)
+		(pin "CN5_7"
+			(uuid "1de6b400-5691-4140-8a71-118865c8307a")
+		)
+		(pin "CN5_8"
+			(uuid "ac27c569-c59d-4798-bdc1-4ea8cc3c4bb3")
+		)
+		(pin "CN5_9"
+			(uuid "e58b9645-8776-4600-8396-0b34385ddf75")
+		)
+		(pin "CN5_10"
+			(uuid "dd99b317-678f-4ef2-a14b-dc87c690736e")
+		)
+		(pin "CN5_5"
+			(uuid "b3b46bdb-f071-4353-8092-00e23d651785")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/737a02a9-8a80-4cf0-ac97-70634fe1df45"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:NUCLEO-F446RE")
+		(at 135.89 87.63 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72b577ac-1956-4e11-9919-044b33a57475")
+		(property "Reference" "U1"
+			(at 135.89 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NUCLEO-F446RE"
+			(at 135.89 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NUCLEO-F446RE:MODULE_NUCLEO-F446RE"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STM32F446RE, mbed-Enabled Development Nucleo-64 STM32F4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=eda"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "13"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=snap"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "NUCLEO-F446RE"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=284290&manufacturer=STMicroelectronics&part_name=NUCLEO-F446RE&search_term=stm32 nucleo-64 development board with stm32f446re mcu"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "CN7_6"
+			(uuid "4876ad80-4de7-4d52-9b86-d26700d738f9")
+		)
+		(pin "CN7_8"
+			(uuid "09b5515d-f3df-4def-a689-77940785e911")
+		)
+		(pin "CN7_5"
+			(uuid "88c39741-c289-4e30-b1ef-db1e6c9d6b94")
+		)
+		(pin "CN7_17"
+			(uuid "4ed6c9a4-ef61-4eff-8b8c-c3f9712997c0")
+		)
+		(pin "CN7_3"
+			(uuid "736db4d9-1328-4d96-9a6f-31d79e110e7d")
+		)
+		(pin "CN7_21"
+			(uuid "a591f153-d611-4353-a5b1-8a8d8ec915e3")
+		)
+		(pin "CN7_19"
+			(uuid "9063b7f3-1531-49f4-a02c-4e90c1b449f0")
+		)
+		(pin "CN7_22"
+			(uuid "0cfdb3e3-7ed6-47f3-bf89-1446f26c7d69")
+		)
+		(pin "CN7_1"
+			(uuid "645f43c9-bc7f-4efd-8aba-c353c65f51dd")
+		)
+		(pin "CN7_4"
+			(uuid "c33ccef3-236b-406e-a506-e6f395f7fbd2")
+		)
+		(pin "CN7_12"
+			(uuid "0d248c5b-48a1-4717-a05f-0a800697570a")
+		)
+		(pin "CN7_13"
+			(uuid "d4a7ed99-bece-41d5-a9f9-84f3bed154fc")
+		)
+		(pin "CN7_2"
+			(uuid "ea6615ea-ce02-4e9e-80da-1c219a77c6b8")
+		)
+		(pin "CN7_14"
+			(uuid "5c3c6d8b-6cae-4657-9fb4-500bffa6ce04")
+		)
+		(pin "CN7_7"
+			(uuid "b697997b-e8d8-4dd6-ac19-b8ffa30f2b4f")
+		)
+		(pin "CN7_15"
+			(uuid "40c1b59c-10cd-45f6-af0a-5f58989979b5")
+		)
+		(pin "CN7_16"
+			(uuid "5171ebaa-25ad-4f73-8156-c836c5eb5937")
+		)
+		(pin "CN7_18"
+			(uuid "184fa4d2-cb9e-4fd3-a67b-2a0df94664ce")
+		)
+		(pin "CN7_20"
+			(uuid "524f05c1-a119-4f32-a134-965817c55bc6")
+		)
+		(pin "CN7_25"
+			(uuid "009e8f3a-97f5-4d10-aedc-dc7850af99fd")
+		)
+		(pin "CN7_36"
+			(uuid "cb221147-a3a7-48d4-939a-4bbeb2a9ae67")
+		)
+		(pin "CN7_27"
+			(uuid "740647b4-ee05-4b7a-b4c6-d7136ff024b2")
+		)
+		(pin "CN7_30"
+			(uuid "bfe52677-b61c-48c8-8f6d-491b05d76200")
+		)
+		(pin "CN7_34"
+			(uuid "864099d8-4ca2-4d55-91db-7bb6336f7e8d")
+		)
+		(pin "CN7_32"
+			(uuid "bc288580-3ac7-4b4b-a905-5a86fc891ee9")
+		)
+		(pin "CN7_28"
+			(uuid "720fb8cb-de6f-4ea4-a223-12be042505ec")
+		)
+		(pin "CN7_37"
+			(uuid "3cfc1000-c017-42d9-b1a4-520b2f45503b")
+		)
+		(pin "CN7_24"
+			(uuid "437ae8a0-d78e-43a8-ac57-5dd7bf833a17")
+		)
+		(pin "CN7_33"
+			(uuid "e4dd10c8-571f-45f6-893f-7e80c2835019")
+		)
+		(pin "CN10_21"
+			(uuid "00f904f6-1546-469a-b159-db5ce40c24af")
+		)
+		(pin "CN7_35"
+			(uuid "9cbd0567-a5ff-4d4a-9bc6-753b083cee3c")
+		)
+		(pin "CN7_23"
+			(uuid "c909344f-0df4-49b5-b5d5-398c59945d77")
+		)
+		(pin "CN10_1"
+			(uuid "85e69dd9-bf99-4f50-981a-525c14e78e84")
+		)
+		(pin "CN10_4"
+			(uuid "c4895db0-c144-427e-b59a-cf501a14375a")
+		)
+		(pin "CN10_13"
+			(uuid "4d1b30f1-2ea3-4c6b-a502-02789105d774")
+		)
+		(pin "CN10_15"
+			(uuid "9139d6d0-774d-422d-982e-38f35a9e2ad4")
+		)
+		(pin "CN7_38"
+			(uuid "8bdbce5e-113c-464e-9f8f-b981a3558eea")
+		)
+		(pin "CN10_2"
+			(uuid "f96e966b-068d-4d7f-a89e-1c6390536b86")
+		)
+		(pin "CN10_12"
+			(uuid "1059bcf4-5bd3-45fa-90f0-6af6a49a595a")
+		)
+		(pin "CN10_16"
+			(uuid "63c2773e-6f89-4102-a8cd-9addef9e534f")
+		)
+		(pin "CN7_29"
+			(uuid "02745a96-dfdc-4c70-b167-08f59312e713")
+		)
+		(pin "CN7_31"
+			(uuid "dd16ff74-0368-4067-95e3-9c8e2c7cac70")
+		)
+		(pin "CN10_9"
+			(uuid "6d531230-7efb-41e2-88d6-48b4e4eea6eb")
+		)
+		(pin "CN10_5"
+			(uuid "8bf2732f-3b46-4cac-bd8f-018bbdc6c366")
+		)
+		(pin "CN10_14"
+			(uuid "4a821326-0985-4011-b827-037acd1893be")
+		)
+		(pin "CN10_11"
+			(uuid "852e1c3b-0de5-44b5-b5f6-31c2c0ce3cb9")
+		)
+		(pin "CN10_17"
+			(uuid "c39682ac-3dce-4ad9-aba3-ec72c8040ec1")
+		)
+		(pin "CN10_3"
+			(uuid "e72c92b0-86e4-4a0c-a188-337ff79ec848")
+		)
+		(pin "CN10_7"
+			(uuid "7f9968f5-59af-4de8-9c8b-23db2c769862")
+		)
+		(pin "CN10_6"
+			(uuid "b28cc347-dbfd-4238-9538-772042bcd620")
+		)
+		(pin "CN10_8"
+			(uuid "87688eda-d779-4d80-b172-9f6d5833515c")
+		)
+		(pin "CN10_19"
+			(uuid "f13f5e21-0a34-4bda-947b-60da7d6fee0a")
+		)
+		(pin "CN10_20"
+			(uuid "01b110ad-93dc-479b-b205-779c489f25d3")
+		)
+		(pin "CN10_22"
+			(uuid "4832c979-898e-4fcd-ae93-ab59db49b09f")
+		)
+		(pin "CN10_26"
+			(uuid "17304323-9c0c-445d-b8c5-bfb57c585a43")
+		)
+		(pin "CN10_25"
+			(uuid "c07dc483-522b-48d0-a61f-f191c7049898")
+		)
+		(pin "CN10_34"
+			(uuid "61a984af-e6b7-4a61-b912-651586c98eb5")
+		)
+		(pin "CN10_27"
+			(uuid "f437e66e-9b59-42e3-a9c1-230aab941b16")
+		)
+		(pin "CN10_23"
+			(uuid "71df4cac-a692-4531-82ce-090d095d0e23")
+		)
+		(pin "CN9_1"
+			(uuid "e65e85c1-1eda-4398-9f60-8417434b0f02")
+		)
+		(pin "CN10_32"
+			(uuid "799e5419-1614-49fa-b70d-1aebee562a55")
+		)
+		(pin "CN10_35"
+			(uuid "cd9129e1-8001-4440-82ea-74a90fe03a68")
+		)
+		(pin "CN10_29"
+			(uuid "9553f246-6518-438d-9ec4-3a06e10584bb")
+		)
+		(pin "CN10_37"
+			(uuid "d67beb69-71dc-4a88-8554-de3ea857a773")
+		)
+		(pin "CN6_3"
+			(uuid "07ee56d4-e4af-4a08-ad31-c9dbd85c6a7f")
+		)
+		(pin "CN6_5"
+			(uuid "3360616e-2ec4-4efd-9e82-8e8c31f3d28d")
+		)
+		(pin "CN6_6"
+			(uuid "bc483a69-3754-4b3f-bd71-0928e5309187")
+		)
+		(pin "CN8_5"
+			(uuid "d7bda20e-1489-48ec-bfca-96925a10559a")
+		)
+		(pin "CN5_3"
+			(uuid "0a9a1347-84ad-4f3f-b6f9-1610526846d8")
+		)
+		(pin "CN10_24"
+			(uuid "c86b4953-3767-4d2e-a5fb-e7fd08e0bb32")
+		)
+		(pin "CN10_28"
+			(uuid "b28dd5d0-1fb9-4132-9515-bd6b8abe6839")
+		)
+		(pin "CN10_31"
+			(uuid "0f6353af-0302-4f5c-af7f-e9ed528bb199")
+		)
+		(pin "CN10_30"
+			(uuid "602ece82-dfd3-46ef-b1e1-f8bd62fbf63e")
+		)
+		(pin "CN10_33"
+			(uuid "33575f49-fe2b-477f-80bb-6327e90123ce")
+		)
+		(pin "CN6_4"
+			(uuid "06710ca6-b572-44e5-a0a8-80472b2d19d3")
+		)
+		(pin "CN6_2"
+			(uuid "177df6a4-6a6b-466a-9eca-f2c1dbe579b3")
+		)
+		(pin "CN6_7"
+			(uuid "0ad2a36e-76c5-425d-8059-69d6e0267c6e")
+		)
+		(pin "CN6_8"
+			(uuid "a9256a4f-0279-4167-b365-5cb2f09d355e")
+		)
+		(pin "CN9_3"
+			(uuid "0d9a5a13-2c1e-4e53-8ff2-f628a1551085")
+		)
+		(pin "CN9_2"
+			(uuid "5e46445b-022f-43a0-968b-c77acd37b732")
+		)
+		(pin "CN9_5"
+			(uuid "19790090-ae22-479b-9606-92fbde1c6a67")
+		)
+		(pin "CN9_6"
+			(uuid "3ec7b8e7-6f30-45bf-a030-65907640a00c")
+		)
+		(pin "CN9_7"
+			(uuid "c733a87e-1f28-4df3-a744-de844e26215a")
+		)
+		(pin "CN8_1"
+			(uuid "661060d7-3b29-4797-8a13-8350e6668b94")
+		)
+		(pin "CN8_2"
+			(uuid "fb53d65a-1718-4877-bb35-b1b86495b6d7")
+		)
+		(pin "CN8_4"
+			(uuid "f93fb668-52b1-4aed-a356-2c6f618a840c")
+		)
+		(pin "CN8_6"
+			(uuid "41865b74-6221-41b3-bcbd-173e48d6c6a3")
+		)
+		(pin "CN5_1"
+			(uuid "4308a599-bc6a-4b81-b1af-54ef4965d969")
+		)
+		(pin "CN9_4"
+			(uuid "9a33e57e-39a5-4b59-9fbe-473565bbff3a")
+		)
+		(pin "CN9_8"
+			(uuid "c1cd042b-1164-4185-aa75-0b2c00206b7e")
+		)
+		(pin "CN8_3"
+			(uuid "7bf79dbd-bfd4-44a2-83b0-b05f5d7386e6")
+		)
+		(pin "CN5_2"
+			(uuid "92d7597a-7936-4c5d-a4d0-e46c6b045725")
+		)
+		(pin "CN5_4"
+			(uuid "f47bac0d-63c8-4ff2-89cd-b232fd04936b")
+		)
+		(pin "CN5_6"
+			(uuid "008c01d5-fc91-4f76-bcfa-a0f198916866")
+		)
+		(pin "CN5_7"
+			(uuid "1de6b400-5691-4140-8a71-118865c8307b")
+		)
+		(pin "CN5_8"
+			(uuid "ac27c569-c59d-4798-bdc1-4ea8cc3c4bb4")
+		)
+		(pin "CN5_9"
+			(uuid "e58b9645-8776-4600-8396-0b34385ddf76")
+		)
+		(pin "CN5_10"
+			(uuid "dd99b317-678f-4ef2-a14b-dc87c690736f")
+		)
+		(pin "CN5_5"
+			(uuid "b3b46bdb-f071-4353-8092-00e23d651786")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/737a02a9-8a80-4cf0-ac97-70634fe1df45"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:NUCLEO-F446RE")
+		(at 57.15 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd642116-6056-495e-937b-1ef5e3392114")
+		(property "Reference" "U1"
+			(at 57.15 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NUCLEO-F446RE"
+			(at 57.15 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:MODULE_NUCLEO-F446RE"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STM32F446RE, mbed-Enabled Development Nucleo-64 STM32F4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=eda"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "13"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=snap"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "NUCLEO-F446RE"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=284290&manufacturer=STMicroelectronics&part_name=NUCLEO-F446RE&search_term=stm32 nucleo-64 development board with stm32f446re mcu"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 57.15 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 57.15 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2596,6 +5048,523 @@
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/737a02a9-8a80-4cf0-ac97-70634fe1df45"
 					(reference "U1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:NUCLEO-F446RE")
+		(at 259.08 116.84 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6afaca7-312f-49e5-846b-a932dcc444ed")
+		(property "Reference" "U1"
+			(at 259.08 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NUCLEO-F446RE"
+			(at 259.08 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NUCLEO-F446RE:MODULE_NUCLEO-F446RE"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STM32F446RE, mbed-Enabled Development Nucleo-64 STM32F4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=eda"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "13"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-F446RE/STMicroelectronics/view-part/?ref=snap"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "NUCLEO-F446RE"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=284290&manufacturer=STMicroelectronics&part_name=NUCLEO-F446RE&search_term=stm32 nucleo-64 development board with stm32f446re mcu"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 259.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "CN7_6"
+			(uuid "4876ad80-4de7-4d52-9b86-d26700d738fa")
+		)
+		(pin "CN7_8"
+			(uuid "09b5515d-f3df-4def-a689-77940785e912")
+		)
+		(pin "CN7_5"
+			(uuid "88c39741-c289-4e30-b1ef-db1e6c9d6b95")
+		)
+		(pin "CN7_17"
+			(uuid "4ed6c9a4-ef61-4eff-8b8c-c3f9712997c1")
+		)
+		(pin "CN7_3"
+			(uuid "736db4d9-1328-4d96-9a6f-31d79e110e7e")
+		)
+		(pin "CN7_21"
+			(uuid "a591f153-d611-4353-a5b1-8a8d8ec915e4")
+		)
+		(pin "CN7_19"
+			(uuid "9063b7f3-1531-49f4-a02c-4e90c1b449f1")
+		)
+		(pin "CN7_22"
+			(uuid "0cfdb3e3-7ed6-47f3-bf89-1446f26c7d6a")
+		)
+		(pin "CN7_1"
+			(uuid "645f43c9-bc7f-4efd-8aba-c353c65f51de")
+		)
+		(pin "CN7_4"
+			(uuid "c33ccef3-236b-406e-a506-e6f395f7fbd3")
+		)
+		(pin "CN7_12"
+			(uuid "0d248c5b-48a1-4717-a05f-0a800697570b")
+		)
+		(pin "CN7_13"
+			(uuid "d4a7ed99-bece-41d5-a9f9-84f3bed154fd")
+		)
+		(pin "CN7_2"
+			(uuid "ea6615ea-ce02-4e9e-80da-1c219a77c6b9")
+		)
+		(pin "CN7_14"
+			(uuid "5c3c6d8b-6cae-4657-9fb4-500bffa6ce05")
+		)
+		(pin "CN7_7"
+			(uuid "b697997b-e8d8-4dd6-ac19-b8ffa30f2b50")
+		)
+		(pin "CN7_15"
+			(uuid "40c1b59c-10cd-45f6-af0a-5f58989979b6")
+		)
+		(pin "CN7_16"
+			(uuid "5171ebaa-25ad-4f73-8156-c836c5eb5938")
+		)
+		(pin "CN7_18"
+			(uuid "184fa4d2-cb9e-4fd3-a67b-2a0df94664cf")
+		)
+		(pin "CN7_20"
+			(uuid "524f05c1-a119-4f32-a134-965817c55bc7")
+		)
+		(pin "CN7_25"
+			(uuid "009e8f3a-97f5-4d10-aedc-dc7850af99fe")
+		)
+		(pin "CN7_36"
+			(uuid "cb221147-a3a7-48d4-939a-4bbeb2a9ae68")
+		)
+		(pin "CN7_27"
+			(uuid "740647b4-ee05-4b7a-b4c6-d7136ff024b3")
+		)
+		(pin "CN7_30"
+			(uuid "bfe52677-b61c-48c8-8f6d-491b05d76201")
+		)
+		(pin "CN7_34"
+			(uuid "864099d8-4ca2-4d55-91db-7bb6336f7e8e")
+		)
+		(pin "CN7_32"
+			(uuid "bc288580-3ac7-4b4b-a905-5a86fc891eea")
+		)
+		(pin "CN7_28"
+			(uuid "720fb8cb-de6f-4ea4-a223-12be042505ed")
+		)
+		(pin "CN7_37"
+			(uuid "3cfc1000-c017-42d9-b1a4-520b2f45503c")
+		)
+		(pin "CN7_24"
+			(uuid "437ae8a0-d78e-43a8-ac57-5dd7bf833a18")
+		)
+		(pin "CN7_33"
+			(uuid "e4dd10c8-571f-45f6-893f-7e80c283501a")
+		)
+		(pin "CN10_21"
+			(uuid "00f904f6-1546-469a-b159-db5ce40c24b0")
+		)
+		(pin "CN7_35"
+			(uuid "9cbd0567-a5ff-4d4a-9bc6-753b083cee3d")
+		)
+		(pin "CN7_23"
+			(uuid "c909344f-0df4-49b5-b5d5-398c59945d78")
+		)
+		(pin "CN10_1"
+			(uuid "85e69dd9-bf99-4f50-981a-525c14e78e85")
+		)
+		(pin "CN10_4"
+			(uuid "c4895db0-c144-427e-b59a-cf501a14375b")
+		)
+		(pin "CN10_13"
+			(uuid "4d1b30f1-2ea3-4c6b-a502-02789105d775")
+		)
+		(pin "CN10_15"
+			(uuid "9139d6d0-774d-422d-982e-38f35a9e2ad5")
+		)
+		(pin "CN7_38"
+			(uuid "8bdbce5e-113c-464e-9f8f-b981a3558eeb")
+		)
+		(pin "CN10_2"
+			(uuid "f96e966b-068d-4d7f-a89e-1c6390536b87")
+		)
+		(pin "CN10_12"
+			(uuid "1059bcf4-5bd3-45fa-90f0-6af6a49a595b")
+		)
+		(pin "CN10_16"
+			(uuid "63c2773e-6f89-4102-a8cd-9addef9e5350")
+		)
+		(pin "CN7_29"
+			(uuid "02745a96-dfdc-4c70-b167-08f59312e714")
+		)
+		(pin "CN7_31"
+			(uuid "dd16ff74-0368-4067-95e3-9c8e2c7cac71")
+		)
+		(pin "CN10_9"
+			(uuid "6d531230-7efb-41e2-88d6-48b4e4eea6ec")
+		)
+		(pin "CN10_5"
+			(uuid "8bf2732f-3b46-4cac-bd8f-018bbdc6c367")
+		)
+		(pin "CN10_14"
+			(uuid "4a821326-0985-4011-b827-037acd1893bf")
+		)
+		(pin "CN10_11"
+			(uuid "852e1c3b-0de5-44b5-b5f6-31c2c0ce3cba")
+		)
+		(pin "CN10_17"
+			(uuid "c39682ac-3dce-4ad9-aba3-ec72c8040ec2")
+		)
+		(pin "CN10_3"
+			(uuid "e72c92b0-86e4-4a0c-a188-337ff79ec849")
+		)
+		(pin "CN10_7"
+			(uuid "7f9968f5-59af-4de8-9c8b-23db2c769863")
+		)
+		(pin "CN10_6"
+			(uuid "b28cc347-dbfd-4238-9538-772042bcd621")
+		)
+		(pin "CN10_8"
+			(uuid "87688eda-d779-4d80-b172-9f6d5833515d")
+		)
+		(pin "CN10_19"
+			(uuid "f13f5e21-0a34-4bda-947b-60da7d6fee0b")
+		)
+		(pin "CN10_20"
+			(uuid "01b110ad-93dc-479b-b205-779c489f25d4")
+		)
+		(pin "CN10_22"
+			(uuid "4832c979-898e-4fcd-ae93-ab59db49b0a0")
+		)
+		(pin "CN10_26"
+			(uuid "17304323-9c0c-445d-b8c5-bfb57c585a44")
+		)
+		(pin "CN10_25"
+			(uuid "c07dc483-522b-48d0-a61f-f191c7049899")
+		)
+		(pin "CN10_34"
+			(uuid "61a984af-e6b7-4a61-b912-651586c98eb6")
+		)
+		(pin "CN10_27"
+			(uuid "f437e66e-9b59-42e3-a9c1-230aab941b17")
+		)
+		(pin "CN10_23"
+			(uuid "71df4cac-a692-4531-82ce-090d095d0e24")
+		)
+		(pin "CN9_1"
+			(uuid "e65e85c1-1eda-4398-9f60-8417434b0f03")
+		)
+		(pin "CN10_32"
+			(uuid "799e5419-1614-49fa-b70d-1aebee562a56")
+		)
+		(pin "CN10_35"
+			(uuid "cd9129e1-8001-4440-82ea-74a90fe03a69")
+		)
+		(pin "CN10_29"
+			(uuid "9553f246-6518-438d-9ec4-3a06e10584bc")
+		)
+		(pin "CN10_37"
+			(uuid "d67beb69-71dc-4a88-8554-de3ea857a774")
+		)
+		(pin "CN6_3"
+			(uuid "07ee56d4-e4af-4a08-ad31-c9dbd85c6a80")
+		)
+		(pin "CN6_5"
+			(uuid "3360616e-2ec4-4efd-9e82-8e8c31f3d28e")
+		)
+		(pin "CN6_6"
+			(uuid "bc483a69-3754-4b3f-bd71-0928e5309188")
+		)
+		(pin "CN8_5"
+			(uuid "d7bda20e-1489-48ec-bfca-96925a10559b")
+		)
+		(pin "CN5_3"
+			(uuid "0a9a1347-84ad-4f3f-b6f9-1610526846d9")
+		)
+		(pin "CN10_24"
+			(uuid "c86b4953-3767-4d2e-a5fb-e7fd08e0bb33")
+		)
+		(pin "CN10_28"
+			(uuid "b28dd5d0-1fb9-4132-9515-bd6b8abe683a")
+		)
+		(pin "CN10_31"
+			(uuid "0f6353af-0302-4f5c-af7f-e9ed528bb19a")
+		)
+		(pin "CN10_30"
+			(uuid "602ece82-dfd3-46ef-b1e1-f8bd62fbf63f")
+		)
+		(pin "CN10_33"
+			(uuid "33575f49-fe2b-477f-80bb-6327e90123cf")
+		)
+		(pin "CN6_4"
+			(uuid "06710ca6-b572-44e5-a0a8-80472b2d19d4")
+		)
+		(pin "CN6_2"
+			(uuid "177df6a4-6a6b-466a-9eca-f2c1dbe579b4")
+		)
+		(pin "CN6_7"
+			(uuid "0ad2a36e-76c5-425d-8059-69d6e0267c6f")
+		)
+		(pin "CN6_8"
+			(uuid "a9256a4f-0279-4167-b365-5cb2f09d355f")
+		)
+		(pin "CN9_3"
+			(uuid "0d9a5a13-2c1e-4e53-8ff2-f628a1551086")
+		)
+		(pin "CN9_2"
+			(uuid "5e46445b-022f-43a0-968b-c77acd37b733")
+		)
+		(pin "CN9_5"
+			(uuid "19790090-ae22-479b-9606-92fbde1c6a68")
+		)
+		(pin "CN9_6"
+			(uuid "3ec7b8e7-6f30-45bf-a030-65907640a00d")
+		)
+		(pin "CN9_7"
+			(uuid "c733a87e-1f28-4df3-a744-de844e26215b")
+		)
+		(pin "CN8_1"
+			(uuid "661060d7-3b29-4797-8a13-8350e6668b95")
+		)
+		(pin "CN8_2"
+			(uuid "fb53d65a-1718-4877-bb35-b1b86495b6d8")
+		)
+		(pin "CN8_4"
+			(uuid "f93fb668-52b1-4aed-a356-2c6f618a840d")
+		)
+		(pin "CN8_6"
+			(uuid "41865b74-6221-41b3-bcbd-173e48d6c6a4")
+		)
+		(pin "CN5_1"
+			(uuid "4308a599-bc6a-4b81-b1af-54ef4965d96a")
+		)
+		(pin "CN9_4"
+			(uuid "9a33e57e-39a5-4b59-9fbe-473565bbff3b")
+		)
+		(pin "CN9_8"
+			(uuid "c1cd042b-1164-4185-aa75-0b2c00206b7f")
+		)
+		(pin "CN8_3"
+			(uuid "7bf79dbd-bfd4-44a2-83b0-b05f5d7386e7")
+		)
+		(pin "CN5_2"
+			(uuid "92d7597a-7936-4c5d-a4d0-e46c6b045726")
+		)
+		(pin "CN5_4"
+			(uuid "f47bac0d-63c8-4ff2-89cd-b232fd04936c")
+		)
+		(pin "CN5_6"
+			(uuid "008c01d5-fc91-4f76-bcfa-a0f198916867")
+		)
+		(pin "CN5_7"
+			(uuid "1de6b400-5691-4140-8a71-118865c8307c")
+		)
+		(pin "CN5_8"
+			(uuid "ac27c569-c59d-4798-bdc1-4ea8cc3c4bb5")
+		)
+		(pin "CN5_9"
+			(uuid "e58b9645-8776-4600-8396-0b34385ddf77")
+		)
+		(pin "CN5_10"
+			(uuid "dd99b317-678f-4ef2-a14b-dc87c6907370")
+		)
+		(pin "CN5_5"
+			(uuid "b3b46bdb-f071-4353-8092-00e23d651787")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/737a02a9-8a80-4cf0-ac97-70634fe1df45"
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
