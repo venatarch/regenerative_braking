@@ -5,136 +5,6 @@
 	(uuid "f00978bf-5fbb-4a80-87e2-8bf6cee379be")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ACS712-30A_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0.508 5.588 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ACS712-30A_1_0_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 7.62 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ACS712-30A_1_1_1"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1453,6 +1323,521 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regen_braking:120uf_cap_5v_buck"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "120uf_cap_5v_buck"
+				(at -2.54 7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "120uf_cap_5v_buck_0_0"
+				(rectangle
+					(start -2.443 2.278)
+					(end -1.554 2.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.062 1.897)
+					(end -1.935 2.786)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -0.762 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 6.35) (xy -0.762 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 3.81) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 0.254 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.27)
+					(mid 0.2151 3.81)
+					(end 1.016 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regen_braking:1N5822"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1N5822"
+				(at -5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "1N5822:DIOAD1990W125L900D530"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3A, 40V, Automotive Planar Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Taiwan Semiconductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.6 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "DO-201AD Taiwan Semiconductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/1N5822/taiwan/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "K2105"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N5822/taiwan/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "1N5822"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Taiwan Semiconductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "1N5822_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regen_braking:1nf_snubber"
 			(pin_names
 				(offset 1.016)
@@ -1861,6 +2246,267 @@
 					(at 17.78 0 180)
 					(length 5.08)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regen_braking:330uf_25v_cap_5v_buck"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "330uf_25v_cap_5v_buck"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPPRD350W65D800H1300"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Panasonic 330uF 25 V dc Aluminium Electrolytic Capacitor, FR Radial Series 6000h 8 (Dia.) x 11.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "13"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EEU-FR1E331"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "667-EEU-FR1E331"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1E331?qs=Uw8ySfEHS7IWkhRa2g6NVA%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "330uf_25v_cap_5v_buck_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2541,33 +3187,62 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regen_braking:ACS712-30A"
+		(symbol "Regen_braking:47uh_5v_buck"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0.508 5.588 0)
+			(property "Reference" "L"
+				(at 16.51 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "47uH"
+				(at 16.51 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "CDRH8D43NP220NC"
+				(at 16.51 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://products.sumida.com/products/pdf/CDRH8D43.pdf"
+				(at 16.51 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Inductor Power Shielded Drum Core 22uH 30% 100KHz Ferrite 1.8A 75mOhm DCR T/R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2578,8 +3253,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "4.3"
+				(at 16.51 -396.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2587,10 +3262,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Sumida"
+				(at 16.51 -496.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2598,33 +3274,129 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "ACS712-30A_0_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 7.62 -3.81)
+			(property "Manufacturer_Part_Number" "CDRH8D43NP-220NC"
+				(at 16.51 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "851-CDRH8D43NP220NC"
+				(at 16.51 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Sumida/CDRH8D43NP-220NC?qs=mT6umqgwvA1bYCLsRqUGew%3D%3D"
+				(at 16.51 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "CDRH8D43NP-220NC"
+				(at 16.51 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdrh8d43np-220nc/sumida?utm_currency=USD&region=nac"
+				(at 16.51 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "47uh_5v_buck_1_1"
+				(arc
+					(start 5.08 0)
+					(mid 6.35 1.219)
+					(end 7.62 0)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "ACS712-30A_1_1"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "GND"
+				(arc
+					(start 7.62 0)
+					(mid 8.89 1.219)
+					(end 10.16 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 0)
+					(mid 11.43 1.219)
+					(end 12.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 13.97 1.219)
+					(end 15.24 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2632,35 +3404,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "OUT"
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3186,6 +3940,351 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regen_braking:LM2596S-5.0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "VR"
+				(at -12.7 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LM2596S-5.0"
+				(at -12.7 -13.462 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LM2596S-5.0:TO170P1524X483-6N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SIMPLE SWITCHER® 4.5V to 40V, 3A Low Component Count Step-Down Regulator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.83 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "TO-263-5 Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LM2596S-5.0/NOPB/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM2596S-5.0/NOPB/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SNAPEDA_PACKAGE_ID" "102658"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "LM2596S-5.0/NOPB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15588&manufacturer=Texas Instruments&part_name=LM2596S-5.0/NOPB&search_term= lm2596s-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "LM2596S-5.0_0_0"
+				(rectangle
+					(start -12.7 -12.7)
+					(end 12.7 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GROUND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "FEEDBACK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "~{ON}/OFF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND_TAB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4091,118 +5190,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regen_braking:solder_pad_acs712_inout"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "solder_pad_acs712_inout_0_1"
-				(rectangle
-					(start 2.54 6.35)
-					(end -2.54 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "solder_pad_acs712_inout_1_1"
-				(pin input line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Simulation_SPICE:0"
 			(power global)
 			(pin_numbers
@@ -4318,122 +5305,23 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "solder_pad_acs712_inout_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "solder_pad_acs712_inout_1_0_1"
-				(rectangle
-					(start 2.54 6.35)
-					(end -2.54 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "solder_pad_acs712_inout_1_1_1"
-				(pin input line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
-		(start 219.71 49.53)
-		(end 280.67 99.06)
+		(start 63.5 50.8)
+		(end 151.13 100.33)
+		(stroke
+			(width 0.635)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "12122598-7ac4-4334-a3a4-e61d4378cc2a")
+	)
+	(rectangle
+		(start 154.94 62.23)
+		(end 279.4 100.33)
 		(stroke
 			(width 0.635)
 			(type dash)
@@ -4459,7 +5347,7 @@
 	)
 	(text "CAPACITOR BUFFER BANK"
 		(exclude_from_sim no)
-		(at 249.174 54.61 0)
+		(at 247.904 67.31 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4467,6 +5355,17 @@
 			)
 		)
 		(uuid "01e03f51-9d3f-463d-8bee-27ad8182dc0f")
+	)
+	(text "5V BUCK STAGE"
+		(exclude_from_sim no)
+		(at 107.188 55.372 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "04587986-6c26-4805-bd98-9696927f0a59")
 	)
 	(text "BIDIRECTIONAL CONVERTER STAGE"
 		(exclude_from_sim no)
@@ -4519,13 +5418,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 88.9) (xy 180.34 88.9)
+			(xy 69.85 77.47) (xy 69.85 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13d29282-8bca-4f48-bc4d-7b2a66ea1313")
+		(uuid "14ed3569-e81c-419b-a757-50c7d13013aa")
 	)
 	(wire
 		(pts
@@ -4549,13 +5448,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 90.17) (xy 110.49 90.17)
+			(xy 142.24 91.44) (xy 142.24 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27027a0e-f8fa-4f2e-bbe1-33d7b03d48a3")
+		(uuid "267f362d-21e7-466f-8238-0763bc5c5330")
 	)
 	(wire
 		(pts
@@ -4599,16 +5498,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 95.25) (xy 110.49 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3762ed9a-ab21-48cc-b4f7-de9d4a70e9e1")
-	)
-	(wire
-		(pts
 			(xy 200.66 153.67) (xy 200.66 151.13)
 		)
 		(stroke
@@ -4629,13 +5518,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 30.48) (xy 125.73 30.48)
+			(xy 213.36 52.07) (xy 228.6 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "51ee456d-7fd3-45d2-8b97-c1734f5daa2c")
+	)
+	(wire
+		(pts
+			(xy 69.85 64.77) (xy 69.85 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549d7115-1210-4fc4-aee3-62136e3f50fb")
 	)
 	(wire
 		(pts
@@ -4679,7 +5578,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 30.48) (xy 91.44 30.48)
+			(xy 185.42 52.07) (xy 195.58 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4736,6 +5635,16 @@
 			(type default)
 		)
 		(uuid "9c17715e-a0f1-4802-9b7d-3388e2975db6")
+	)
+	(wire
+		(pts
+			(xy 69.85 82.55) (xy 69.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d881500-a10c-40fb-bbac-70e59009fb00")
 	)
 	(wire
 		(pts
@@ -4919,7 +5828,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 33.02) (xy 59.69 33.02)
+			(xy 189.23 54.61) (xy 185.42 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4947,8 +5856,18 @@
 		)
 		(uuid "ff9432aa-e9da-42dd-a6be-ab21b33c2864")
 	)
+	(label "5V"
+		(at 142.24 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01b0db01-ad08-4cb4-ad75-28f988d9ca81")
+	)
 	(label "VBUS"
-		(at 158.75 68.58 0)
+		(at 194.31 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4957,18 +5876,18 @@
 		)
 		(uuid "03aae134-759b-4ee4-ad1d-579f95249638")
 	)
-	(label "5V"
-		(at 110.49 95.25 180)
+	(label "GND"
+		(at 121.92 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "08da32e6-f328-4cc2-9aba-59dea4257148")
+		(uuid "0402372d-d689-451d-a17c-45c17d5e81af")
 	)
 	(label "GND"
-		(at 228.6 81.28 0)
+		(at 227.33 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4997,18 +5916,8 @@
 		)
 		(uuid "16f6216f-07c0-43cf-8ecd-10612ae44a44")
 	)
-	(label "VBUS"
-		(at 161.29 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18a5dc6b-f754-4e96-bdaa-f55762b5c361")
-	)
 	(label "GND"
-		(at 173.99 62.23 0)
+		(at 209.55 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5028,7 +5937,7 @@
 		(uuid "1cfc67b2-d820-428c-a60a-7a342e226a0e")
 	)
 	(label "Cap_bufferBank"
-		(at 243.84 73.66 0)
+		(at 242.57 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5038,34 +5947,14 @@
 		(uuid "1d41a0f6-ee2f-455b-8ffb-bb406f59e72f")
 	)
 	(label "GND"
-		(at 110.49 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1f2391cd-93be-46a3-ae0d-9c2ced30001b")
-	)
-	(label "DC_BUS"
-		(at 161.29 91.44 0)
+		(at 121.92 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "207d64ae-0b23-4303-973b-1db063450f14")
-	)
-	(label "sw_node"
-		(at 255.27 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "22bf7f6e-13c1-44af-8486-fdb84859722a")
+		(uuid "1ddfba55-ac34-466e-8caa-1f48a21784c9")
 	)
 	(label "QH_out"
 		(at 176.53 135.89 180)
@@ -5087,16 +5976,6 @@
 		)
 		(uuid "26162b90-4083-4c43-803d-64d5afdf1a3c")
 	)
-	(label "Cap_bufferBank"
-		(at 87.63 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "266145dc-1054-47b6-9330-52771581e52e")
-	)
 	(label "VB"
 		(at 143.51 120.65 0)
 		(effects
@@ -5116,16 +5995,6 @@
 			(justify left bottom)
 		)
 		(uuid "270748da-d624-4cc6-ab1d-f0325a090583")
-	)
-	(label "5V"
-		(at 180.34 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "278b4527-0167-4db3-ad0e-abc134ed0bd4")
 	)
 	(label "LIN"
 		(at 88.9 142.24 0)
@@ -5148,7 +6017,7 @@
 		(uuid "30f449c0-9c3a-4674-a563-4bec9daf38b4")
 	)
 	(label "VBUS"
-		(at 158.75 54.61 0)
+		(at 194.31 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5168,7 +6037,7 @@
 		(uuid "34336c4d-a9c9-4794-90c9-a5d7d9510696")
 	)
 	(label "VBUS"
-		(at 173.99 54.61 0)
+		(at 209.55 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5188,7 +6057,7 @@
 		(uuid "38369cf1-31b2-4fee-8f18-797f6eb11eaf")
 	)
 	(label "Cap_bufferBank"
-		(at 228.6 60.96 0)
+		(at 227.33 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5258,7 +6127,7 @@
 		(uuid "4ba5bf78-def8-4f12-88e5-3af824772880")
 	)
 	(label "GND"
-		(at 173.99 76.2 0)
+		(at 209.55 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5267,8 +6136,18 @@
 		)
 		(uuid "4cb31928-fd0e-4346-ac27-92bb8d943f48")
 	)
+	(label "VBUS"
+		(at 69.85 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d48bfb3-1ee6-4059-887e-2e46d3773632")
+	)
 	(label "Cap_bufferBank"
-		(at 259.08 73.66 0)
+		(at 257.81 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5288,17 +6167,7 @@
 		(uuid "50d478bc-5152-4b77-80ee-8387c0f2d67a")
 	)
 	(label "GND"
-		(at 191.77 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "554587b4-be7d-45e5-91b3-5124b9282f4d")
-	)
-	(label "GND"
-		(at 158.75 62.23 0)
+		(at 194.31 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5338,7 +6207,17 @@
 		(uuid "6459e248-2ea6-4193-af21-50cd68fafc93")
 	)
 	(label "GND"
-		(at 243.84 68.58 0)
+		(at 130.81 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65ab6a4d-3b33-4f4d-a336-33c37b5df704")
+	)
+	(label "GND"
+		(at 242.57 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5356,16 +6235,6 @@
 			(justify right bottom)
 		)
 		(uuid "6b995895-874b-49b7-a4ed-274886667a3e")
-	)
-	(label "VBUS"
-		(at 191.77 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "735da3f0-1ccd-4289-8c07-e7303586d0d6")
 	)
 	(label "GND"
 		(at 86.36 154.94 0)
@@ -5388,7 +6257,7 @@
 		(uuid "794f5e9e-9632-4437-95a9-6cca9ec333f3")
 	)
 	(label "GND"
-		(at 259.08 81.28 0)
+		(at 257.81 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5418,7 +6287,7 @@
 		(uuid "7cf723e5-1dbe-48b6-80b2-562a01dbc7c9")
 	)
 	(label "GND"
-		(at 63.5 33.02 180)
+		(at 189.23 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5448,7 +6317,7 @@
 		(uuid "87e69dfb-2911-4bbf-8f2c-bba1006f0adc")
 	)
 	(label "GND"
-		(at 158.75 76.2 0)
+		(at 194.31 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5467,6 +6336,16 @@
 		)
 		(uuid "8f4f360c-6371-4d22-9549-3e7cd73d187b")
 	)
+	(label "GND"
+		(at 69.85 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ca2bd3b-0bfd-42c0-8726-d0962c52b485")
+	)
 	(label "LIN"
 		(at 113.03 143.51 180)
 		(effects
@@ -5478,17 +6357,17 @@
 		(uuid "9d4d2ca3-a289-4a73-b835-e9a8d64860fc")
 	)
 	(label "GND"
-		(at 177.8 88.9 180)
+		(at 86.36 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a1ff9a7a-f794-4a4d-a4f5-820bcb3ded43")
+		(uuid "a6912b53-f0be-496d-aa5d-d8a12ee3af46")
 	)
 	(label "GND"
-		(at 243.84 81.28 0)
+		(at 242.57 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5498,7 +6377,7 @@
 		(uuid "a88fd09b-21fd-4752-942f-eae5bbadf604")
 	)
 	(label "DC_BUS"
-		(at 125.73 30.48 0)
+		(at 228.6 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5506,16 +6385,6 @@
 			(justify left bottom)
 		)
 		(uuid "acf52598-d0e1-456f-b5ed-7b227cb3f318")
-	)
-	(label "ACS_in"
-		(at 87.63 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af2f2758-f108-4b96-997a-5d181915327f")
 	)
 	(label "GH"
 		(at 222.25 125.73 180)
@@ -5528,7 +6397,7 @@
 		(uuid "b1d1126a-1522-4e49-be4b-795c8b5baf4f")
 	)
 	(label "GND"
-		(at 228.6 68.58 0)
+		(at 227.33 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5547,6 +6416,16 @@
 		)
 		(uuid "b2cfe2c2-1724-4f15-8d88-05d65e3e152c")
 	)
+	(label "5V"
+		(at 86.36 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfe1a356-9450-4703-b51d-e4bd2858feb7")
+	)
 	(label "HIN"
 		(at 88.9 123.19 0)
 		(effects
@@ -5557,18 +6436,8 @@
 		)
 		(uuid "c1b6f756-1715-4eae-9d0f-561f049f1b0b")
 	)
-	(label "VBUS"
-		(at 191.77 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c419a033-04dd-4a77-8f06-c9aa65d51110")
-	)
 	(label "Cap_bufferBank"
-		(at 259.08 60.96 0)
+		(at 257.81 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5598,7 +6467,7 @@
 		(uuid "cb5e90ef-6e65-4469-9b18-6b933a68e953")
 	)
 	(label "VBUS"
-		(at 173.99 68.58 0)
+		(at 209.55 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5608,7 +6477,7 @@
 		(uuid "cdabfd6f-8bf0-4f76-abed-a6bba8c57260")
 	)
 	(label "Cap_bufferBank"
-		(at 243.84 60.96 0)
+		(at 242.57 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5627,18 +6496,8 @@
 		)
 		(uuid "d11394bd-6deb-4aff-9997-c084944a5e0e")
 	)
-	(label "sw_node"
-		(at 236.22 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d35de838-6845-43a9-aff9-64128a6012e4")
-	)
 	(label "GND"
-		(at 259.08 68.58 0)
+		(at 257.81 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5646,16 +6505,6 @@
 			(justify left bottom)
 		)
 		(uuid "db6d5949-954d-4845-b8d0-600052077871")
-	)
-	(label "GND"
-		(at 191.77 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de20812e-3664-4e9c-96bb-b09b4a64ba5a")
 	)
 	(label "GL"
 		(at 222.25 144.78 180)
@@ -5667,8 +6516,18 @@
 		)
 		(uuid "df0d6d89-165d-4bd1-8441-a017c8c1cfea")
 	)
+	(label "SW"
+		(at 130.81 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df2aa905-b163-404d-b50c-3544a6af497b")
+	)
 	(label "Cap_bufferBank"
-		(at 228.6 73.66 0)
+		(at 227.33 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5676,6 +6535,16 @@
 			(justify left bottom)
 		)
 		(uuid "e99d83c9-6f3d-4e44-a798-0f2ca440a04f")
+	)
+	(label "SW"
+		(at 121.92 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaf22351-4d48-41dc-b263-86a0d611b2b3")
 	)
 	(label "VBUS"
 		(at 245.11 119.38 180)
@@ -5688,7 +6557,7 @@
 		(uuid "ed94f06f-f6e4-4cd4-9b2f-cfb3e0f57555")
 	)
 	(label "ACS_in"
-		(at 262.89 133.35 0)
+		(at 243.84 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5696,6 +6565,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed960329-4d8a-45d8-972f-20a0d525e3f4")
+	)
+	(label "SW"
+		(at 142.24 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eebf1387-cb6f-4b3b-aed0-d8152bff4cd5")
 	)
 	(label "VS"
 		(at 209.55 133.35 0)
@@ -5707,6 +6586,16 @@
 		)
 		(uuid "efc84824-c478-465e-943e-23af4dfb09af")
 	)
+	(label "VBUS"
+		(at 86.36 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f13c3c85-4b98-455a-b737-db686be56e6e")
+	)
 	(label "GND"
 		(at 113.03 146.05 180)
 		(effects
@@ -5717,15 +6606,25 @@
 		)
 		(uuid "f18fb839-2e94-45a2-9799-c265d7b0f017")
 	)
-	(label "ACS_out"
-		(at 180.34 91.44 180)
+	(label "5V"
+		(at 69.85 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "f6ffdd01-5954-45da-a9a4-a503ad13075d")
+		(uuid "f50c9da3-fb3b-4f1f-a7a9-044a88a916e5")
+	)
+	(label "GND"
+		(at 69.85 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5c1d5f0-83fb-48cd-a51c-f034f8d8caa9")
 	)
 	(label "GH"
 		(at 198.12 124.46 0)
@@ -5905,7 +6804,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 158.75 58.42 0)
+		(at 194.31 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5916,7 +6815,7 @@
 		(fields_autoplaced yes)
 		(uuid "08c9ef48-8ed3-4d8f-bc7b-ebf48b515c47")
 		(property "Reference" "C34"
-			(at 162.56 57.1499 0)
+			(at 198.12 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5927,7 +6826,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 162.56 59.6899 0)
+			(at 198.12 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5938,7 +6837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 159.7152 62.23 0)
+			(at 195.2752 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5949,7 +6848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 58.42 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5960,7 +6859,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 158.75 58.42 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5987,7 +6886,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 158.75 72.39 0)
+		(at 194.31 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5998,7 +6897,7 @@
 		(fields_autoplaced yes)
 		(uuid "08d6c4c8-52b1-47d9-b877-acddd0322d00")
 		(property "Reference" "C35"
-			(at 162.56 71.1199 0)
+			(at 198.12 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6009,7 +6908,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 162.56 73.6599 0)
+			(at 198.12 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6020,7 +6919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 159.7152 76.2 0)
+			(at 195.2752 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6031,7 +6930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 72.39 0)
+			(at 194.31 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6042,7 +6941,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 158.75 72.39 0)
+			(at 194.31 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6330,7 +7229,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:1000uf")
-		(at 228.6 63.5 270)
+		(at 227.33 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6341,7 +7240,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c4c96af-2d1f-4861-8a8a-89cbdda5fe75")
 		(property "Reference" "C29"
-			(at 232.41 62.9266 90)
+			(at 231.14 75.6266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6352,7 +7251,7 @@
 			)
 		)
 		(property "Value" "1000uf"
-			(at 232.41 65.4666 90)
+			(at 231.14 78.1666 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6363,7 +7262,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:1000uf"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,7 +7274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6386,7 +7285,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM 1000UF 20% 16V RADIAL"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,7 +7297,7 @@
 			)
 		)
 		(property "MF" "Panasonic"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6410,7 +7309,7 @@
 			)
 		)
 		(property "b_max" "0.65"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6422,7 +7321,7 @@
 			)
 		)
 		(property "Package" "RADIAL-2 Panasonic"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6434,7 +7333,7 @@
 			)
 		)
 		(property "b_nom" "0.6"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6446,7 +7345,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6458,7 +7357,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=eda"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6470,7 +7369,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=snap"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,7 +7381,7 @@
 			)
 		)
 		(property "PARTREV" "20-DEC-19"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,7 +7393,7 @@
 			)
 		)
 		(property "A_max" "20"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6506,7 +7405,7 @@
 			)
 		)
 		(property "MP" "EEU-TA1C102B"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6518,7 +7417,7 @@
 			)
 		)
 		(property "D_nom" "12.5"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6530,7 +7429,7 @@
 			)
 		)
 		(property "e_nom" "5"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6542,7 +7441,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 228.6 63.5 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6796,7 +7695,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 259.08 133.35 90)
+		(at 240.03 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6807,7 +7706,7 @@
 		(fields_autoplaced yes)
 		(uuid "2524d069-b5c9-41b8-8048-73f913499aec")
 		(property "Reference" "L2"
-			(at 259.08 128.27 90)
+			(at 240.03 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6817,7 +7716,7 @@
 			)
 		)
 		(property "Value" "33uh"
-			(at 259.08 130.81 90)
+			(at 240.03 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6827,7 +7726,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:L_bdc"
-			(at 259.08 133.35 0)
+			(at 240.03 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6838,7 +7737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 133.35 0)
+			(at 240.03 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6849,7 +7748,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 259.08 133.35 0)
+			(at 240.03 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7304,8 +8203,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Regen_braking:solder_pad_acs712_inout")
-		(at 82.55 97.79 0)
+		(lib_id "Regen_braking:1N5822")
+		(at 130.81 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7314,29 +8213,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3b7c264b-fef2-441a-afd9-e1ba89693b49")
-		(property "Reference" "ACS712-30A3"
-			(at 82.55 88.9 0)
+		(uuid "3e00e940-5780-46c2-bc4c-3c3df46bce77")
+		(property "Reference" "D10"
+			(at 133.35 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" ""
-			(at 82.55 97.79 0)
+		(property "Value" "1N5822"
+			(at 133.35 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Regen_braking:Solderpad_acs712_INOUT"
-			(at 82.55 97.79 0)
+		(property "Footprint" "Regen_braking:1N5822"
+			(at 130.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7344,10 +8245,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 97.79 0)
+			(at 130.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7357,8 +8259,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 82.55 97.79 0)
+		(property "Description" "3A, 40V, Automotive Planar Schottky"
+			(at 130.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7366,18 +8268,151 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(pin ""
-			(uuid "8ce4eb82-f8da-40b7-af75-71c63a70ccad")
+		(property "MF" "Taiwan Semiconductor"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin ""
-			(uuid "febee514-3e93-4c1d-8a55-fe314c4382b5")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.6 mm"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "DO-201AD Taiwan Semiconductor"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1N5822/taiwan/view-part/?ref=eda"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "K2105"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N5822/taiwan/view-part/?ref=snap"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "1N5822"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "A"
+			(uuid "d965980a-f1e3-43b9-bf48-da8a73da7197")
+		)
+		(pin "C"
+			(uuid "1156bf81-b2f3-4c21-ba71-f05a3ac41999")
 		)
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/668fb35a-5873-4809-b3a2-906fc8484e37"
-					(reference "ACS712-30A3")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7716,6 +8751,174 @@
 		)
 	)
 	(symbol
+		(lib_id "Regen_braking:330uf_25v_cap_5v_buck")
+		(at 69.85 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46d3e36e-187c-4fb7-9f8d-3744cc8a7079")
+		(property "Reference" "C18"
+			(at 73.66 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330uf"
+			(at 73.66 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Regen_braking:330uf_25v_cap_5v_buck"
+			(at -26.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf"
+			(at -126.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Panasonic 330uF 25 V dc Aluminium Electrolytic Capacitor, FR Radial Series 6000h 8 (Dia.) x 11.5mm"
+			(at 69.85 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "13"
+			(at -326.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at -426.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EEU-FR1E331"
+			(at -526.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "667-EEU-FR1E331"
+			(at -626.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FR1E331?qs=Uw8ySfEHS7IWkhRa2g6NVA%3D%3D"
+			(at -726.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -826.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -926.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "70b35472-c778-4210-ba7d-1a277da3fe54")
+		)
+		(pin "2"
+			(uuid "7ceb51f6-57e2-4c5e-9672-7e07099e4507")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/668fb35a-5873-4809-b3a2-906fc8484e37"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regen_braking:47,2.2,100k,10k,4.7,10ohm")
 		(at 209.55 133.35 90)
 		(unit 1)
@@ -7885,247 +9088,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:1000uf")
-		(at 191.77 71.12 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aad67d4-32fd-41ba-9f7e-95d3e0f08f2b")
-		(property "Reference" "C37"
-			(at 195.58 70.5466 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uf"
-			(at 195.58 73.0866 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Regen_braking:1000uf"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP ALUM 1000UF 20% 16V RADIAL"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "b_max" "0.65"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "RADIAL-2 Panasonic"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "b_nom" "0.6"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=eda"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=snap"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "20-DEC-19"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "A_max" "20"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "EEU-TA1C102B"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "D_nom" "12.5"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "e_nom" "5"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 191.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "P"
-			(uuid "5b744d27-2f59-4008-be49-22954fe49b4a")
-		)
-		(pin "N"
-			(uuid "854022da-f3b5-4c36-ac31-6bfb8da683ec")
-		)
-		(instances
-			(project "Regenerative_Braking"
-				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/668fb35a-5873-4809-b3a2-906fc8484e37"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regen_braking:1000uf")
-		(at 243.84 76.2 270)
+		(at 242.57 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8136,7 +9099,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fb76ce0-18b3-4396-88f7-0425ba763beb")
 		(property "Reference" "C27"
-			(at 247.65 75.6266 90)
+			(at 246.38 88.3266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8147,7 +9110,7 @@
 			)
 		)
 		(property "Value" "1000uf"
-			(at 247.65 78.1666 90)
+			(at 246.38 90.8666 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8158,7 +9121,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:1000uf"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8170,7 +9133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8181,7 +9144,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM 1000UF 20% 16V RADIAL"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8193,7 +9156,7 @@
 			)
 		)
 		(property "MF" "Panasonic"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8205,7 +9168,7 @@
 			)
 		)
 		(property "b_max" "0.65"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8217,7 +9180,7 @@
 			)
 		)
 		(property "Package" "RADIAL-2 Panasonic"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8229,7 +9192,7 @@
 			)
 		)
 		(property "b_nom" "0.6"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8241,7 +9204,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8253,7 +9216,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=eda"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8265,7 +9228,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=snap"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8277,7 +9240,7 @@
 			)
 		)
 		(property "PARTREV" "20-DEC-19"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8289,7 +9252,7 @@
 			)
 		)
 		(property "A_max" "20"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8301,7 +9264,7 @@
 			)
 		)
 		(property "MP" "EEU-TA1C102B"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8313,7 +9276,7 @@
 			)
 		)
 		(property "D_nom" "12.5"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8325,7 +9288,7 @@
 			)
 		)
 		(property "e_nom" "5"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8337,7 +9300,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 243.84 76.2 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8364,8 +9327,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Regen_braking:47uh_5v_buck")
+		(at 142.24 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50ca5bfb-5460-4781-b04f-53cd7b48593c")
+		(property "Reference" "L1"
+			(at 144.78 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uH"
+			(at 144.78 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Regen_braking:47uh_5v_buck"
+			(at 46.05 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://products.sumida.com/products/pdf/CDRH8D43.pdf"
+			(at -53.95 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Inductor Power Shielded Drum Core 22uH 30% 100KHz Ferrite 1.8A 75mOhm DCR T/R"
+			(at 142.24 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.3"
+			(at -253.95 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Sumida"
+			(at -353.95 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDRH8D43NP-220NC"
+			(at -453.95 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "851-CDRH8D43NP220NC"
+			(at -553.95 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Sumida/CDRH8D43NP-220NC?qs=mT6umqgwvA1bYCLsRqUGew%3D%3D"
+			(at -653.95 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "CDRH8D43NP-220NC"
+			(at -753.95 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdrh8d43np-220nc/sumida?utm_currency=USD&region=nac"
+			(at -853.95 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "c36a86ad-b1e2-4733-8963-a78155829741")
+		)
+		(pin "1"
+			(uuid "55a96d4f-329a-4f43-b65b-fa529a85edac")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/668fb35a-5873-4809-b3a2-906fc8484e37"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regen_braking:1000uf")
-		(at 243.84 63.5 270)
+		(at 242.57 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8376,7 +9507,7 @@
 		(fields_autoplaced yes)
 		(uuid "562b82f9-dd97-4e05-905a-e8f5a1516645")
 		(property "Reference" "C30"
-			(at 247.65 62.9266 90)
+			(at 246.38 75.6266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8387,7 +9518,7 @@
 			)
 		)
 		(property "Value" "1000uf"
-			(at 247.65 65.4666 90)
+			(at 246.38 78.1666 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8398,7 +9529,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:1000uf"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8410,7 +9541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8421,7 +9552,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM 1000UF 20% 16V RADIAL"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8433,7 +9564,7 @@
 			)
 		)
 		(property "MF" "Panasonic"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8445,7 +9576,7 @@
 			)
 		)
 		(property "b_max" "0.65"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8457,7 +9588,7 @@
 			)
 		)
 		(property "Package" "RADIAL-2 Panasonic"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8469,7 +9600,7 @@
 			)
 		)
 		(property "b_nom" "0.6"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8481,7 +9612,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8493,7 +9624,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=eda"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8505,7 +9636,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=snap"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8517,7 +9648,7 @@
 			)
 		)
 		(property "PARTREV" "20-DEC-19"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8529,7 +9660,7 @@
 			)
 		)
 		(property "A_max" "20"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8541,7 +9672,7 @@
 			)
 		)
 		(property "MP" "EEU-TA1C102B"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8553,7 +9684,7 @@
 			)
 		)
 		(property "D_nom" "12.5"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8565,7 +9696,7 @@
 			)
 		)
 		(property "e_nom" "5"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8577,7 +9708,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 243.84 63.5 0)
+			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8854,175 +9985,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regen_braking:ACS712-30A")
-		(at 120.65 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6952598d-09da-4b18-93fb-d51ef8579381")
-		(property "Reference" "ACS712-30A4"
-			(at 129.54 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 120.65 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Regen_braking:ACS712_Module_27x12mm"
-			(at 120.65 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a0766df6-824c-4e04-9d13-848a4928f0cb")
-		)
-		(pin ""
-			(uuid "34dc1e8d-c010-4b1d-88af-ad84f84be071")
-		)
-		(pin ""
-			(uuid "1ba4109c-742d-408a-93b6-bb5bdb654abf")
-		)
-		(instances
-			(project "Regenerative_Braking"
-				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/668fb35a-5873-4809-b3a2-906fc8484e37"
-					(reference "ACS712-30A4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ACS712-30A_1")
-		(lib_id "Regen_braking:ACS712-30A")
-		(at 189.23 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a802088-cc26-4166-ace2-91494268cb16")
-		(property "Reference" "ACS712-30A1"
-			(at 198.12 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 189.23 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Regen_braking:ACS712_Module_27x12mm"
-			(at 189.23 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "6c0d1935-8fa0-4fc3-831d-5370590a0fee")
-		)
-		(pin ""
-			(uuid "e2127d72-49fa-4690-8495-3261e8bf9e7b")
-		)
-		(pin ""
-			(uuid "20583446-b287-45e8-a387-329ba61d37ae")
-		)
-		(instances
-			(project "Regenerative_Braking"
-				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/668fb35a-5873-4809-b3a2-906fc8484e37"
-					(reference "ACS712-30A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regen_braking:1nf_snubber")
 		(at 265.43 124.46 270)
 		(unit 1)
@@ -9196,6 +10158,256 @@
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/668fb35a-5873-4809-b3a2-906fc8484e37"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:LM2596S-5.0")
+		(at 104.14 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e3a9485-04cf-4d66-b694-17988c7e6354")
+		(property "Reference" "VR1"
+			(at 104.14 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2596S-5.0"
+			(at 104.14 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Regen_braking:5v_buck"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SIMPLE SWITCHER® 4.5V to 40V, 3A Low Component Count Step-Down Regulator"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.83 mm"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "TO-263-5 Texas Instruments"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM2596S-5.0/NOPB/Texas+Instruments/view-part/?ref=eda"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM2596S-5.0/NOPB/Texas+Instruments/view-part/?ref=snap"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "102658"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "LM2596S-5.0/NOPB"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15588&manufacturer=Texas Instruments&part_name=LM2596S-5.0/NOPB&search_term= lm2596s-5"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "173468a2-4f53-472d-a677-c3ed8d317b92")
+		)
+		(pin "3"
+			(uuid "bbe386a5-3cf8-476d-89fb-a16c8618aba8")
+		)
+		(pin "6"
+			(uuid "fb0b2553-d0a2-48ec-badf-0d2fa054051f")
+		)
+		(pin "1"
+			(uuid "260564ce-ac50-4aee-84aa-2399b5c6c574")
+		)
+		(pin "5"
+			(uuid "70e68e40-9dab-47ca-bdd2-7b504a1b5409")
+		)
+		(pin "4"
+			(uuid "f2cf78e8-aaa2-4183-ad07-95a0d4db1d11")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/668fb35a-5873-4809-b3a2-906fc8484e37"
+					(reference "VR1")
 					(unit 1)
 				)
 			)
@@ -10935,7 +12147,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:1000uf")
-		(at 228.6 76.2 270)
+		(at 227.33 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10946,7 +12158,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac7c8b18-7dd0-4513-a2e7-2d700a044595")
 		(property "Reference" "C26"
-			(at 232.41 75.6266 90)
+			(at 231.14 88.3266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10957,7 +12169,7 @@
 			)
 		)
 		(property "Value" "1000uf"
-			(at 232.41 78.1666 90)
+			(at 231.14 90.8666 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10968,7 +12180,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:1000uf"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10980,7 +12192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10991,7 +12203,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM 1000UF 20% 16V RADIAL"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11003,7 +12215,7 @@
 			)
 		)
 		(property "MF" "Panasonic"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11015,7 +12227,7 @@
 			)
 		)
 		(property "b_max" "0.65"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11027,7 +12239,7 @@
 			)
 		)
 		(property "Package" "RADIAL-2 Panasonic"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11039,7 +12251,7 @@
 			)
 		)
 		(property "b_nom" "0.6"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11051,7 +12263,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11063,7 +12275,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=eda"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11075,7 +12287,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=snap"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11087,7 +12299,7 @@
 			)
 		)
 		(property "PARTREV" "20-DEC-19"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11099,7 +12311,7 @@
 			)
 		)
 		(property "A_max" "20"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11111,7 +12323,7 @@
 			)
 		)
 		(property "MP" "EEU-TA1C102B"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11123,7 +12335,7 @@
 			)
 		)
 		(property "D_nom" "12.5"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11135,7 +12347,7 @@
 			)
 		)
 		(property "e_nom" "5"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11147,7 +12359,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 228.6 76.2 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11175,7 +12387,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:1000uf")
-		(at 259.08 76.2 270)
+		(at 257.81 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11186,7 +12398,7 @@
 		(fields_autoplaced yes)
 		(uuid "babc4d6f-eabc-433f-b3ad-3953cdc27348")
 		(property "Reference" "C28"
-			(at 262.89 75.6266 90)
+			(at 261.62 88.3266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11197,7 +12409,7 @@
 			)
 		)
 		(property "Value" "1000uf"
-			(at 262.89 78.1666 90)
+			(at 261.62 90.8666 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11208,7 +12420,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:1000uf"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11220,7 +12432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11231,7 +12443,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM 1000UF 20% 16V RADIAL"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11243,7 +12455,7 @@
 			)
 		)
 		(property "MF" "Panasonic"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11255,7 +12467,7 @@
 			)
 		)
 		(property "b_max" "0.65"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11267,7 +12479,7 @@
 			)
 		)
 		(property "Package" "RADIAL-2 Panasonic"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11279,7 +12491,7 @@
 			)
 		)
 		(property "b_nom" "0.6"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11291,7 +12503,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11303,7 +12515,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=eda"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11315,7 +12527,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=snap"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11327,7 +12539,7 @@
 			)
 		)
 		(property "PARTREV" "20-DEC-19"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11339,7 +12551,7 @@
 			)
 		)
 		(property "A_max" "20"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11351,7 +12563,7 @@
 			)
 		)
 		(property "MP" "EEU-TA1C102B"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11363,7 +12575,7 @@
 			)
 		)
 		(property "D_nom" "12.5"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11375,7 +12587,7 @@
 			)
 		)
 		(property "e_nom" "5"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11387,7 +12599,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 259.08 76.2 0)
+			(at 257.81 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11415,7 +12627,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:0287025.PXCN")
-		(at 91.44 30.48 0)
+		(at 195.58 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11426,7 +12638,7 @@
 		(fields_autoplaced yes)
 		(uuid "c538ea7d-3598-4ca1-9f67-7bfad2b835f4")
 		(property "Reference" "F1"
-			(at 100.33 24.13 0)
+			(at 204.47 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11436,7 +12648,7 @@
 			)
 		)
 		(property "Value" "0287025.PXCN"
-			(at 100.33 26.67 0)
+			(at 204.47 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11445,8 +12657,8 @@
 				)
 			)
 		)
-		(property "Footprint" "0287025PXCN"
-			(at 105.41 126.67 0)
+		(property "Footprint" "Regen_braking:0287025PXCN"
+			(at 209.55 148.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11458,7 +12670,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_atof_datasheet.pdf"
-			(at 105.41 226.67 0)
+			(at 209.55 248.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11470,7 +12682,7 @@
 			)
 		)
 		(property "Description" "Clear ATOF F Fuse 25A 32V"
-			(at 91.44 30.48 0)
+			(at 195.58 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11481,7 +12693,7 @@
 			)
 		)
 		(property "Height" "12.3"
-			(at 105.41 426.67 0)
+			(at 209.55 448.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11493,7 +12705,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 105.41 526.67 0)
+			(at 209.55 548.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11505,7 +12717,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0287025.PXCN"
-			(at 105.41 626.67 0)
+			(at 209.55 648.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,7 +12729,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-0287025.PXCN"
-			(at 105.41 726.67 0)
+			(at 209.55 748.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11529,7 +12741,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0287025.PXCN?qs=Vv6sT79n3zTQ3ExP8aVIIA%3D%3D"
-			(at 105.41 826.67 0)
+			(at 209.55 848.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11541,7 +12753,7 @@
 			)
 		)
 		(property "Arrow Part Number" "0287025.PXCN"
-			(at 105.41 926.67 0)
+			(at 209.55 948.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11553,7 +12765,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0287025.pxcn/littelfuse?region=europe"
-			(at 105.41 1026.67 0)
+			(at 209.55 1048.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11581,7 +12793,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:XT60PB-M")
-		(at 59.69 33.02 180)
+		(at 185.42 54.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11592,7 +12804,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc4f1655-0f68-4bc9-b27a-3df97d569431")
 		(property "Reference" "J1"
-			(at 43.18 33.0201 0)
+			(at 168.91 54.6101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11603,7 +12815,7 @@
 			)
 		)
 		(property "Value" "XT60PB-M"
-			(at 43.18 30.4801 0)
+			(at 168.91 52.0701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11613,8 +12825,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT60PBM"
-			(at 43.18 -61.9 0)
+		(property "Footprint" "Regen_braking:XT60PBM"
+			(at 168.91 -40.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11626,7 +12838,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/ceb306d6300f4d2860483975b79af125/XT60UPB-M.pdf"
-			(at 43.18 -161.9 0)
+			(at 168.91 -140.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11638,7 +12850,7 @@
 			)
 		)
 		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 59.69 33.02 0)
+			(at 185.42 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11649,7 +12861,7 @@
 			)
 		)
 		(property "Height" "15.9"
-			(at 43.18 -361.9 0)
+			(at 168.91 -340.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11661,7 +12873,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 43.18 -461.9 0)
+			(at 168.91 -440.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11673,7 +12885,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT60PB-M"
-			(at 43.18 -561.9 0)
+			(at 168.91 -540.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11685,7 +12897,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 43.18 -661.9 0)
+			(at 168.91 -640.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11697,7 +12909,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 43.18 -761.9 0)
+			(at 168.91 -740.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11709,7 +12921,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 43.18 -861.9 0)
+			(at 168.91 -840.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11721,7 +12933,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 43.18 -961.9 0)
+			(at 168.91 -940.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11749,7 +12961,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:1000uf")
-		(at 259.08 63.5 270)
+		(at 257.81 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11760,7 +12972,7 @@
 		(fields_autoplaced yes)
 		(uuid "d53c8e7f-9cde-4ff2-8661-8c09162a78d7")
 		(property "Reference" "C31"
-			(at 262.89 62.9266 90)
+			(at 261.62 75.6266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11771,7 +12983,7 @@
 			)
 		)
 		(property "Value" "1000uf"
-			(at 262.89 65.4666 90)
+			(at 261.62 78.1666 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11782,7 +12994,7 @@
 			)
 		)
 		(property "Footprint" "Regen_braking:1000uf"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11794,7 +13006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11805,7 +13017,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM 1000UF 20% 16V RADIAL"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11817,7 +13029,7 @@
 			)
 		)
 		(property "MF" "Panasonic"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11829,7 +13041,7 @@
 			)
 		)
 		(property "b_max" "0.65"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11841,7 +13053,7 @@
 			)
 		)
 		(property "Package" "RADIAL-2 Panasonic"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11853,7 +13065,7 @@
 			)
 		)
 		(property "b_nom" "0.6"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11865,7 +13077,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11877,7 +13089,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=eda"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11889,7 +13101,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=snap"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11901,7 +13113,7 @@
 			)
 		)
 		(property "PARTREV" "20-DEC-19"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11913,7 +13125,7 @@
 			)
 		)
 		(property "A_max" "20"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11925,7 +13137,7 @@
 			)
 		)
 		(property "MP" "EEU-TA1C102B"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11937,7 +13149,7 @@
 			)
 		)
 		(property "D_nom" "12.5"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11949,7 +13161,7 @@
 			)
 		)
 		(property "e_nom" "5"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11961,7 +13173,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 259.08 63.5 0)
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11989,7 +13201,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 173.99 72.39 0)
+		(at 209.55 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12000,7 +13212,7 @@
 		(fields_autoplaced yes)
 		(uuid "daa0d340-82b7-4a8e-a175-b221d91454a0")
 		(property "Reference" "C33"
-			(at 177.8 71.1199 0)
+			(at 213.36 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12011,7 +13223,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 177.8 73.6599 0)
+			(at 213.36 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12022,7 +13234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 174.9552 76.2 0)
+			(at 210.5152 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12033,7 +13245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 72.39 0)
+			(at 209.55 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12044,7 +13256,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 173.99 72.39 0)
+			(at 209.55 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12071,7 +13283,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 173.99 58.42 0)
+		(at 209.55 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12082,7 +13294,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd68d4b9-a508-4db4-881e-f1c151499103")
 		(property "Reference" "C32"
-			(at 177.8 57.1499 0)
+			(at 213.36 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12093,7 +13305,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 177.8 59.6899 0)
+			(at 213.36 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12104,7 +13316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 174.9552 62.23 0)
+			(at 210.5152 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12115,7 +13327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 58.42 0)
+			(at 209.55 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12126,7 +13338,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 173.99 58.42 0)
+			(at 209.55 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12152,9 +13364,8 @@
 		)
 	)
 	(symbol
-		(lib_name "solder_pad_acs712_inout_1")
-		(lib_id "Regen_braking:solder_pad_acs712_inout")
-		(at 156.21 96.52 0)
+		(lib_id "Regen_braking:120uf_cap_5v_buck")
+		(at 66.04 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12163,29 +13374,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e1102bf4-dadb-4c0b-a510-db6d844602ef")
-		(property "Reference" "ACS712-30A2"
-			(at 156.21 87.63 0)
+		(uuid "f08007df-bdbd-4ecb-b50b-7ce83134f0fd")
+		(property "Reference" "C24"
+			(at 73.66 69.2765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120uf"
+			(at 73.66 71.1816 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 156.21 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Regen_braking:Solderpad_acs712_INOUT"
-			(at 156.21 96.52 0)
+		(property "Footprint" "Regen_braking:120uf_cap_5v_buck"
+			(at 66.04 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12196,7 +13409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 96.52 0)
+			(at 66.04 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12207,7 +13420,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 96.52 0)
+			(at 66.04 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12215,258 +13428,18 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(pin ""
-			(uuid "5d3e58b2-eee6-4606-b571-24ef84aa9653")
-		)
-		(pin ""
-			(uuid "7b53e699-3a14-4068-aa89-a731430cdb8e")
-		)
-		(instances
-			(project "Regenerative_Braking"
-				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/668fb35a-5873-4809-b3a2-906fc8484e37"
-					(reference "ACS712-30A2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regen_braking:1000uf")
-		(at 191.77 57.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4d8bab4-21d5-4cab-9d10-540d9a3f57d8")
-		(property "Reference" "C36"
-			(at 195.58 56.5766 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uf"
-			(at 195.58 59.1166 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Regen_braking:1000uf"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP ALUM 1000UF 20% 16V RADIAL"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "b_max" "0.65"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "RADIAL-2 Panasonic"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "b_nom" "0.6"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=eda"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-TA1C102B/Panasonic/view-part/?ref=snap"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "20-DEC-19"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "A_max" "20"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "EEU-TA1C102B"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "D_nom" "12.5"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "e_nom" "5"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 191.77 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "P"
-			(uuid "bbf1428a-3fc1-4441-9fe1-657beb9beb02")
+			(uuid "748e7d1b-5e9c-4b61-a069-a485043d461a")
 		)
 		(pin "N"
-			(uuid "662ba8cd-190d-4d92-8bf1-e8b7328122b0")
+			(uuid "ffc4357c-e730-4228-af72-fccbbb2ee19e")
 		)
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/668fb35a-5873-4809-b3a2-906fc8484e37"
-					(reference "C36")
+					(reference "C24")
 					(unit 1)
 				)
 			)
