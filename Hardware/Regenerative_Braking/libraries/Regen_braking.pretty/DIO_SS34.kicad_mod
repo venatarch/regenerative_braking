@@ -1,0 +1,229 @@
+(footprint "DIO_SS34"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.65 -4.3375 0)
+		(layer "F.SilkS")
+		(uuid "f811f61b-d8ec-4259-97e2-e6798b57eb0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIO_SS34"
+		(at 0.255 4.3375 0)
+		(layer "F.Fab")
+		(uuid "3b0c88c9-a3c7-4f1a-9946-a6162c5aaca5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65277fed-dffd-469d-a0d7-15d19408f165")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53f00d53-d3cd-4ba2-a141-22282f3beb05")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.4375 -2.95)
+		(end -3.4375 -2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f48b5330-9283-439d-a2cb-4b6a9c7a0844")
+	)
+	(fp_line
+		(start -3.4375 2.95)
+		(end -3.4375 2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bc8259a-238d-4ba0-ac68-936d843f7686")
+	)
+	(fp_line
+		(start -3.4375 2.95)
+		(end 3.4375 2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0acf63db-6952-4dad-8c98-c4913b185427")
+	)
+	(fp_line
+		(start 3.4375 -2.95)
+		(end -3.4375 -2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb7637a9-aac1-497d-9508-c16ba2c2cc5b")
+	)
+	(fp_line
+		(start 3.4375 -2.3)
+		(end 3.4375 -2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3971e94-9493-4eea-8364-bde6c0d3b76a")
+	)
+	(fp_line
+		(start 3.4375 2.95)
+		(end 3.4375 2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7828f764-494e-40d7-9d69-cbf76096cc6a")
+	)
+	(fp_circle
+		(center -5 0)
+		(end -4.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3758557d-a4b5-4ed8-91c1-a1ecdf0c2263")
+	)
+	(fp_line
+		(start -4.65 -3.2)
+		(end -4.65 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0cbb95cb-e544-4aff-af01-4b5787869c26")
+	)
+	(fp_line
+		(start -4.65 3.2)
+		(end 4.65 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44ed56fb-319d-4252-b651-0f1331d37a49")
+	)
+	(fp_line
+		(start 4.65 -3.2)
+		(end -4.65 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "107c7e4f-8c1c-4e1e-a123-45a4e007a10b")
+	)
+	(fp_line
+		(start 4.65 3.2)
+		(end 4.65 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73c201f6-2b31-42c9-b5d5-ddca115adbe0")
+	)
+	(fp_line
+		(start -3.4375 -2.95)
+		(end -3.4375 2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e090baf8-0fce-4c91-bd86-9917af26e19c")
+	)
+	(fp_line
+		(start -3.4375 2.95)
+		(end 3.4375 2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cee25cac-618e-488a-9a2e-035daae88654")
+	)
+	(fp_line
+		(start 3.4375 -2.95)
+		(end -3.4375 -2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bf77f0b-29cf-4d68-b88f-a76095323c04")
+	)
+	(fp_line
+		(start 3.4375 2.95)
+		(end 3.4375 -2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4405027-f2e6-4445-b5b9-03b71ac481f9")
+	)
+	(fp_circle
+		(center -5 0)
+		(end -4.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dd9a871a-6b39-4543-959d-7dd062f9a264")
+	)
+	(pad "A" smd rect
+		(at 3.4 0)
+		(size 2 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f4db580d-4142-4840-be7a-6c6c5821a5eb")
+	)
+	(pad "C" smd rect
+		(at -3.4 0)
+		(size 2 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "db0568c2-887a-4078-b207-78b97a9fc403")
+	)
+	(embedded_fonts no)
+)
