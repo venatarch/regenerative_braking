@@ -5,14 +5,18 @@
 	(uuid "2bde55a4-fe0f-47f9-8595-3aa8f71730cb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ACS712-30A_1"
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0.508 5.588 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -21,8 +25,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -53,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,67 +68,62 @@
 					)
 				)
 			)
-			(symbol "ACS712-30A_1_0_1"
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
 				(rectangle
-					(start -6.35 3.81)
-					(end 7.62 -3.81)
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "ACS712-30A_1_1_1"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "GND"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -865,136 +864,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regen_braking:ACS712-30A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0.508 5.588 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ACS712-30A_0_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 7.62 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ACS712-30A_1_1"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1757,8 +1626,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0 0 0)
+			(property "Reference" "INOUT_A1"
+				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1777,7 +1646,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Regen_braking:ACS_pad"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1824,7 +1693,7 @@
 				)
 			)
 			(symbol "solder_pad_acs712_inout_1_1"
-				(pin input line
+				(pin passive line
 					(at 5.08 5.08 180)
 					(length 2.54)
 					(name "IN"
@@ -1834,7 +1703,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1842,7 +1711,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "OUT"
@@ -1852,12 +1721,242 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1869,8 +1968,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ACS712-30A"
-				(at 0 0 0)
+			(property "Reference" "INOUT_B1"
+				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1889,7 +1988,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Regen_braking:ACS_pad"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1936,7 +2035,7 @@
 				)
 			)
 			(symbol "solder_pad_acs712_inout_1_1_1"
-				(pin input line
+				(pin passive line
 					(at 5.08 5.08 180)
 					(length 2.54)
 					(name "IN"
@@ -1946,7 +2045,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1954,7 +2053,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "OUT"
@@ -1964,7 +2063,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1981,7 +2080,7 @@
 		(end 195.58 137.16)
 		(stroke
 			(width 0.635)
-			(type dash)
+			(type solid)
 			(color 0 0 255 1)
 		)
 		(fill
@@ -1994,7 +2093,7 @@
 		(end 102.87 137.16)
 		(stroke
 			(width 0.635)
-			(type dash)
+			(type solid)
 			(color 0 0 255 1)
 		)
 		(fill
@@ -2004,10 +2103,10 @@
 	)
 	(rectangle
 		(start 15.24 140.97)
-		(end 102.87 182.88)
+		(end 102.87 186.69)
 		(stroke
 			(width 0.635)
-			(type dash)
+			(type solid)
 			(color 0 0 255 1)
 		)
 		(fill
@@ -2020,7 +2119,7 @@
 		(end 281.94 91.44)
 		(stroke
 			(width 0.635)
-			(type dash)
+			(type solid)
 			(color 0 0 255 1)
 		)
 		(fill
@@ -2033,7 +2132,7 @@
 		(end 195.58 161.29)
 		(stroke
 			(width 0.635)
-			(type dash)
+			(type solid)
 			(color 0 0 255 1)
 		)
 		(fill
@@ -2046,7 +2145,7 @@
 		(end 195.58 58.42)
 		(stroke
 			(width 0.635)
-			(type dash)
+			(type solid)
 			(color 0 0 255 1)
 		)
 		(fill
@@ -2059,7 +2158,7 @@
 		(end 281.94 138.43)
 		(stroke
 			(width 0.635)
-			(type dash)
+			(type solid)
 			(color 0 0 255 1)
 		)
 		(fill
@@ -2181,16 +2280,16 @@
 		(uuid "3bceb371-20cf-4e94-8aeb-23d2d343a432")
 	)
 	(junction
+		(at 46.99 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dffe0da-13b3-4015-bf4f-06c6d48980be")
+	)
+	(junction
 		(at 81.28 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4299a149-ae23-437d-9fad-f83ef29281c4")
-	)
-	(junction
-		(at 46.99 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e0687c1-c1fa-488f-8bb4-f104fbef0840")
 	)
 	(junction
 		(at 209.55 74.93)
@@ -2239,6 +2338,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92b4683b-a5c7-444e-a036-7690b77118ff")
+	)
+	(junction
+		(at 173.99 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95f77c4a-ad2a-47db-ae8c-186d5e784acd")
 	)
 	(junction
 		(at 228.6 54.61)
@@ -2318,13 +2423,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 35.56) (xy 114.3 35.56)
+			(xy 24.13 73.66) (xy 25.4 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05b478fb-f3c8-4ad0-8cb5-c216e9aba088")
+		(uuid "06cd97b0-dc82-42d5-b9c9-45373e7dabe6")
 	)
 	(wire
 		(pts
@@ -2728,16 +2833,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 134.62) (xy 228.6 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ba77da9-2d18-4390-8251-a177c100840f")
-	)
-	(wire
-		(pts
 			(xy 209.55 33.02) (xy 209.55 35.56)
 		)
 		(stroke
@@ -2755,6 +2850,16 @@
 			(type default)
 		)
 		(uuid "50d7b20e-55d1-456b-aa5f-14c4cc5c9aa3")
+	)
+	(wire
+		(pts
+			(xy 22.86 114.3) (xy 25.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c69964-1c98-4eb0-a419-6140f1470eda")
 	)
 	(wire
 		(pts
@@ -2805,6 +2910,16 @@
 			(type default)
 		)
 		(uuid "63d7ad49-ffc4-4d2b-ad6e-1dded6292610")
+	)
+	(wire
+		(pts
+			(xy 173.99 149.86) (xy 175.26 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6696e89e-ddd0-4fb2-9c56-22a297d992e0")
 	)
 	(wire
 		(pts
@@ -2868,7 +2983,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 149.86) (xy 175.26 149.86)
+			(xy 172.72 149.86) (xy 173.99 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2878,7 +2993,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 161.29) (xy 29.21 161.29)
+			(xy 26.67 161.29) (xy 29.21 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2958,16 +3073,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 180.34) (xy 40.64 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8812f4-4091-421c-be50-607e126708eb")
-	)
-	(wire
-		(pts
 			(xy 74.93 83.82) (xy 74.93 88.9)
 		)
 		(stroke
@@ -2975,6 +3080,26 @@
 			(type default)
 		)
 		(uuid "8af162fe-dc58-4cb4-9afc-3ed4e32ec09e")
+	)
+	(wire
+		(pts
+			(xy 111.76 35.56) (xy 114.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb5dfe4-5398-47c4-bafd-5bb0d24aca97")
+	)
+	(wire
+		(pts
+			(xy 22.86 35.56) (xy 25.4 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e17e1bd-1155-4c34-8997-6dc84a71941f")
 	)
 	(wire
 		(pts
@@ -3025,16 +3150,6 @@
 			(type default)
 		)
 		(uuid "93c50ee0-09c2-45fa-bb2b-c12fcb60752d")
-	)
-	(wire
-		(pts
-			(xy 46.99 116.84) (xy 46.99 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "978f49ad-65cf-4926-bb64-9ffa46efba25")
 	)
 	(wire
 		(pts
@@ -3128,7 +3243,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 85.09) (xy 209.55 87.63)
+			(xy 209.55 85.09) (xy 209.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3145,16 +3260,6 @@
 			(type default)
 		)
 		(uuid "afd5a4a6-6622-4a84-aed3-73056dc603d9")
-	)
-	(wire
-		(pts
-			(xy 21.59 73.66) (xy 25.4 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b13c74df-f0dd-492a-9627-3311f2ea54cd")
 	)
 	(wire
 		(pts
@@ -3255,16 +3360,6 @@
 			(type default)
 		)
 		(uuid "ba9ad042-610e-4a06-b80a-c48b400ffec3")
-	)
-	(wire
-		(pts
-			(xy 21.59 114.3) (xy 25.4 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc5583cf-e5dd-4f96-a109-1f0e13ef4216")
 	)
 	(wire
 		(pts
@@ -3418,13 +3513,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 54.61) (xy 135.89 55.88)
+			(xy 46.99 55.88) (xy 46.99 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebf1cfc6-629a-4bed-9588-9531c7ee6634")
+		(uuid "ec1b94ad-cc4d-4dce-bf5b-a598a8573dac")
 	)
 	(wire
 		(pts
@@ -3506,16 +3601,6 @@
 		)
 		(uuid "ff049c5b-3ee1-479d-9e97-dc484c04479c")
 	)
-	(wire
-		(pts
-			(xy 21.59 35.56) (xy 25.4 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff32a119-3f5c-497a-a3c3-5770b2b26444")
-	)
 	(label "OUT2"
 		(at 111.76 88.9 180)
 		(effects
@@ -3555,16 +3640,6 @@
 			(justify left bottom)
 		)
 		(uuid "055bc3c6-9b94-4295-9e56-24fdf2fe18b8")
-	)
-	(label "GND"
-		(at 40.64 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "06b8b59b-24f6-42f0-b15c-fd2d622b9f0f")
 	)
 	(label "V_ADC1"
 		(at 111.76 104.14 180)
@@ -3616,6 +3691,16 @@
 		)
 		(uuid "16d79d42-018f-40c5-aea9-7f132a2a99d4")
 	)
+	(label "GNDA"
+		(at 172.72 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "185fbf61-d369-4e0d-8610-5b1a14b4a57b")
+	)
 	(label "W_ADC1"
 		(at 95.25 114.3 0)
 		(effects
@@ -3666,16 +3751,6 @@
 		)
 		(uuid "297eee59-285d-4326-8bca-95eb35c15ee9")
 	)
-	(label "Phase_W"
-		(at 24.13 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2d601c73-d0d3-47cc-b113-ee2583179672")
-	)
 	(label "OUT1"
 		(at 138.43 77.47 90)
 		(effects
@@ -3706,16 +3781,6 @@
 		)
 		(uuid "35636357-afe0-422f-b49b-3fa306eee16c")
 	)
-	(label "GND"
-		(at 46.99 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "386cbdda-997b-42d3-86a6-379394edbadf")
-	)
 	(label "HU"
 		(at 261.62 49.53 180)
 		(effects
@@ -3736,26 +3801,6 @@
 		)
 		(uuid "4229eaec-9513-4833-8807-26cc25bf5ded")
 	)
-	(label "GND"
-		(at 163.83 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46aacaa4-4f31-463d-8d6d-440c2b60e6f0")
-	)
-	(label "GND"
-		(at 133.35 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46cdd269-289b-40f4-89d7-e4998b07a45e")
-	)
 	(label "ACS1"
 		(at 182.88 96.52 0)
 		(effects
@@ -3775,26 +3820,6 @@
 			(justify left bottom)
 		)
 		(uuid "4c5fa44b-cd7e-4d24-a7be-473c1a4577d5")
-	)
-	(label "GND"
-		(at 172.72 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e2a646e-7165-4155-9313-73e1b7700792")
-	)
-	(label "GND"
-		(at 170.18 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e529056-f76a-48e5-8826-e00ffe69aca0")
 	)
 	(label "ACS1"
 		(at 175.26 152.4 180)
@@ -3856,26 +3881,6 @@
 		)
 		(uuid "57a2d6bf-4bf0-4f36-bb66-28389fd0e2c6")
 	)
-	(label "VBUS"
-		(at 27.94 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d1023f2-3495-49c2-925e-e9296f3e12b9")
-	)
-	(label "GND"
-		(at 74.93 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d419544-1fb7-40e9-aa46-b9dbbc679c12")
-	)
 	(label "OUT4"
 		(at 142.24 69.85 90)
 		(effects
@@ -3885,16 +3890,6 @@
 			(justify left bottom)
 		)
 		(uuid "616f8d60-ffcd-43a3-9354-0b797fa293ac")
-	)
-	(label "GND"
-		(at 256.54 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "635b7e8f-255e-401e-b6d7-7d92f13ca588")
 	)
 	(label "5V"
 		(at 175.26 154.94 180)
@@ -3926,16 +3921,6 @@
 		)
 		(uuid "67fec1b0-f611-407d-bb5c-0dd298d79ba7")
 	)
-	(label "GND"
-		(at 74.93 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "685d26a4-d759-49cd-8daf-c8a556ce3e1d")
-	)
 	(label "Hall_W"
 		(at 205.74 74.93 180)
 		(effects
@@ -3956,16 +3941,6 @@
 		)
 		(uuid "69d79062-a473-4231-a05d-4115b1046616")
 	)
-	(label "GND"
-		(at 68.58 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ac643bd-26a5-4174-bee4-acd410534796")
-	)
 	(label "VSENSE_BAT"
 		(at 182.88 35.56 0)
 		(effects
@@ -3976,15 +3951,15 @@
 		)
 		(uuid "6ac9bec5-59b3-4d04-8945-bba527e89d38")
 	)
-	(label "GND"
-		(at 81.28 129.54 0)
+	(label "3V3"
+		(at 205.74 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "6afe3518-2ba8-4b39-a43d-4b02ba9ec742")
+		(uuid "6bf55f11-cb14-40d7-b3ef-b688f8e850a1")
 	)
 	(label "5V"
 		(at 118.11 121.92 180)
@@ -4026,16 +4001,6 @@
 		)
 		(uuid "7622eee0-7bb5-4f38-92a7-555c8e988638")
 	)
-	(label "GND"
-		(at 81.28 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7645fba8-fec4-49cd-868c-fcf443e2e0de")
-	)
 	(label "OUT2"
 		(at 138.43 69.85 90)
 		(effects
@@ -4066,36 +4031,6 @@
 		)
 		(uuid "814c0e5d-79da-432c-bddf-48f321a52330")
 	)
-	(label "GND"
-		(at 46.99 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "823a30a1-448e-401f-9e3c-7852b9dbd36c")
-	)
-	(label "GND"
-		(at 209.55 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "86144f41-ed14-468b-bc09-42756e3503f8")
-	)
-	(label "Phase_V"
-		(at 24.13 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "87989484-cf82-4a35-9907-ce6a7a8c8be0")
-	)
 	(label "REF"
 		(at 111.76 101.6 180)
 		(effects
@@ -4105,26 +4040,6 @@
 			(justify right bottom)
 		)
 		(uuid "89748152-57f3-46cb-921c-7bca9d8f4356")
-	)
-	(label "GND"
-		(at 140.97 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cc2882f-1a55-4c22-a640-525739cb0969")
-	)
-	(label "GND"
-		(at 81.28 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "913cca80-c359-43d8-b707-a7fc6edebc20")
 	)
 	(label "HW"
 		(at 261.62 54.61 180)
@@ -4176,16 +4091,6 @@
 		)
 		(uuid "a8d85d60-c9cb-4881-945d-ffa5456d0f59")
 	)
-	(label "Phase_U"
-		(at 24.13 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a907d433-d43e-4ab2-aed1-595a36315c8f")
-	)
 	(label "HV"
 		(at 246.38 54.61 0)
 		(effects
@@ -4206,15 +4111,15 @@
 		)
 		(uuid "ac5c1e85-a946-45f3-97da-4299d405465d")
 	)
-	(label "GND"
-		(at 135.89 55.88 0)
+	(label "GNDA"
+		(at 133.35 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ae047a24-6029-4515-a337-6c0367dd5687")
+		(uuid "b31bc39e-e6e7-4674-8fc3-1e3ad4a21b83")
 	)
 	(label "OUT1"
 		(at 111.76 91.44 180)
@@ -4236,26 +4141,6 @@
 		)
 		(uuid "b9e8f788-7053-4187-8483-35b86cf2fa7a")
 	)
-	(label "GND"
-		(at 74.93 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bee30ff1-a72c-4ad0-8cf7-402e59a9506a")
-	)
-	(label "GND"
-		(at 74.93 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3913e2c-332d-4228-ae85-5a2e9d557173")
-	)
 	(label "OC_mid"
 		(at 170.18 121.92 0)
 		(effects
@@ -4265,16 +4150,6 @@
 			(justify left bottom)
 		)
 		(uuid "cb28961e-f16a-41de-86a0-aec7a7f7cc18")
-	)
-	(label "GND"
-		(at 209.55 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cdbad763-a20c-45ea-ad87-5c6e5f5c4a69")
 	)
 	(label "3V3"
 		(at 246.38 50.8 0)
@@ -4306,16 +4181,6 @@
 		)
 		(uuid "d70a06ca-283a-4c66-8e1a-3dcdd1f69285")
 	)
-	(label "GND"
-		(at 162.56 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8f0ae6e-cc14-4140-96c5-ff1d1c5e6e13")
-	)
 	(label "ACS_in"
 		(at 118.11 153.67 0)
 		(effects
@@ -4336,16 +4201,6 @@
 		)
 		(uuid "df94194c-7e5b-458e-8e85-5259b537e3cb")
 	)
-	(label "GND"
-		(at 262.89 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e02f187d-a19f-4e71-94c9-1b1f401b8c58")
-	)
 	(label "Hall_V"
 		(at 205.74 54.61 180)
 		(effects
@@ -4355,16 +4210,6 @@
 			(justify right bottom)
 		)
 		(uuid "e55a8e72-a9b5-4041-8008-88e385352402")
-	)
-	(label "GND"
-		(at 46.99 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5ed7cc7-756f-45c9-a1b9-73c1491513ac")
 	)
 	(label "OUT4"
 		(at 182.88 91.44 0)
@@ -4386,45 +4231,163 @@
 		)
 		(uuid "ebfc37e1-907b-4551-a4f9-930d87ba1d39")
 	)
-	(label "VBUS"
-		(at 113.03 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 22.86 40.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0184d351-48f1-47fe-ac22-dd0158ee7756")
+		(property "Reference" "J15"
+			(at 25.4 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify right bottom)
 		)
-		(uuid "ec58661c-0d97-451c-859a-59e2fd4e61f4")
+		(property "Value" "Conn_01x01"
+			(at 25.4 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 22.86 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 22.86 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92aea4d7-af4f-4874-a906-4cef2b5ed233")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(label "GND"
-		(at 209.55 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 22.86 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01951e8c-a333-4d58-a357-b273f65c5cfd")
+		(property "Reference" "J19"
+			(at 25.4 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "f801b85f-9870-4adb-b86d-3b1d3dd72cb2")
-	)
-	(label "GND"
-		(at 167.64 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Value" "Conn_01x01"
+			(at 25.4 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "fb508c9b-2dfa-4715-9180-6fa6c6fcb33e")
-	)
-	(label "GND"
-		(at 228.6 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify left bottom)
 		)
-		(uuid "fd1bb710-6fb6-4cfd-a024-2004e16abcae")
+		(property "Datasheet" ""
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd324718-847f-452c-ab11-00601a79a754")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Regen_braking:100nf_rcFilter")
@@ -4438,7 +4401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03917115-75e0-4002-a378-ce2fed1a9784")
-		(property "Reference" "C9"
+		(property "Reference" "C44"
 			(at 71.12 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4460,7 +4423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"
 			(at 74.93 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4588,7 +4551,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "C9")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -4606,7 +4569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "048a1855-af02-472e-8bac-479d0521ea4e")
-		(property "Reference" "J2"
+		(property "Reference" "J17"
 			(at 271.78 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4673,7 +4636,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "J2")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -4691,7 +4654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05f43ac5-a16c-403f-9635-48066422cc68")
-		(property "Reference" "C7"
+		(property "Reference" "C38"
 			(at 71.12 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4713,7 +4676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"
 			(at 74.93 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4841,7 +4804,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "C7")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -4859,7 +4822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0947a9b6-1fc7-4c55-99bd-22af484fe039")
-		(property "Reference" "IC4"
+		(property "Reference" "IC5"
 			(at 147.32 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5043,7 +5006,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "IC4")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -5061,7 +5024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a189c82-526f-4a9e-9821-1c7a8c61f549")
-		(property "Reference" "R2"
+		(property "Reference" "R62"
 			(at 34.29 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5209,7 +5172,84 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R2")
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 163.83 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a639606-9fdb-4710-802a-6265ddbc7e36")
+		(property "Reference" "#PWR05"
+			(at 163.83 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 164.084 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 163.83 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df5eb940-dea1-4318-b83f-303e9abc52a7")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5226,7 +5266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b1a17c9-eafa-4627-bbf9-7554a9fda032")
-		(property "Reference" "C37"
+		(property "Reference" "C40"
 			(at 213.36 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5248,7 +5288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"
 			(at 209.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5376,7 +5416,84 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "C37")
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 173.99 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c22d60f-a241-4f89-817b-545668e3ac28")
+		(property "Reference" "#FLG02"
+			(at 173.99 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 175.006 146.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 173.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "035b37d7-a753-401e-93b5-f5e1431daf92")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5394,7 +5511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cd22848-819d-4aeb-ac4a-6afb354f6b58")
-		(property "Reference" "R25"
+		(property "Reference" "R78"
 			(at 54.61 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5542,7 +5659,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R25")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -5559,7 +5676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0db24944-1f32-4fb5-9ec3-eacc0f138c68")
-		(property "Reference" "C20"
+		(property "Reference" "C41"
 			(at 113.03 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5709,7 +5826,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "C20")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -5727,7 +5844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17248975-e881-4e1c-a3e6-3a507bfbfbb2")
-		(property "Reference" "D_OV10"
+		(property "Reference" "D_OV5"
 			(at 265.43 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5877,7 +5994,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_OV10")
+					(reference "D_OV5")
 					(unit 1)
 				)
 			)
@@ -5895,7 +6012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18cbf9dd-d24f-4021-8fb6-efd8d66e06e1")
-		(property "Reference" "R30"
+		(property "Reference" "R57"
 			(at 237.49 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6043,7 +6160,169 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R30")
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 135.89 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19c9d5a2-afa5-40ca-9c02-473402421dc8")
+		(property "Reference" "#PWR07"
+			(at 135.89 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 136.144 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 135.89 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28645f11-b125-42fe-a9ab-bb0269f8e038")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 139.7 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1adbdaf6-fd07-423c-80eb-31db5c1af423")
+		(property "Reference" "J22"
+			(at 142.24 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 142.24 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 139.7 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "352c29c2-019c-4000-ac8c-9a68be5b0489")
+		)
+		(pin "2"
+			(uuid "48521c21-c350-494e-9e73-5b84fdcc7d1e")
+		)
+		(pin "3"
+			(uuid "76ab65cb-685d-4aa5-8d1a-c58928a5cf3b")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -6061,7 +6340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b3500fb-6424-4e1c-aea7-654703b26b44")
-		(property "Reference" "R5"
+		(property "Reference" "R65"
 			(at 49.53 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6211,7 +6490,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R5")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -6229,7 +6508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b882146-f946-4b63-80ef-dee67f3cac2f")
-		(property "Reference" "R17"
+		(property "Reference" "R59"
 			(at 129.54 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6377,7 +6656,169 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R17")
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 74.93 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2048c0f0-61dd-4a33-a8e7-83e80cc36239")
+		(property "Reference" "#PWR014"
+			(at 74.93 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 75.184 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 74.93 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2cbe8cb-c4b3-4a4a-86fa-2a07d09ed218")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 180.34 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "210537e4-15d3-4dd2-804c-6b6a33956a39")
+		(property "Reference" "J21"
+			(at 182.88 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 182.88 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 180.34 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e503f8a6-e4f1-468a-8e1b-0df0efaa4c0a")
+		)
+		(pin "2"
+			(uuid "3508723d-f500-4c5a-8304-2c782b256240")
+		)
+		(pin "3"
+			(uuid "e7080879-9d0a-4b31-8c06-852feeb56f1d")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -6395,7 +6836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "235865b3-9594-4fd1-9fe1-33565bb3300d")
-		(property "Reference" "D_OV3"
+		(property "Reference" "D_OV4"
 			(at 83.82 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6545,7 +6986,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_OV3")
+					(reference "D_OV4")
 					(unit 1)
 				)
 			)
@@ -6563,7 +7004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27dc2e4d-ab0c-4052-8ea5-6b65a317b2cd")
-		(property "Reference" "D_UV2"
+		(property "Reference" "D_UV3"
 			(at 83.82 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6713,7 +7154,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_UV2")
+					(reference "D_UV3")
 					(unit 1)
 				)
 			)
@@ -6731,7 +7172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b104faf-e588-4675-a147-14ebbcebacea")
-		(property "Reference" "R36"
+		(property "Reference" "R75"
 			(at 151.13 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6879,7 +7320,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R36")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -6897,7 +7338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c9a868c-6a85-44c0-b599-512dd129e5d0")
-		(property "Reference" "ACS712-30A3"
+		(property "Reference" "INOUT_A1"
 			(at 113.03 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6950,16 +7391,16 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "c51f804e-e52b-4555-b50c-319a0cc1d1dd")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "9ecd22ad-1999-4c3a-b973-f3e06308ed2c")
 		)
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A3")
+					(reference "INOUT_A1")
 					(unit 1)
 				)
 			)
@@ -6977,7 +7418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f4bd413-3132-4d7c-b918-7e7498d5b77e")
-		(property "Reference" "D_OV9"
+		(property "Reference" "D_OV6"
 			(at 170.18 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7127,7 +7568,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_OV9")
+					(reference "D_OV6")
 					(unit 1)
 				)
 			)
@@ -7145,7 +7586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3179242e-f0b7-4984-a7d3-0c801265702d")
-		(property "Reference" "R31"
+		(property "Reference" "R61"
 			(at 237.49 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7293,7 +7734,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R31")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -7301,7 +7742,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:47,2.2,100k,10k,4.7,10ohm")
-		(at 46.99 116.84 270)
+		(at 46.99 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7311,8 +7752,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39a29069-f6e3-42ab-870f-71f33f1cb248")
-		(property "Reference" "R6"
-			(at 49.53 124.46 90)
+		(property "Reference" "R69"
+			(at 49.53 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7323,7 +7764,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 49.53 127 90)
+			(at 49.53 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7334,7 +7775,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at -49.2 130.81 0)
+			(at -49.2 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,7 +7787,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.mouser.com/datasheet/2/447/Yageo LR_CFR_2013-540723.pdf"
-			(at -149.2 130.81 0)
+			(at -149.2 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,7 +7799,7 @@
 			)
 		)
 		(property "Description" "Carbon Film Resistors - Through Hole"
-			(at 46.99 116.84 0)
+			(at 46.99 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7369,7 +7810,7 @@
 			)
 		)
 		(property "Height" ""
-			(at -349.2 130.81 0)
+			(at -349.2 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7381,7 +7822,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at -449.2 130.81 0)
+			(at -449.2 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7393,7 +7834,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CFR-25JB-47R"
-			(at -549.2 130.81 0)
+			(at -549.2 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7405,7 +7846,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at -649.2 130.81 0)
+			(at -649.2 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7417,7 +7858,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
-			(at -749.2 130.81 0)
+			(at -749.2 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7429,7 +7870,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -849.2 130.81 0)
+			(at -849.2 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7441,7 +7882,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -949.2 130.81 0)
+			(at -949.2 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7461,7 +7902,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R6")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -7479,7 +7920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e3098dd-0c94-4951-90a6-37ed20b748f7")
-		(property "Reference" "R16"
+		(property "Reference" "R79"
 			(at 43.18 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7629,7 +8070,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R16")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -7647,7 +8088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e53aade-6097-45ba-b5cc-2e94637f46eb")
-		(property "Reference" "R19"
+		(property "Reference" "R49"
 			(at 237.49 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7795,7 +8236,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R19")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -7813,7 +8254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40adfd0b-9ad4-46f7-958d-e16104f9ecbd")
-		(property "Reference" "C41"
+		(property "Reference" "C45"
 			(at 252.73 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7963,91 +8404,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ACS712-30A_1")
-		(lib_id "Regen_braking:ACS712-30A")
-		(at 184.15 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "40c8b938-b7fd-4db4-80fa-e92d10f4830d")
-		(property "Reference" "ACS712-30A1"
-			(at 179.578 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 184.15 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Regen_braking:ACS712_Module_27x12mm"
-			(at 184.15 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "ee477146-c2d4-45bf-be1e-dbc2ec803879")
-		)
-		(pin ""
-			(uuid "fc0529aa-001e-47fa-8672-4f9ae447d483")
-		)
-		(pin ""
-			(uuid "d85a02af-1278-4a37-aaa1-fe8b6352edcb")
-		)
-		(instances
-			(project "Regenerative_Braking"
-				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A1")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -8065,7 +8422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4473ca8b-6b88-4db8-9049-b579b3391a70")
-		(property "Reference" "R1"
+		(property "Reference" "R51"
 			(at 34.29 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8213,7 +8570,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R1")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -8231,7 +8588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45b40c93-d4ad-4ccc-809d-4ab2bdd93300")
-		(property "Reference" "D_OV8"
+		(property "Reference" "D_OV1"
 			(at 172.72 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8381,7 +8738,84 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_OV8")
+					(reference "D_OV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 162.56 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4769642e-8901-4738-9de1-bda7343abaa5")
+		(property "Reference" "#PWR021"
+			(at 162.56 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 162.814 135.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 162.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f24853c-d030-4da5-a28d-a07ae72583f9")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8399,7 +8833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "477e8116-4568-4251-b758-6d9f1b9d041f")
-		(property "Reference" "D_UV9"
+		(property "Reference" "D_UV6"
 			(at 170.18 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8549,7 +8983,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_UV9")
+					(reference "D_UV6")
 					(unit 1)
 				)
 			)
@@ -8567,7 +9001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48d32417-f783-46a5-8c25-a1415943fb92")
-		(property "Reference" "R43"
+		(property "Reference" "R64"
 			(at 219.71 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8715,90 +9149,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regen_braking:ACS712-30A")
-		(at 143.51 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "49c72910-76d3-465c-9e7b-37446a0c8deb")
-		(property "Reference" "ACS712-30A4"
-			(at 138.684 158.496 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 143.51 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Regen_braking:ACS712_Module_27x12mm"
-			(at 143.51 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "69a90ba3-7ea4-4c61-9d43-eb028d0a5896")
-		)
-		(pin ""
-			(uuid "e1fbb239-9eb6-4fd4-98b4-95b5bc459b51")
-		)
-		(pin ""
-			(uuid "e197b873-0f9a-4105-b621-9dc1a1d1688e")
-		)
-		(instances
-			(project "Regenerative_Braking"
-				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A4")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -8816,7 +9167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c9877a3-4fb4-4a52-a4bd-80470ce56c93")
-		(property "Reference" "R41"
+		(property "Reference" "R50"
 			(at 219.71 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8964,7 +9315,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R41")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -8982,7 +9333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dc7594f-20a2-49ce-8d88-cbd2b6c0b106")
-		(property "Reference" "D_UV3"
+		(property "Reference" "D_UV4"
 			(at 83.82 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9132,7 +9483,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_UV3")
+					(reference "D_UV4")
 					(unit 1)
 				)
 			)
@@ -9150,7 +9501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4faeaeb4-0025-4e08-9c25-716526a2cd46")
-		(property "Reference" "R32"
+		(property "Reference" "R71"
 			(at 215.9 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9298,7 +9649,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R32")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -9314,10 +9665,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52bbcf82-481d-4abc-96ec-d7fec6d38f18")
-		(property "Reference" "R21"
-			(at 151.13 71.12 0)
+		(property "Reference" "R67"
+			(at 151.13 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9327,7 +9677,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 151.13 73.66 0)
+			(at 151.384 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9464,7 +9814,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R21")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -9481,7 +9831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5af37130-02a5-44fd-9ceb-ab450a9e7010")
-		(property "Reference" "R22"
+		(property "Reference" "R76"
 			(at 143.51 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9493,7 +9843,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 134.874 127 0)
+			(at 136.398 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9545,7 +9895,84 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R22")
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 209.55 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b768ebd-1a8b-41bb-8a59-76d937216e2d")
+		(property "Reference" "#PWR02"
+			(at 209.55 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 209.804 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 209.55 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57381744-cad8-43ff-8037-143bbe198d92")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9563,7 +9990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5be48999-d64f-4fad-a511-efe1ea2a4fef")
-		(property "Reference" "C17"
+		(property "Reference" "C47"
 			(at 64.77 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9713,7 +10140,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "C17")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -9731,7 +10158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fbd973f-1068-422a-8298-eef6f816dec5")
-		(property "Reference" "R18"
+		(property "Reference" "R60"
 			(at 151.13 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9879,7 +10306,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R18")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -9897,7 +10324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "656a6894-a704-4b59-adc2-4a48884ea405")
-		(property "Reference" "D_OV1"
+		(property "Reference" "D_OV2"
 			(at 83.82 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10047,7 +10474,318 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_OV1")
+					(reference "D_OV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 24.13 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6633b017-71c6-4441-9701-2fb6d6c4c23e")
+		(property "Reference" "J18"
+			(at 26.67 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 26.67 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 24.13 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 24.13 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30693404-19c6-4942-88d2-0f0e981ff1bd")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 46.99 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "695b74e3-289a-45e3-a312-dd8d9aa76adc")
+		(property "Reference" "#PWR019"
+			(at 46.99 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 47.244 135.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 46.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "330618ee-b814-4d6f-8802-459abc5c01a8")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 262.89 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ba05f52-7389-4302-901f-b1138b8eb483")
+		(property "Reference" "#PWR018"
+			(at 262.89 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 263.144 134.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 262.89 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22be7d89-d1ff-4bd2-8a44-6fb16ec5da26")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 81.28 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c9cddf7-6673-408c-9cf2-99e8682d349e")
+		(property "Reference" "#PWR04"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 81.28 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 81.28 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a853de89-dc09-4c61-8747-145b8ceee91b")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10065,7 +10803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70b369e4-7a59-48a6-a921-bffc3706782a")
-		(property "Reference" "R7"
+		(property "Reference" "R53"
 			(at 123.19 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10213,7 +10951,86 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R7")
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 26.67 166.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7422a03d-fe07-485b-aae6-03155656112c")
+		(property "Reference" "J23"
+			(at 29.21 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 29.21 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 26.67 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1bcd6540-2482-4d3b-954f-f47ad9bde6b7")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -10231,7 +11048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "752a6d04-f280-42bc-b3a8-58aeb4e8679b")
-		(property "Reference" "C19"
+		(property "Reference" "C46"
 			(at 158.75 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10381,7 +11198,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "C19")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -10399,7 +11216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "754abd8d-f0e7-4f6a-8f41-a87da1376c06")
-		(property "Reference" "R29"
+		(property "Reference" "R54"
 			(at 149.86 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10547,7 +11364,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R29")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -10565,7 +11382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7723bafa-0dbb-4f4b-a430-925d3f5d27e1")
-		(property "Reference" "R3"
+		(property "Reference" "R68"
 			(at 34.29 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10713,7 +11530,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R3")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -10731,7 +11548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c0480d3-5686-4cf9-ae0b-779c6bb3c2fb")
-		(property "Reference" "R4"
+		(property "Reference" "R56"
 			(at 49.53 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10881,7 +11698,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R4")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -10899,7 +11716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c857373-7710-4dbe-8ffa-13aa0d78989e")
-		(property "Reference" "D_UV8"
+		(property "Reference" "D_UV2"
 			(at 172.72 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11049,7 +11866,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_UV8")
+					(reference "D_UV2")
 					(unit 1)
 				)
 			)
@@ -11067,7 +11884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81c5d330-23fd-45c6-8662-fa11ddf425a5")
-		(property "Reference" "D_UV5"
+		(property "Reference" "D_UV7"
 			(at 77.47 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11217,7 +12034,85 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_UV5")
+					(reference "D_UV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 81.28 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83a944c1-72d5-4d81-b6ac-0d1245dc9a99")
+		(property "Reference" "#PWR012"
+			(at 81.28 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 81.28 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 81.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "561b16a4-b218-4ff3-93dc-002f46cc2d84")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11235,7 +12130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "852a86de-cc02-4aa6-b3be-88fe431f84d8")
-		(property "Reference" "R27"
+		(property "Reference" "R63"
 			(at 60.96 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11383,7 +12278,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R27")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -11401,7 +12296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86a961a8-c64c-4102-9548-25d1b49f0a69")
-		(property "Reference" "R40"
+		(property "Reference" "R74"
 			(at 129.54 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11549,7 +12444,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R40")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -11567,7 +12462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "878a156c-9c80-492d-9afd-86b3a01d2368")
-		(property "Reference" "D_OV2"
+		(property "Reference" "D_OV3"
 			(at 83.82 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11717,7 +12612,85 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_OV2")
+					(reference "D_OV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 46.99 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d7768f8-e1f6-4fba-9865-c68c61ad7c78")
+		(property "Reference" "#PWR013"
+			(at 46.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 46.99 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 46.99 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d7d3750-9e5e-4aa3-9605-96efb05b6399")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11735,7 +12708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d7efa94-b7e5-4bce-a136-dc57ddc7cdf3")
-		(property "Reference" "R8"
+		(property "Reference" "R55"
 			(at 138.43 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11885,7 +12858,162 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R8")
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 74.93 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92d6127b-34eb-4abb-8730-8250fda198fe")
+		(property "Reference" "#PWR03"
+			(at 74.93 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 74.93 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 74.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed497062-6ec7-4be8-8981-ba2630d4d2a1")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 256.54 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "974d7379-9ee9-4dcc-8637-38ef9c321041")
+		(property "Reference" "#PWR017"
+			(at 256.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 256.794 134.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 256.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab4363fd-48f1-4478-ad10-1fab885f0a60")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11903,7 +13031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "981ca65e-12f1-4a6b-b02d-fff4bd39a715")
-		(property "Reference" "D_UV10"
+		(property "Reference" "D_UV5"
 			(at 265.43 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12053,7 +13181,84 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_UV10")
+					(reference "D_UV5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 209.55 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b9388df-2d5c-45ba-8706-21e4139aa0a1")
+		(property "Reference" "#PWR09"
+			(at 209.55 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 209.804 70.866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 209.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13a6a265-1cef-4f60-9945-81cc3f1c952b")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12071,7 +13276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bf93fa2-104c-4d43-9d7a-456067e4371e")
-		(property "Reference" "C8"
+		(property "Reference" "C42"
 			(at 71.12 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12093,7 +13298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"
 			(at 74.93 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12221,7 +13426,162 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "C8")
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 74.93 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d698433-a27a-4220-b2fc-b7f1e6f026e8")
+		(property "Reference" "#PWR011"
+			(at 74.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 74.93 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 74.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d703509d-01d1-42e9-8c21-281c1ea67aae")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 170.18 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e24a85d-c1ac-4d10-a4e1-1c66e9dbedab")
+		(property "Reference" "#PWR06"
+			(at 170.18 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 170.434 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 170.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51001e2e-ced9-426e-8145-09835b75eeb7")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12240,7 +13600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f1f92d0-bf75-4863-bb4d-51681681cbe4")
-		(property "Reference" "ACS712-30A2"
+		(property "Reference" "INOUT_B1"
 			(at 154.94 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12293,16 +13653,16 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "f5c06590-3a34-4d72-bec4-314616b65414")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "402ac29a-4f92-431d-9ed1-315b606b7bef")
 		)
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "ACS712-30A2")
+					(reference "INOUT_B1")
 					(unit 1)
 				)
 			)
@@ -12320,7 +13680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6fe3da3-59d9-4e0c-bdc5-655a98b8c6e6")
-		(property "Reference" "R28"
+		(property "Reference" "R70"
 			(at 60.96 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12468,7 +13828,161 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R28")
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 209.55 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad2e0ae9-a47e-4f27-b49f-568deb98844d")
+		(property "Reference" "#PWR010"
+			(at 209.55 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 209.804 89.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 209.55 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc411b21-6c51-4552-9915-b7ecd92a8eae")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 81.28 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b53ad97e-62ee-4e5e-95e8-6039c724ce09")
+		(property "Reference" "#PWR015"
+			(at 81.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 81.534 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 81.28 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b4df787-3ff2-448e-a9ea-aa0ae7245815")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12486,7 +14000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c18c2571-87e2-41a2-aaaa-5f4e8365a9ef")
-		(property "Reference" "R34"
+		(property "Reference" "R72"
 			(at 242.57 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12634,7 +14148,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R34")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -12651,7 +14165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6d2ad0a-1167-441e-91ca-82b4e83a3441")
-		(property "Reference" "C38"
+		(property "Reference" "C43"
 			(at 213.36 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12673,7 +14187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"
 			(at 209.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12801,7 +14315,85 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "C38")
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 46.99 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c979dac3-eed3-44f6-b459-91fdcb4a95be")
+		(property "Reference" "#PWR08"
+			(at 46.99 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 46.99 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 46.99 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2f35e3f-4810-4974-b1d4-f894f003dc0f")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12819,7 +14411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd6139d2-213c-45f0-a3d3-7920f890599c")
-		(property "Reference" "R42"
+		(property "Reference" "R58"
 			(at 219.71 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12967,7 +14559,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R42")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -12985,7 +14577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf40d76a-c0d8-4cad-8434-3c92e8cc23f9")
-		(property "Reference" "D_OV5"
+		(property "Reference" "D_OV7"
 			(at 77.47 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13135,7 +14727,163 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "D_OV5")
+					(reference "D_OV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 210.82 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d18ff45b-a02d-45fc-8d87-b4e3bff9647c")
+		(property "Reference" "J20"
+			(at 213.36 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 213.36 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 210.82 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 210.82 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7920fbc-3470-4396-908c-66676219905f")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 167.64 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3c291ba-9c86-4b35-89c8-ab58d8afaca0")
+		(property "Reference" "#PWR016"
+			(at 167.64 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 167.894 134.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 167.64 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad411556-6a0e-464e-88dd-579d99345e5e")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -13153,7 +14901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d69bc5ad-fdcf-4cbf-913e-e91a0de75d6b")
-		(property "Reference" "C40"
+		(property "Reference" "C39"
 			(at 160.02 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13303,7 +15051,240 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "C40")
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 40.64 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df445773-0ee4-4a0d-8a3c-382e9bbd16b6")
+		(property "Reference" "#PWR025"
+			(at 40.64 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 40.894 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 40.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da823b94-f9ff-4f31-a643-6da58fbe0fbd")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 111.76 40.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e22c8535-1d3a-4344-b68d-d34e6374e793")
+		(property "Reference" "J16"
+			(at 114.3 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 114.3 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 111.76 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 111.76 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6576dce0-562f-4bba-9c80-c96b079d348b")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 68.58 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e469ccd3-4fe1-4fea-b46f-eed5c18068bd")
+		(property "Reference" "#PWR023"
+			(at 68.58 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 68.834 180.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 68.58 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a66968d0-d313-4451-89e0-ff4d65749ab8")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13321,7 +15302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea739c4b-8d79-4f5c-8c97-20ed031a9741")
-		(property "Reference" "R33"
+		(property "Reference" "R73"
 			(at 231.14 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13471,7 +15452,238 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R33")
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 228.6 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb5894b6-8ffe-4dbe-a315-7fbca4eab6fe")
+		(property "Reference" "#PWR022"
+			(at 228.6 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 228.854 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 228.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6af7fb83-ffc9-4a44-ba1c-7534b846207d")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 140.97 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb5a7d8c-2ebc-4d0d-bfbe-3d4dd8d200cf")
+		(property "Reference" "#PWR020"
+			(at 140.97 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 141.224 135.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 140.97 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50d5e9cb-4f25-4ed3-90bf-41ec8324cdaa")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 74.93 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebccd9a6-7618-47fe-8fcf-611fbb31173f")
+		(property "Reference" "#PWR024"
+			(at 74.93 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 75.184 180.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 74.93 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17d4a3d2-482b-4a09-9dad-973fb757a25b")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13487,10 +15699,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f4f6dedc-e26b-4031-85fe-812765fa32ba")
-		(property "Reference" "R20"
-			(at 129.54 71.12 0)
+		(property "Reference" "R66"
+			(at 129.54 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13500,7 +15711,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 129.54 73.66 0)
+			(at 129.794 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13637,7 +15848,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R20")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -13655,7 +15866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5a87898-62b9-4f65-9872-e0e079289f9a")
-		(property "Reference" "R15"
+		(property "Reference" "R77"
 			(at 33.02 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13717,7 +15928,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R15")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -13902,7 +16113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcc0cec9-2030-4656-85a7-d56e2273c61b")
-		(property "Reference" "C36"
+		(property "Reference" "C37"
 			(at 213.36 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13924,7 +16135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"
 			(at 209.55 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14052,7 +16263,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "C36")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -14070,7 +16281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd7a2578-d845-4966-b669-a890ee2b1636")
-		(property "Reference" "R26"
+		(property "Reference" "R52"
 			(at 60.96 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14218,7 +16429,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/31ad71cf-e5d8-4161-a0e2-bbb3e789d0af"
-					(reference "R26")
+					(reference "R52")
 					(unit 1)
 				)
 			)

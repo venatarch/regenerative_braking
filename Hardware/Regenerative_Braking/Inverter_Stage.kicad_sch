@@ -5,6 +5,586 @@
 	(uuid "e767fde3-21db-42e2-b299-77359d96572f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:NetTie_4_Cross"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "NT"
+				(at 0.635 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NetTie_4_Cross"
+				(at 0.635 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Net tie, 4 pins, cross"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NetTie_4_Cross_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_4_Cross_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regen_braking:0.47uf_50v_BScap"
 			(pin_names
 				(offset 1.016)
@@ -2864,7 +3444,7 @@
 		(end 280.67 113.03)
 		(stroke
 			(width 0.635)
-			(type dash)
+			(type solid)
 			(color 0 0 255 1)
 		)
 		(fill
@@ -2877,7 +3457,7 @@
 		(end 280.67 165.1)
 		(stroke
 			(width 0.635)
-			(type dash)
+			(type solid)
 			(color 0 0 255 1)
 		)
 		(fill
@@ -2890,7 +3470,7 @@
 		(end 280.67 60.96)
 		(stroke
 			(width 0.635)
-			(type dash)
+			(type solid)
 			(color 0 0 255 1)
 		)
 		(fill
@@ -2905,22 +3485,10 @@
 		(uuid "0f9aa6c1-7f5d-404d-be85-705ec9f81599")
 	)
 	(junction
-		(at 234.95 35.56)
+		(at 22.86 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40c25268-f1c7-4378-a8c2-84e50dcd6857")
-	)
-	(junction
-		(at 234.95 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4601a585-aedf-4fb1-b721-17766c9921fc")
-	)
-	(junction
-		(at 29.21 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62c6d9f7-0789-4b51-8e1b-762d1527a1c4")
+		(uuid "3b4fef60-2df3-4225-ab30-f9b019cbf8a8")
 	)
 	(junction
 		(at 80.01 95.25)
@@ -2947,10 +3515,16 @@
 		(uuid "8f5713a1-f1b6-4b28-8d0f-e9848192cca6")
 	)
 	(junction
-		(at 234.95 86.36)
+		(at 25.4 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "99b29f12-623e-4a7a-aa5e-3cac35939325")
+		(uuid "bc290ea0-e6d0-4af1-94e0-a9e314b89907")
+	)
+	(junction
+		(at 29.21 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6f9c529-e53c-4517-97dc-c35a70845cfb")
 	)
 	(junction
 		(at 80.01 148.59)
@@ -2958,15 +3532,29 @@
 		(color 0 0 0 0)
 		(uuid "f1ce504a-99c2-4bd1-89e4-a0fce9f8612d")
 	)
-	(wire
-		(pts
-			(xy 232.41 35.56) (xy 234.95 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "021b39be-389d-4cea-b696-5a019219fdfd")
+	(no_connect
+		(at 123.19 182.88)
+		(uuid "01f1d5e0-c186-4b37-8a02-bee1116d5bef")
+	)
+	(no_connect
+		(at 237.49 139.7)
+		(uuid "19889d84-4c77-49c2-84f9-1d743af7cf5b")
+	)
+	(no_connect
+		(at 120.65 182.88)
+		(uuid "5715e567-41d7-4392-b2db-5a1626e2d021")
+	)
+	(no_connect
+		(at 237.49 86.36)
+		(uuid "c44fee76-c54f-4f8f-9778-6b41712e3ab5")
+	)
+	(no_connect
+		(at 118.11 182.88)
+		(uuid "e7eadef8-6638-47c3-916d-7b1e155f2a66")
+	)
+	(no_connect
+		(at 237.49 35.56)
+		(uuid "f16b2f10-1c81-4856-ab9f-dc8da5920152")
 	)
 	(wire
 		(pts
@@ -3030,6 +3618,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 76.2) (xy 35.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d94737e-075a-4a95-9aa1-1fe5e616dae8")
+	)
+	(wire
+		(pts
 			(xy 146.05 138.43) (xy 146.05 135.89)
 		)
 		(stroke
@@ -3037,6 +3635,16 @@
 			(type default)
 		)
 		(uuid "0ec8acd9-2deb-47a2-9250-19803c3eee73")
+	)
+	(wire
+		(pts
+			(xy 35.56 100.33) (xy 35.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f565ea0-efc1-4938-bce0-78f3ac5e2d2a")
 	)
 	(wire
 		(pts
@@ -3070,6 +3678,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 38.1) (xy 234.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d740021-4b7f-4416-b796-a1031fe502a2")
+	)
+	(wire
+		(pts
 			(xy 266.7 30.48) (xy 266.7 31.75)
 		)
 		(stroke
@@ -3080,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 76.2) (xy 29.21 76.2)
+			(xy 16.51 76.2) (xy 22.86 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3097,16 +3715,6 @@
 			(type default)
 		)
 		(uuid "216e5a98-efec-4816-8e5f-9e5e8399e498")
-	)
-	(wire
-		(pts
-			(xy 234.95 31.75) (xy 234.95 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e73eab-b7a5-42ff-8e16-c8888ca42c74")
 	)
 	(wire
 		(pts
@@ -3180,16 +3788,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 139.7) (xy 234.95 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb43d39-ea99-45d4-afe1-f182ee2590b6")
-	)
-	(wire
-		(pts
 			(xy 74.93 129.54) (xy 80.01 129.54)
 		)
 		(stroke
@@ -3240,13 +3838,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 35.56) (xy 248.92 35.56)
+			(xy 234.95 88.9) (xy 234.95 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37626081-3d3c-4596-b7e8-20eef2a7ae82")
+		(uuid "33462066-80f7-451f-bfe5-722dfc5e04b3")
+	)
+	(wire
+		(pts
+			(xy 25.4 76.2) (xy 22.86 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3613917c-a8ca-436d-a57b-17456e8879e1")
 	)
 	(wire
 		(pts
@@ -3270,16 +3878,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 134.62) (xy 234.95 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eb41fd0-3d59-46f4-824e-7dd4a2c69c09")
-	)
-	(wire
-		(pts
 			(xy 266.7 20.32) (xy 266.7 22.86)
 		)
 		(stroke
@@ -3300,17 +3898,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 86.36) (xy 234.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41056587-b96d-4127-935f-09558e902c04")
-	)
-	(wire
-		(pts
-			(xy 29.21 71.12) (xy 29.21 76.2)
+			(xy 25.4 71.12) (xy 25.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3340,7 +3928,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 76.2) (xy 29.21 76.2)
+			(xy 29.21 76.2) (xy 25.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3420,7 +4008,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 82.55) (xy 40.64 76.2)
+			(xy 29.21 82.55) (xy 29.21 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3440,13 +4028,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 139.7) (xy 234.95 144.78)
+			(xy 234.95 142.24) (xy 234.95 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5dcb5b2a-3599-46c7-aa59-77c494a0826c")
+		(uuid "60d335de-2d7b-4810-ab2d-47257faf3535")
 	)
 	(wire
 		(pts
@@ -3520,7 +4108,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 100.33) (xy 29.21 102.87)
+			(xy 35.56 76.2) (xy 35.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f4b2eb-7d87-471a-a8a5-20ad6ce20724")
+	)
+	(wire
+		(pts
+			(xy 22.86 100.33) (xy 22.86 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3570,7 +4168,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 100.33) (xy 40.64 102.87)
+			(xy 234.95 31.75) (xy 234.95 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80dbf283-bf89-4ecf-9974-3f2018d0d913")
+	)
+	(wire
+		(pts
+			(xy 29.21 100.33) (xy 29.21 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3590,7 +4198,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 76.2) (xy 29.21 82.55)
+			(xy 22.86 76.2) (xy 22.86 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3740,16 +4348,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 86.36) (xy 248.92 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2468f62-2bca-4e38-bf44-f9ab3fa38952")
-	)
-	(wire
-		(pts
 			(xy 260.35 54.61) (xy 257.81 54.61)
 		)
 		(stroke
@@ -3770,6 +4368,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 86.36) (xy 232.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9d059c-5648-4fa5-b2dc-b475ecd19299")
+	)
+	(wire
+		(pts
 			(xy 106.68 46.99) (xy 110.49 46.99)
 		)
 		(stroke
@@ -3787,6 +4395,16 @@
 			(type default)
 		)
 		(uuid "bbec70ab-d853-4e2e-ab17-754e070dce85")
+	)
+	(wire
+		(pts
+			(xy 234.95 134.62) (xy 234.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf4c940-d10d-4ad4-b4c1-2ff83c04076b")
 	)
 	(wire
 		(pts
@@ -3827,16 +4445,6 @@
 			(type default)
 		)
 		(uuid "c1c08eba-a556-4621-bd96-cde88b1805e2")
-	)
-	(wire
-		(pts
-			(xy 234.95 81.28) (xy 234.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3e34cb3-6ed3-493a-8ec7-275168ac86b2")
 	)
 	(wire
 		(pts
@@ -3900,16 +4508,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 86.36) (xy 234.95 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d895c587-ed00-41df-914d-2e8f44a17dd6")
-	)
-	(wire
-		(pts
 			(xy 80.01 76.2) (xy 82.55 76.2)
 		)
 		(stroke
@@ -3940,16 +4538,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 139.7) (xy 248.92 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e55d7763-bf08-4a81-857b-ddfa02ac6aab")
-	)
-	(wire
-		(pts
 			(xy 144.78 147.32) (xy 147.32 147.32)
 		)
 		(stroke
@@ -3957,16 +4545,6 @@
 			(type default)
 		)
 		(uuid "e68f90cc-d206-4f35-b322-be3b0e905385")
-	)
-	(wire
-		(pts
-			(xy 234.95 35.56) (xy 234.95 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b0a282-652a-4db5-b180-7dda444670e9")
 	)
 	(wire
 		(pts
@@ -4030,6 +4608,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 139.7) (xy 232.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3431fc-435a-421f-a9bd-461053e26260")
+	)
+	(wire
+		(pts
 			(xy 181.61 54.61) (xy 185.42 54.61)
 		)
 		(stroke
@@ -4080,6 +4668,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 81.28) (xy 234.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f10fa9-ddec-4ca5-8145-35610ef6b30d")
+	)
+	(wire
+		(pts
 			(xy 177.8 105.41) (xy 184.15 105.41)
 		)
 		(stroke
@@ -4107,16 +4705,6 @@
 			(type default)
 		)
 		(uuid "febbaad2-1a80-4278-a8bf-5eecaefe802a")
-	)
-	(label "Phase_W"
-		(at 248.92 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04499a0b-53a8-4628-8619-cd86bad19b5c")
 	)
 	(label "U_HOUT"
 		(at 139.7 41.91 0)
@@ -4239,7 +4827,7 @@
 		(uuid "1ba07411-a340-4445-ba52-908eabad920c")
 	)
 	(label "Vcc_12v_3"
-		(at 40.64 102.87 270)
+		(at 29.21 102.87 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4269,7 +4857,7 @@
 		(uuid "231425e7-c98d-489a-a099-e6f8704de94e")
 	)
 	(label "12V"
-		(at 29.21 71.12 0)
+		(at 25.4 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4287,6 +4875,16 @@
 			(justify left bottom)
 		)
 		(uuid "2539353d-7bd8-4c1a-887f-d13d20cbc4df")
+	)
+	(label "VDD"
+		(at 35.56 102.87 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2619afcc-871c-4227-8368-1238f5cfe133")
 	)
 	(label "VS_2"
 		(at 147.32 85.09 0)
@@ -4409,7 +5007,7 @@
 		(uuid "477b7da3-b211-4b08-8b82-b61e871ef39f")
 	)
 	(label "Vcc_12v_2"
-		(at 29.21 102.87 270)
+		(at 22.86 102.87 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4538,16 +5136,6 @@
 		)
 		(uuid "584f1203-349d-439c-a0fa-aa3056804a14")
 	)
-	(label "Phase_V"
-		(at 248.92 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d88df6a-0ba1-4457-ba3b-824034d12b85")
-	)
 	(label "U_LOW"
 		(at 58.42 43.18 180)
 		(effects
@@ -4657,6 +5245,16 @@
 			(justify left bottom)
 		)
 		(uuid "743e3d10-d275-458a-9976-f515edd2471f")
+	)
+	(label "12V"
+		(at 29.21 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c1b1930-3cb5-4096-bd64-5c35c9257529")
 	)
 	(label "GL1"
 		(at 204.47 40.64 0)
@@ -5338,16 +5936,6 @@
 		)
 		(uuid "f70585b5-0774-4c7f-ac73-dea34288a111")
 	)
-	(label "Phase_U"
-		(at 248.92 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f781d866-1811-474b-8bc3-f5a8efbd14b9")
-	)
 	(label "GND"
 		(at 105.41 86.36 0)
 		(effects
@@ -5420,7 +6008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05c524bd-a9d7-45b6-bd07-23e363709248")
-		(property "Reference" "IC3"
+		(property "Reference" "IC4"
 			(at 132.08 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5586,7 +6174,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "IC3")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -5603,7 +6191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06923395-f08b-4f01-913c-0ba5a0f49f33")
-		(property "Reference" "R9"
+		(property "Reference" "R17"
 			(at 257.81 17.526 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5623,7 +6211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Regen_braking:Rboot_22ohm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 262.89 116.51 0)
 			(hide yes)
 			(show_name no)
@@ -5751,7 +6339,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5769,7 +6357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07596f18-851e-43fa-bfd4-9b1c2a11626b")
-		(property "Reference" "IC2"
+		(property "Reference" "IC3"
 			(at 132.08 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5935,7 +6523,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "IC2")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -5953,7 +6541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "085dec61-bd5b-494e-8874-a33d04692800")
-		(property "Reference" "R46"
+		(property "Reference" "R39"
 			(at 113.03 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6101,7 +6689,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R46")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -6109,7 +6697,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:47,2.2,100k,10k,4.7,10ohm")
-		(at 29.21 82.55 270)
+		(at 22.86 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6117,10 +6705,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c635c4c-045f-47cc-b660-cc4c400196eb")
 		(property "Reference" "Rbias2"
-			(at 31.75 90.17 90)
+			(at 25.4 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6131,7 +6718,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 31.75 92.71 90)
+			(at 25.4 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6142,7 +6729,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at -66.98 96.52 0)
+			(at -73.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6154,7 +6741,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.mouser.com/datasheet/2/447/Yageo LR_CFR_2013-540723.pdf"
-			(at -166.98 96.52 0)
+			(at -173.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6166,7 +6753,7 @@
 			)
 		)
 		(property "Description" "Carbon Film Resistors - Through Hole"
-			(at 29.21 82.55 0)
+			(at 22.86 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6177,7 +6764,7 @@
 			)
 		)
 		(property "Height" ""
-			(at -366.98 96.52 0)
+			(at -373.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6189,7 +6776,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at -466.98 96.52 0)
+			(at -473.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6201,7 +6788,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CFR-25JB-47R"
-			(at -566.98 96.52 0)
+			(at -573.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6213,7 +6800,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at -666.98 96.52 0)
+			(at -673.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6225,7 +6812,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
-			(at -766.98 96.52 0)
+			(at -773.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6237,7 +6824,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -866.98 96.52 0)
+			(at -873.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6249,7 +6836,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -966.98 96.52 0)
+			(at -973.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6287,7 +6874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e2326c9-0a89-45dc-95b8-1ded33e24aea")
-		(property "Reference" "R35"
+		(property "Reference" "R24"
 			(at 67.31 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6307,7 +6894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 72.39 139.37 0)
 			(hide yes)
 			(show_name no)
@@ -6435,7 +7022,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R35")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6453,7 +7040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "179aab05-740c-45b6-b611-e21f2f8095a7")
-		(property "Reference" "C42"
+		(property "Reference" "C26"
 			(at 83.82 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6603,7 +7190,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C42")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -6621,7 +7208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19755878-5359-4278-a184-a66375e06ff8")
-		(property "Reference" "R54"
+		(property "Reference" "R36"
 			(at 180.34 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6769,7 +7356,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R54")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -6787,7 +7374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1be46738-06e7-47f4-986c-3c0b34b2f3f5")
-		(property "Reference" "R1"
+		(property "Reference" "R18"
 			(at 110.49 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6935,7 +7522,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R1")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -6953,7 +7540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d2a2612-69bc-46a9-9b59-d739a29407f5")
-		(property "Reference" "R52"
+		(property "Reference" "R25"
 			(at 181.61 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7101,7 +7688,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R52")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7119,7 +7706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "214a248e-dc80-45f9-a886-f5d4133887c9")
-		(property "Reference" "R49"
+		(property "Reference" "R37"
 			(at 168.91 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7267,7 +7854,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R49")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -7285,7 +7872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d7df0a-773e-46bc-b47e-568c7932e97c")
-		(property "Reference" "D2"
+		(property "Reference" "D13"
 			(at 190.5 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7493,7 +8080,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "D2")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7510,7 +8097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "254db70f-a2c7-4b6b-b771-33f56a3ac73c")
-		(property "Reference" "D7"
+		(property "Reference" "D11"
 			(at 130.048 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7658,7 +8245,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "D7")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7676,7 +8263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "297a4073-688c-496f-bd08-03f7433c089f")
-		(property "Reference" "R44"
+		(property "Reference" "R46"
 			(at 66.04 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7696,7 +8283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 71.12 244.78 0)
 			(hide yes)
 			(show_name no)
@@ -7824,7 +8411,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R44")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -7842,7 +8429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31cfdd3b-0cce-4815-8e46-6feb8b089038")
-		(property "Reference" "R50"
+		(property "Reference" "R40"
 			(at 168.91 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7990,7 +8577,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R50")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -8008,7 +8595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "344b0c94-b6bb-49f5-92ed-018d7baafaae")
-		(property "Reference" "D5"
+		(property "Reference" "D18"
 			(at 186.69 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,7 +8803,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "D5")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -8234,7 +8821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34732ed8-3e18-40ba-b617-6ca2edf03e6b")
-		(property "Reference" "C10"
+		(property "Reference" "C23"
 			(at 85.09 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8384,7 +8971,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C10")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8402,7 +8989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36cf020a-1f63-4c2d-8457-3695283e0653")
-		(property "Reference" "Q6"
+		(property "Reference" "Q8"
 			(at 238.76 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,7 +9055,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "Q6")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -8486,7 +9073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f8f0aa8-e45c-4079-be74-384e28d6a4fc")
-		(property "Reference" "R58"
+		(property "Reference" "R23"
 			(at 207.01 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8636,7 +9223,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R58")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8654,7 +9241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4146d6d2-1383-46d8-a59d-8e047aa8c266")
-		(property "Reference" "R45"
+		(property "Reference" "R29"
 			(at 114.3 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8802,7 +9389,93 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R45")
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_4_Cross")
+		(at 234.95 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4551392b-ac1f-4af9-ab3a-877785514116")
+		(property "Reference" "NT5"
+			(at 243.84 134.7469 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_4_Cross"
+			(at 243.84 137.2869 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-4_SMD_Pad2.0mm"
+			(at 234.95 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 4 pins, cross"
+			(at 234.95 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "bb221951-766d-443a-aecc-15ea3c803c3b")
+		)
+		(pin "4"
+			(uuid "59204c79-7010-4e36-9809-0b08f5b144f7")
+		)
+		(pin "1"
+			(uuid "6a3e5e09-26ee-4372-a0bc-3ce9c9211412")
+		)
+		(pin "2"
+			(uuid "0da4da2e-c374-41ea-80f3-6bf9513cf0d1")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
+					(reference "NT5")
 					(unit 1)
 				)
 			)
@@ -8820,7 +9493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ea193c-6675-4c19-8ef7-5b6970a81dbc")
-		(property "Reference" "C14"
+		(property "Reference" "C36"
 			(at 256.54 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8980,7 +9653,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C14")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -8998,7 +9671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e8e623e-ea2e-4faa-9d52-35988c96fda8")
-		(property "Reference" "R39"
+		(property "Reference" "R42"
 			(at 66.04 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9018,7 +9691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 71.12 225.73 0)
 			(hide yes)
 			(show_name no)
@@ -9146,7 +9819,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R39")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -9164,7 +9837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4efe178a-76d8-4212-833c-08be5dd9e794")
-		(property "Reference" "R55"
+		(property "Reference" "R43"
 			(at 180.34 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9312,7 +9985,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R55")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -9330,7 +10003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f419def-8266-43d6-979a-d0c9ccc8ff54")
-		(property "Reference" "C4"
+		(property "Reference" "C27"
 			(at 151.13 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9696,7 +10369,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C4")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -9714,7 +10387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50a3bf2b-8973-4646-a491-98e3e7ed4bbc")
-		(property "Reference" "R13"
+		(property "Reference" "R41"
 			(at 254 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9734,7 +10407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Regen_braking:Rboot_22ohm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 259.08 223.19 0)
 			(hide yes)
 			(show_name no)
@@ -9862,7 +10535,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R13")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -9880,7 +10553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56955006-a318-46ec-a2cf-7b4628720bd1")
-		(property "Reference" "C2"
+		(property "Reference" "C19"
 			(at 149.86 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10246,7 +10919,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C2")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -10264,7 +10937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "591d279a-3c56-48fa-94dd-2af5a6eeae43")
-		(property "Reference" "D3"
+		(property "Reference" "D15"
 			(at 186.69 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10472,7 +11145,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "D3")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -10490,7 +11163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c30f948-2886-41a8-8ec7-a18a00606519")
-		(property "Reference" "R1"
+		(property "Reference" "R21"
 			(at 182.88 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10638,7 +11311,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R1")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -10656,7 +11329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e3c790a-2745-46eb-8e33-02ee5831f091")
-		(property "Reference" "C11"
+		(property "Reference" "C21"
 			(at 270.51 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10818,7 +11491,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C11")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10836,7 +11509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61656d9a-e9b0-4bcb-9dc7-2ff8b2d51fd1")
-		(property "Reference" "Q5"
+		(property "Reference" "Q7"
 			(at 238.76 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10902,7 +11575,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "Q5")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -10920,7 +11593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61978857-526c-4fd6-bca5-ab5e0d97c3c9")
-		(property "Reference" "D1"
+		(property "Reference" "D12"
 			(at 187.96 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11128,7 +11801,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "D1")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11146,7 +11819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "636d9e6d-b3c5-43fb-b2c8-96d50ef23b10")
-		(property "Reference" "C6"
+		(property "Reference" "C32"
 			(at 149.86 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11512,7 +12185,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C6")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -11520,7 +12193,7 @@
 	)
 	(symbol
 		(lib_id "Regen_braking:47,2.2,100k,10k,4.7,10ohm")
-		(at 40.64 82.55 270)
+		(at 29.21 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11528,10 +12201,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "682c9ea9-1c3e-49e5-81d7-fbc196384edb")
 		(property "Reference" "Rbias3"
-			(at 43.18 90.17 90)
+			(at 31.496 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11542,7 +12214,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 43.18 92.71 90)
+			(at 31.75 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11553,7 +12225,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at -55.55 96.52 0)
+			(at -66.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11565,7 +12237,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.mouser.com/datasheet/2/447/Yageo LR_CFR_2013-540723.pdf"
-			(at -155.55 96.52 0)
+			(at -166.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11577,7 +12249,7 @@
 			)
 		)
 		(property "Description" "Carbon Film Resistors - Through Hole"
-			(at 40.64 82.55 0)
+			(at 29.21 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11588,7 +12260,7 @@
 			)
 		)
 		(property "Height" ""
-			(at -355.55 96.52 0)
+			(at -366.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11600,7 +12272,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at -455.55 96.52 0)
+			(at -466.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11612,7 +12284,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CFR-25JB-47R"
-			(at -555.55 96.52 0)
+			(at -566.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11624,7 +12296,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at -655.55 96.52 0)
+			(at -666.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11636,7 +12308,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
-			(at -755.55 96.52 0)
+			(at -766.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11648,7 +12320,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -855.55 96.52 0)
+			(at -866.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11660,7 +12332,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -955.55 96.52 0)
+			(at -966.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11698,7 +12370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bf16661-e817-45a1-9c58-a2b3f4cd39d5")
-		(property "Reference" "R48"
+		(property "Reference" "R30"
 			(at 168.91 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11846,7 +12518,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R48")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -11864,7 +12536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7000a64b-1ac2-471b-9b4c-a8d2f5859668")
-		(property "Reference" "R56"
+		(property "Reference" "R47"
 			(at 180.34 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12012,7 +12684,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R56")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -12030,7 +12702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "718352d6-83a6-4202-a47f-908bbab07218")
-		(property "Reference" "C44"
+		(property "Reference" "C31"
 			(at 83.82 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12180,7 +12852,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C44")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -12198,7 +12870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7316885b-4280-4e85-a339-71b2947db6d0")
-		(property "Reference" "R47"
+		(property "Reference" "R26"
 			(at 172.72 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12346,7 +13018,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R47")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -12364,7 +13036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1b1986-5aab-4120-80a2-5fc7e9825ddd")
-		(property "Reference" "C1"
+		(property "Reference" "C20"
 			(at 85.09 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12514,7 +13186,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C1")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -12532,7 +13204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fbb1450-32ba-4e92-91ae-6b9a2c093b80")
-		(property "Reference" "C16"
+		(property "Reference" "C33"
 			(at 266.7 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12694,7 +13366,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C16")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -12712,7 +13384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c721847-6c8d-4c2c-a295-b690117fa14a")
-		(property "Reference" "R38"
+		(property "Reference" "R35"
 			(at 66.04 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12732,7 +13404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 71.12 191.44 0)
 			(hide yes)
 			(show_name no)
@@ -12860,7 +13532,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R38")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -12878,7 +13550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98d03ac0-b1e5-4949-a2c0-fb5d124a0683")
-		(property "Reference" "C5"
+		(property "Reference" "C34"
 			(at 111.76 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13040,7 +13712,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C5")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -13058,7 +13730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "995dd867-bc1d-4eba-ad56-914df871fd14")
-		(property "Reference" "R51"
+		(property "Reference" "R48"
 			(at 168.91 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13206,7 +13878,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R51")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -13224,7 +13896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e4711c9-677b-434e-8149-afbd76d504c8")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 238.76 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13290,7 +13962,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "Q1")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -13308,7 +13980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e5c5a54-4de8-4f3d-be4e-6641535c2e23")
-		(property "Reference" "C12"
+		(property "Reference" "C24"
 			(at 254 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13468,7 +14140,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C12")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -13485,7 +14157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e8be5a2-ee4a-4af7-b2b8-b08a1b934724")
-		(property "Reference" "R11"
+		(property "Reference" "R28"
 			(at 255.016 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13505,7 +14177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Regen_braking:Rboot_22ohm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 260.35 166.04 0)
 			(hide yes)
 			(show_name no)
@@ -13633,7 +14305,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R11")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -13651,7 +14323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a39e1961-b856-4513-88c3-6ec2d26d3dba")
-		(property "Reference" "C15"
+		(property "Reference" "C25"
 			(at 267.97 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13813,7 +14485,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C15")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -13831,7 +14503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a94f3d94-119c-4caa-8677-e641518e5d3e")
-		(property "Reference" "C1"
+		(property "Reference" "C22"
 			(at 106.68 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13993,7 +14665,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C1")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -14011,7 +14683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaa065e5-22ad-4e0e-b365-53da8ace3a9b")
-		(property "Reference" "D4"
+		(property "Reference" "D16"
 			(at 189.23 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14219,7 +14891,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "D4")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -14237,7 +14909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b457dac8-c659-4ade-9cac-9326d8087fcf")
-		(property "Reference" "R62"
+		(property "Reference" "R45"
 			(at 205.74 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14387,7 +15059,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R62")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -14405,7 +15077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b68777b7-2c5e-4baa-9f55-02659334acbf")
-		(property "Reference" "Q3"
+		(property "Reference" "Q5"
 			(at 238.76 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14471,7 +15143,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "Q3")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -14488,7 +15160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "baf45c74-9c9c-44ba-bc26-39bc320bd835")
-		(property "Reference" "#GND01"
+		(property "Reference" "#GND03"
 			(at 106.68 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14501,6 +15173,7 @@
 		)
 		(property "Value" "0"
 			(at 101.6 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14548,7 +15221,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "#GND01")
+					(reference "#GND03")
 					(unit 1)
 				)
 			)
@@ -14566,7 +15239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb9e3d53-1298-49f9-90bd-e2cb81591ee8")
-		(property "Reference" "R1"
+		(property "Reference" "R20"
 			(at 67.31 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14586,7 +15259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 72.39 120.32 0)
 			(hide yes)
 			(show_name no)
@@ -14714,7 +15387,174 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R1")
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regen_braking:47,2.2,100k,10k,4.7,10ohm")
+		(at 35.56 82.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c21da9bc-466c-4139-9df9-246371cb72d1")
+		(property "Reference" "Rbias4"
+			(at 37.846 85.852 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 38.1 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at -60.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/datasheet/2/447/Yageo LR_CFR_2013-540723.pdf"
+			(at -160.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Carbon Film Resistors - Through Hole"
+			(at 35.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at -360.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at -460.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CFR-25JB-47R"
+			(at -560.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at -660.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
+			(at -760.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -860.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -960.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "6820bece-eeea-4c97-8a49-72edd76c5f85")
+		)
+		(pin "2"
+			(uuid "4c99ed2c-fab0-4447-bdba-4d63e1452538")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
+					(reference "Rbias4")
 					(unit 1)
 				)
 			)
@@ -14732,7 +15572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c256eca9-bca9-49c7-ab86-2f6565745aef")
-		(property "Reference" "R57"
+		(property "Reference" "R16"
 			(at 207.01 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14882,7 +15722,86 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R57")
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 29.21 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c380159b-fc9e-4965-93bd-947baf1d6b5a")
+		(property "Reference" "J13"
+			(at 31.75 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 31.75 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 29.21 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1712e6b9-e9b2-47a2-8ebe-d1c9df404a41")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -14900,7 +15819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5ce52a7-46b9-410e-8586-bafebd9e19a8")
-		(property "Reference" "R60"
+		(property "Reference" "R34"
 			(at 205.74 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15050,7 +15969,93 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R60")
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_4_Cross")
+		(at 234.95 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c868dda8-4645-4d27-9e57-25d5e4ccb20e")
+		(property "Reference" "NT3"
+			(at 243.84 30.6069 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_4_Cross"
+			(at 243.84 33.1469 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-4_SMD_Pad2.0mm"
+			(at 234.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 4 pins, cross"
+			(at 234.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe04fa48-c709-46a7-be4c-430ec9357ba5")
+		)
+		(pin "4"
+			(uuid "8625982f-f7a0-479c-a763-6fb8da32e9e8")
+		)
+		(pin "3"
+			(uuid "8d3e1f5c-b386-4be3-90e2-a2f613c54184")
+		)
+		(pin "2"
+			(uuid "3f070eeb-71f0-4046-8b25-13b823c2b3ec")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
+					(reference "NT3")
 					(unit 1)
 				)
 			)
@@ -15068,7 +16073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca5f99cd-3a6c-49b8-b85f-197bda8aa4fd")
-		(property "Reference" "Q4"
+		(property "Reference" "Q6"
 			(at 238.76 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15134,7 +16139,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "Q4")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -15152,7 +16157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d220d905-b5c7-45be-bca6-216592ff1dcc")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 238.76 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15218,7 +16223,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "Q2")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -15236,7 +16241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d45c471d-d361-4459-97ae-3c57f1aa3547")
-		(property "Reference" "D6"
+		(property "Reference" "D19"
 			(at 187.96 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15444,7 +16449,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "D6")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -15462,7 +16467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d552b651-1ac3-4a6f-a214-6896df23b161")
-		(property "Reference" "C13"
+		(property "Reference" "C30"
 			(at 257.81 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15622,7 +16627,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C13")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -15640,7 +16645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d73ff348-57bb-4b07-bd38-b71709bf4f87")
-		(property "Reference" "R10"
+		(property "Reference" "R22"
 			(at 266.7 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15660,7 +16665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Regen_braking:Rboot_22ohm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 164.16 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -15788,7 +16793,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R10")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -15806,7 +16811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d80bf7e7-26fd-4025-80af-583d9eaaefe0")
-		(property "Reference" "R14"
+		(property "Reference" "R44"
 			(at 269.24 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15826,7 +16831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Regen_braking:Rboot_22ohm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 166.7 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -15954,7 +16959,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R14")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -15972,7 +16977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de3861df-2110-4fbe-a251-6950b92a9930")
-		(property "Reference" "C3"
+		(property "Reference" "C28"
 			(at 109.22 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16134,7 +17139,93 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C3")
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_4_Cross")
+		(at 234.95 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df9b394d-3472-4a56-91e0-b413000e6ee3")
+		(property "Reference" "NT4"
+			(at 243.84 81.4069 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_4_Cross"
+			(at 243.84 83.9469 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-4_SMD_Pad2.0mm"
+			(at 234.95 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 4 pins, cross"
+			(at 234.95 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34b971a0-1c1a-4a97-836e-05fa8869b286")
+		)
+		(pin "2"
+			(uuid "9b93792a-63ac-43c2-a556-8ec3e506bd17")
+		)
+		(pin "3"
+			(uuid "5d61f4d1-a9b5-41a4-b663-3eaa6df85ff1")
+		)
+		(pin "4"
+			(uuid "1b8761c8-66d0-46ec-8cf0-a0d8dcff7549")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
+					(reference "NT4")
 					(unit 1)
 				)
 			)
@@ -16151,7 +17242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e18d6edb-3f7a-48aa-850a-71c292b1ae91")
-		(property "Reference" "D9"
+		(property "Reference" "D17"
 			(at 132.08 120.142 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16299,7 +17390,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "D9")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -16317,7 +17408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1f53f0e-14d6-45bd-98e9-d04d7a4cc9ef")
-		(property "Reference" "R12"
+		(property "Reference" "R33"
 			(at 270.51 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16337,7 +17428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Regen_braking:Rboot_22ohm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 167.97 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16465,7 +17556,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R12")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -16482,7 +17573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e75a9db0-775e-4b78-9c74-080418e9e161")
-		(property "Reference" "D8"
+		(property "Reference" "D14"
 			(at 132.08 67.818 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16630,7 +17721,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "D8")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -16648,7 +17739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea89de08-fd06-42ee-8edb-738e344846f5")
-		(property "Reference" "C43"
+		(property "Reference" "C29"
 			(at 83.82 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16798,7 +17889,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C43")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -16816,7 +17907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebceeee0-fbed-47f6-9ba7-6a927d28f946")
-		(property "Reference" "C45"
+		(property "Reference" "C35"
 			(at 83.82 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16966,7 +18057,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "C45")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -16984,7 +18075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed164ebf-d75a-45ce-b8c6-3f86a3c6d7d2")
-		(property "Reference" "R61"
+		(property "Reference" "R38"
 			(at 205.74 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17134,7 +18225,92 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R61")
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 120.65 187.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed9fdf30-a04d-406d-a221-a07b7486d4c2")
+		(property "Reference" "J14"
+			(at 125.73 186.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 125.73 189.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Regen_braking:CUI_TB004-508-03BE"
+			(at 120.65 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56d57c90-d8a4-4517-b3e1-02ab87c418bb")
+		)
+		(pin "2"
+			(uuid "96ad31c2-be08-4abd-b8f1-c3c6c4a396ee")
+		)
+		(pin "3"
+			(uuid "70add232-f0a2-459f-9b2f-269128474232")
+		)
+		(instances
+			(project "Regenerative_Braking"
+				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -17152,7 +18328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efb7ffb3-c4ce-4f8e-9481-67714d3f9406")
-		(property "Reference" "R59"
+		(property "Reference" "R27"
 			(at 205.74 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17302,7 +18478,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R59")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -17320,7 +18496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f624c4bc-312e-4362-9776-608de099d67d")
-		(property "Reference" "IC1"
+		(property "Reference" "IC2"
 			(at 123.19 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17486,7 +18662,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "IC1")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -17502,10 +18678,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f7601414-dff5-482d-ae29-2f8f5262f881")
 		(property "Reference" "Rbias1"
-			(at 19.05 90.17 90)
+			(at 18.796 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17672,7 +18847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f994448a-0faf-4d3d-9248-e4164fd035ec")
-		(property "Reference" "R37"
+		(property "Reference" "R31"
 			(at 66.04 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17692,7 +18867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 71.12 172.39 0)
 			(hide yes)
 			(show_name no)
@@ -17820,7 +18995,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R37")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -17838,7 +19013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fba06b4b-ae63-48a1-8e75-383b67587838")
-		(property "Reference" "R1"
+		(property "Reference" "R19"
 			(at 170.18 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17986,7 +19161,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R1")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -18004,7 +19179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe66612c-c1c4-40c9-8f27-2012b31875df")
-		(property "Reference" "R53"
+		(property "Reference" "R32"
 			(at 180.34 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18152,7 +19327,7 @@
 		(instances
 			(project "Regenerative_Braking"
 				(path "/058fbdf2-a911-4044-912a-e4c9081c01f8/e950d2db-7b26-4c78-923e-5a8613940bfb"
-					(reference "R53")
+					(reference "R32")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,273 @@
+(footprint "LM2596_HW411_Module_45x20mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LM2596 HW-411 DC-DC Step-Down Module, 45mm x 20mm, 4 corner pads for 2.54mm THT headers")
+	(tags "LM2596 DC-DC buck step-down regulator module HW-411")
+	(property "Reference" "REF**"
+		(at 0 -11.5 0)
+		(layer "F.SilkS")
+		(uuid "6b4917a4-df3a-48dd-b38b-d47304e67d18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LM2596_HW411"
+		(at 0 11.5 0)
+		(layer "F.Fab")
+		(uuid "786bee0d-508a-4adc-8366-76c1c8f0fc2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "239b9d08-a7b7-4ca1-aeaa-af122aaf4b7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b1547b7-f252-414d-a989-cf30e1233466")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -22.62 -10.12)
+		(end 22.62 -10.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed94d3c8-4486-477c-9b0d-e621aa160125")
+	)
+	(fp_line
+		(start -22.62 10.12)
+		(end -22.62 -10.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "890f32d9-a595-4bb3-b03e-6493cd70791a")
+	)
+	(fp_line
+		(start 22.62 -10.12)
+		(end 22.62 10.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da99a25a-9cf1-470f-99f9-abfdad0c4e20")
+	)
+	(fp_line
+		(start 22.62 10.12)
+		(end -22.62 10.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c18c13ef-2378-40a1-bcbb-ffe03ba09d3f")
+	)
+	(fp_circle
+		(center -21 -10.12)
+		(end -20.75 -10.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6ffc5de4-e587-4717-84b8-f2f1265b57ba")
+	)
+	(fp_line
+		(start -23 -10.5)
+		(end 23 -10.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfba2f7e-0e40-43c3-aad1-9a4a22f2e0a8")
+	)
+	(fp_line
+		(start -23 10.5)
+		(end -23 -10.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3803a115-8866-42f8-b1d3-69b6cf0c3930")
+	)
+	(fp_line
+		(start 23 -10.5)
+		(end 23 10.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8a25f52-1760-44dc-b7c0-28e2e114b4d6")
+	)
+	(fp_line
+		(start 23 10.5)
+		(end -23 10.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c81a0e17-10cd-4a33-a4c4-fe9ce51a1baa")
+	)
+	(fp_line
+		(start -22.5 -10)
+		(end 22.5 -10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76d9aba0-a4b4-40a0-bae0-83aec393e4fe")
+	)
+	(fp_line
+		(start -22.5 10)
+		(end -22.5 -10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29cce524-0f51-4ce5-bb4e-647e132faaf5")
+	)
+	(fp_line
+		(start 22.5 -10)
+		(end 22.5 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a451782-0903-4443-9478-f74b635f83bb")
+	)
+	(fp_line
+		(start 22.5 10)
+		(end -22.5 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a010e3c8-0c2b-4187-8b94-12aec1a9138c")
+	)
+	(fp_text user "IN+"
+		(at -18 -8.5 0)
+		(layer "F.SilkS")
+		(uuid "92bcbe21-5438-47d7-b9ed-3a7818f937ff")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "IN-"
+		(at -18 8.5 0)
+		(layer "F.SilkS")
+		(uuid "31697d4d-e5df-42a5-8b49-732f704bc1cd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 17.5 -8.5 0)
+		(layer "F.SilkS")
+		(uuid "6283bd12-a612-43ca-af4f-e24b6624e89b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 17.5 8.5 0)
+		(layer "F.SilkS")
+		(uuid "4a48c27a-20ef-43f2-bb59-62ff6fe42fa3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "44e2fd7d-b585-4af5-ac24-1acded0c8452")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -21 -8.5)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "274f1fdb-1646-4e20-ae6e-6f082b331359")
+	)
+	(pad "2" thru_hole rect
+		(at -21 8.5)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24c6f173-b77c-42de-b89e-e5cf154ec79f")
+	)
+	(pad "3" thru_hole rect
+		(at 21 -8.5)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1309ffe5-0e8d-42a9-94f7-0dddf9bcd0a5")
+	)
+	(pad "4" thru_hole rect
+		(at 21 8.5)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee5f0279-e634-419a-8507-2ca1f23f782d")
+	)
+	(embedded_fonts no)
+)
